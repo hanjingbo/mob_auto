@@ -11,20 +11,16 @@
 import sys
 import time
 sys.path.append('..')
-from mob_autotag import input, link, doc, word
+from mob_autotag import doc, word
 from util.util import exec_cmd, set_logging_config
 reload(sys)
 sys.setdefaultencoding('UTF8')
 
 if __name__ == "__main__":
 
-    fkey = '3c'
-    inputfile = "../data/input" + "_" + fkey
-    linkfile = "../data/link" + "_" + fkey
-    link.main(inputfile, linkfile, 1)
-
+    fkey = '3c_product' 
     docfile = "../data/doc" + "_" + fkey
-    doc.main(linkfile, docfile, 3, 10)
+    #doc.pd_by_adv_cate('5535', '手机', docfile)
     
     wordfile = "../data/word" + "_" + fkey
-    word.main(docfile, wordfile, 2000)
+    word.split_main(docfile, wordfile, 1000)

@@ -21,7 +21,7 @@ import urllib2
 import urlparse
 from bs4 import BeautifulSoup
 sys.path.append('..')
-from util.util import exec_cmd
+from util.util import exec_cmd, search_to_fpath
 import pynlpir
 pynlpir.open()
 reload(sys)
@@ -35,12 +35,12 @@ def word_by_pynlpir(inputfile, word_dict, max_words=1000):
     for word, weight in weighted_word_list:
         try:
             word_class = word_to_class(word)
-            if word_class in ['time word', 'numeral']: continue
+            if word_class in ['time word', 'numeral', 'adverb', 'verb']: continue
             k = word + "\t" + word_class
             word_dict.setdefault(k, 0)
             word_dict[k] += weight
         except Exception, e:
-                print "exception %s" % str(e)
+            print "exception %s" % str(e)
 
 def word_to_class(word):
 
@@ -55,14 +55,37 @@ def main(inputfile, outfile, max_words=1000):
         os.remove(outfile)
 
     word_dict = {}
-    f = open(inputfile,'r').read().decode('utf-8')
-    word_by_pynlpir(f, word_dict, max_words=max_words)
+    try:
+        f = open(inputfile,'r').read().decode('utf-8', "replace")
+        word_by_pynlpir(f, word_dict, max_words=max_words)
 
-    word_dict = sorted(word_dict.iteritems(), key=lambda d:d[1], reverse = True)
-    
-    wfd = open(outfile, 'a')
+        word_dict = sorted(word_dict.iteritems(), key=lambda d:d[1], reverse = True)
+    except Exception, e:
+        print "exception %s" % str(e)
+
+    wfd = open(outfile, 'w')
     for k,w in word_dict:
         wfd.write(k + "\t" + str(w) + "\n")
     wfd.close()
 
+def split_main(inputfile, outfile, max_words=1000):
+    path = os.path.dirname(inputfile)
+    filename = os.path.basename(inputfile)
+
+    # remove input_part
+    l = search_to_fpath(path, filename)
+    l.remove(inputfile)
+    if len(l) > 0:
+        for i in l:
+            os.remove(i)
+
+    exec_cmd("split -b 10m " + inputfile + " " + inputfile)
+
+    l = search_to_fpath(path, filename)
+    l.remove(inputfile)
+    if len(l) > 0:
+        for i in l:
+            postfix = i.split(inputfile)[1]
+            o = outfile + postfix
+            main(i, o, max_words=max_words)
 

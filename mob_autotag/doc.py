@@ -7,7 +7,8 @@
     date: 20160817
     modify:
 """
-
+import MySQLdb
+import pandas as pd
 import sys
 import thread
 import json
@@ -76,6 +77,16 @@ def main(inputfile, outfile, max_word=80, max_sentence=3):
             sum_cnt += 1
 
         print_proc_log("doc", sum_cnt, 500)
+
+def pd_by_adv_cate(adv_id='5535', cate='手机', outfile='../data/test'):
+    conn = MySQLdb.connect(host='192.168.144.12', user='data',passwd='PIN239!@#$%^&8', charset='utf8')
+    conn.select_db('optimus')
+    sql = "select name, category, brand from product_info where advertiser_id=" + adv_id + " and category like \"%" + cate + "%\""
+    url_df = pd.read_sql(sql=sql, con=conn)
+    conn.close()
+
+    with open(outfile, 'w') as f:
+        url_df.to_csv(f, sep="\t", header=False, index=False)
 
 """
 def split_main(inputfile, outfile, max_word=80, max_sentence=3):

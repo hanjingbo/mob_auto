@@ -8,7 +8,7 @@ import time
 reload(sys)
 sys.setdefaultencoding('UTF8')
 
-def rule_new_by_cate(cate, outfile):
+def pd_237_category(cate, outfile):
     conn = MySQLdb.connect(host='192.168.144.237', user='data',passwd='PIN239!@#$%^&8', charset='utf8')
     conn.select_db('category')
     sql = """select distinct domain, domain, category_list from rule_new where starting_position=0 and category_list=""" + cate + "limit 10"
@@ -19,11 +19,10 @@ def rule_new_by_cate(cate, outfile):
         url_df.to_csv(f, sep="\t", header=False, index=False)
 
 
-
-def adv_vertical_by_name(name, outfile):
-    conn = MySQLdb.connect(host='192.168.144.237', user='data',passwd='PIN239!@#$%^&8', charset='utf8')
-    conn.select_db('category')
-    sql = "select website, website, category_id from advertiser_vertical_rule where raw_data like \'%" + name + "%\'"
+def pd_by_adv_cate(adv_id='5535', cate='手机', outfile='../data/test'):
+    conn = MySQLdb.connect(host='192.168.144.12', user='data',passwd='PIN239!@#$%^&8', charset='utf8')
+    conn.select_db('optimus')
+    sql = "select name, category, brand from product_info where advertiser_id=" + adv_id + " and category like \"%" + cate + "%\""
     url_df = pd.read_sql(sql=sql, con=conn)
     conn.close()
 

@@ -18,8 +18,11 @@ sys.setdefaultencoding('UTF8')
 
 if __name__ == "__main__":
 
-    fkey = '3c'
+    fkey = 'jinrong_adv'
+
     inputfile = "../data/input" + "_" + fkey
+    input.adv_vertical_by_name("金融",inputfile)
+
     linkfile = "../data/link" + "_" + fkey
     link.main(inputfile, linkfile, 1)
 
