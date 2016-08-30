@@ -20,13 +20,13 @@ if __name__ == "__main__":
 
     fkey = 'jinrong_adv'
     cate = '金融'
-    if len(sys.argv) == 2:
+    if len(sys.argv) == 3:
         fkey = sys.argv[1]
         cate = sys.argv[2]
     print fkey,cate
 
     inputfile = "../data/input" + "_" + fkey
-    input.adv_vertical_by_name("金融",inputfile)
+    input.adv_vertical_by_name(cate,inputfile)
 
     linkfile = "../data/link" + "_" + fkey
     link.main(inputfile, linkfile, 500)
@@ -37,3 +37,4 @@ if __name__ == "__main__":
     wordfile = "../data/word" + "_" + fkey
     #word.main(docfile, wordfile, 2000)
     word.split_main(docfile, wordfile, 1000)
+
