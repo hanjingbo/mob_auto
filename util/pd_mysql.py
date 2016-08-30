@@ -29,3 +29,14 @@ def pd_by_adv_cate(adv_id='5535', cate='手机', outfile='../data/test'):
     with open(outfile, 'w') as f:
         url_df.to_csv(f, sep="\t", header=False, index=False)
 
+
+def pd_12_optimus(outfile='../data/test'):
+    conn = MySQLdb.connect(host='192.168.144.12', user='data',passwd='PIN239!@#$%^&8', charset='utf8')
+    conn.select_db('optimus')
+    sql = "select name, category, brand from product_info where advertiser_id in (7551, 5535, 9348, 3998, 5402, 9351) or pic_url01=5526"
+    url_df = pd.read_sql(sql=sql, con=conn)
+    conn.close()
+
+    with open(outfile, 'w') as f:
+        url_df.to_csv(f, sep="\t", header=False, index=False)
+

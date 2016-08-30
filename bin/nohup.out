@@ -28,3 +28,22 @@ exception 'utf8' codec can't decode byte 0xa4 in position 0: invalid start byte
 exception 'utf8' codec can't decode bytes in position 10485758-10485759: unexpected end of data
 exception 'utf8' codec can't decode byte 0x9b in position 0: invalid start byte
 WARNING:pynlpir.pos_map:part of speech not recognized: 'gms'
+WARNING:pynlpir.pos_map:part of speech not recognized: 'gms'
+WARNING:pynlpir.pos_map:part of speech not recognized: 'gms'
+WARNING:pynlpir.pos_map:part of speech not recognized: 'gms'
+WARNING:pynlpir.pos_map:part of speech not recognized: 'gms'
+WARNING:pynlpir.pos_map:part of speech not recognized: 'gms'
+WARNING:pynlpir.pos_map:part of speech not recognized: 'gms'
+WARNING:pynlpir.pos_map:part of speech not recognized: 'gms'
+WARNING:pynlpir.pos_map:part of speech not recognized: 'gjtgj'
+WARNING:pynlpir.pos_map:part of speech not recognized: 'gjtgj'
+WARNING:pynlpir.pos_map:part of speech not recognized: 'gms'
+WARNING:pynlpir.pos_map:part of speech not recognized: 'gms'
+WARNING:pynlpir.pos_map:part of speech not recognized: 'gms'
+WARNING:pynlpir.pos_map:part of speech not recognized: 'gms'
+WARNING:pynlpir.pos_map:part of speech not recognized: 'gms'
+WARNING:pynlpir.pos_map:part of speech not recognized: 'gms'
+WARNING:pynlpir.pos_map:part of speech not recognized: 'gjtgj'
+split -b 10m ../data/doc_3c_product ../data/doc_3c_product
+exception coercing to Unicode: need string or buffer, NoneType found
+exception coercing to Unicode: need string or buffer, NoneType found
