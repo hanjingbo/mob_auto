@@ -19,6 +19,11 @@ sys.setdefaultencoding('UTF8')
 if __name__ == "__main__":
 
     fkey = 'jinrong_adv'
+    cate = '金融'
+    if len(sys.argv) == 2:
+        fkey = sys.argv[1]
+        cate = sys.argv[2]
+    print fkey,cate
 
     inputfile = "../data/input" + "_" + fkey
     input.adv_vertical_by_name("金融",inputfile)

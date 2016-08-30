@@ -18,10 +18,16 @@ sys.setdefaultencoding('UTF8')
 
 if __name__ == "__main__":
 
-    fkey = 'test' 
+    fkey = 'test'
+    cate = '电池'
+    if len(sys.argv) == 2:
+        fkey = sys.argv[1]
+        cate = sys.argv[2]
+    print fkey,cate
+
     docfile = "../data/doc" + "_" + fkey
     #doc.pd_by_adv_cate('5535', '手机', docfile)
-    doc.doc_by_product_file('电池', docfile, '../data/doc_3c_productaa')
+    doc.doc_by_product_file(cate, docfile, '../data/doc_3c_productaa')
 
     wordfile = "../data/word" + "_" + fkey
-    #word.split_main(docfile, wordfile, 1000)
+    word.split_main(docfile, wordfile, 1000)
