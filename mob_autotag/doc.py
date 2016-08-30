@@ -22,7 +22,7 @@ import urlparse
 from bs4 import BeautifulSoup
 sys.path.append('..')
 from util.util import get_user_agent, add_url_header, print_proc_log, reg_exp, \
-                exec_cmd, shuf
+                exec_cmd, shuf, search_to_fpath
 reload(sys)
 sys.setdefaultencoding('UTF8')
 
@@ -88,24 +88,15 @@ def pd_by_adv_cate(adv_id='5535', cate='手机', outfile='../data/test'):
     with open(outfile, 'w') as f:
         url_df.to_csv(f, sep="\t", header=False, index=False)
 
-"""
-def split_main(inputfile, outfile, max_word=80, max_sentence=3):
-    # remove input_part
-    l = search_to_fpath(inputfile)
-    l.remove(inputfile)
+def doc_by_product_file(cate="手机", outfile='../data/test', inputfile="../data/doc_all_product"):
+    path = os.path.dirname(inputfile)
+    filename = os.path.basename(inputfile)
+
+    l = search_to_fpath(path, filename)
     if len(l) > 0:
+        wfd = open(outfile, 'w')
         for i in l:
-            os.remove(i)
-
-    suff(inputfile)
-    split(inputfile)
-
-    l = search_to_fpath(inputfile)
-    l.remove(inputfile)
-    if len(l) > 0:
-        for i in l:
-            postfix = i.split(inputfile)[1]
-            o = outfile + postfix
-            main(i, o, max_word=max_word, max_sentence=max_sentence)
-
-"""
+            for line in file(i):
+                if cate in line:
+                    wfd.write(line)
+        wfd.close()

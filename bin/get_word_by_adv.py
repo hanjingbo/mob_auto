@@ -24,10 +24,11 @@ if __name__ == "__main__":
     input.adv_vertical_by_name("金融",inputfile)
 
     linkfile = "../data/link" + "_" + fkey
-    link.main(inputfile, linkfile, 1)
+    link.main(inputfile, linkfile, 500)
 
     docfile = "../data/doc" + "_" + fkey
-    doc.main(linkfile, docfile, 3, 10)
+    doc.main(linkfile, docfile, 3, 30)
     
     wordfile = "../data/word" + "_" + fkey
-    word.main(docfile, wordfile, 2000)
+    #word.main(docfile, wordfile, 2000)
+    word.split_main(docfile, wordfile, 1000)

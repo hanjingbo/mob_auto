@@ -36,6 +36,7 @@ def word_by_pynlpir(inputfile, word_dict, max_words=1000):
         try:
             word_class = word_to_class(word)
             if word_class in ['time word', 'numeral', 'adverb', 'verb']: continue
+            if len(word) < 2: continue
             k = word + "\t" + word_class
             word_dict.setdefault(k, 0)
             word_dict[k] += weight
