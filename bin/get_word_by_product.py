@@ -20,7 +20,7 @@ if __name__ == "__main__":
 
     fkey = 'test'
     cate = '电池'
-    if len(sys.argv) == 2:
+    if len(sys.argv) == 3:
         fkey = sys.argv[1]
         cate = sys.argv[2]
     print fkey,cate
