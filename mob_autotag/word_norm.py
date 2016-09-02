@@ -60,13 +60,19 @@ def main(cate="3c", max_words=3000):
     if len(l) > 0:
         word2dict = {}    
         for i in l:
+            _word2dict = {}
             for line in file(i):
                 line = line.decode('utf-8', "replace").strip().split("\t")
                 if len(line)<3: continue
                 word, word_class, weight = line[:3]
                 dim = word + "\t" + word_class
-                word2dict.setdefault(dim, 0.0)
-                word2dict[dim] += float(weight)
+                _word2dict.setdefault(dim, 0.0)
+                _word2dict[dim] += float(weight)
+
+            _word2norm = norm_from_dict(_word2dict)
+            for word, weight in iteritems(_word2norm):
+                word2dict.setdefault(word, 0.0)
+                word2dict[word] += float(weight)
 
     outlist = sorted(word2dict.iteritems(), key=lambda d:d[1], reverse = True)
     outlist = outlist[:max_words]
