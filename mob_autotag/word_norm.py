@@ -20,13 +20,39 @@ from util.util import exec_cmd, search_to_fpath
 reload(sys)
 sys.setdefaultencoding('UTF8')
 
+def maxmin_norm(x):
+    return (x - x.min(0)) / x.ptp(0)
+
+def zscore_norm(x):
+    return (x - x.mean())/x.std()
+
+def norm_from_list(_list):
+    wordlist, weightlist, _outlist = [], [], []
+    for i,j in _list:
+        wordlist.append(i)
+        weightlist.append(j)
+
+    w = np.array(weightlist)
+    w_norm = zscore_norm(w)
+    w_normlist = w_norm.tolist()
+    
+    for i in range(len(w_normlist)):
+        _outlist.append((wordlist[i], w_normlist[i]))
+    return _outlist
+
+def norm_from_dict(_dict):
+    _list = sorted(_dict.iteritems(), key=lambda d:d[1], reverse = True)
+    _outlist = norm_from_list(_list)
+
+    _outdict = {}
+    for i,j in _outlist:
+        _outdict[i] = j
+    return _outdict
 
 def main(cate="3c", max_words=3000):
 
     inputfile = "../data/word_" + cate
     outfile = "../data/result/word_" + cate
-    if os.path.exists(outfile):
-        os.remove(outfile)
 
     path = os.path.dirname(inputfile)
     filename = os.path.basename(inputfile)
@@ -45,18 +71,10 @@ def main(cate="3c", max_words=3000):
     outlist = sorted(word2dict.iteritems(), key=lambda d:d[1], reverse = True)
     outlist = outlist[:max_words]
 
-    wordlist, weightlist = [], []
-    for i,j in outlist:
-        wordlist.append(i)
-        weightlist.append(j)
-
-    w = np.array(weightlist)
-    w_norm = (w - w.min(0)) / w.ptp(0)
-    w_normlist = w_norm.tolist()
+    normlist = norm_from_list(outlist)    
 
     wfd = open(outfile, 'w')
-    for i in range(len(w_normlist)):
-        word, weight = wordlist[i], w_normlist[i]
+    for word, weight in normlist:
         wfd.write(cate + "\t" + word + "\t" + str(weight) + "\n")
     wfd.close()
 
