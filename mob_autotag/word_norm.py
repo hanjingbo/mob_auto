@@ -26,14 +26,19 @@ def maxmin_norm(x):
 def zscore_norm(x):
     return (x - x.mean())/x.std()
 
-def norm_from_list(_list):
+def norm_from_list(_list, func='zscore'):
     wordlist, weightlist, _outlist = [], [], []
     for i,j in _list:
         wordlist.append(i)
         weightlist.append(j)
 
     w = np.array(weightlist)
-    w_norm = zscore_norm(w)
+
+    if func=='zscore':
+        w_norm = zscore_norm(w)
+    elif func=='maxmin':
+        w_norm = maxmin_norm(w)
+
     w_normlist = w_norm.tolist()
     
     for i in range(len(w_normlist)):
@@ -70,14 +75,14 @@ def main(cate="3c", max_words=3000):
                 _word2dict[dim] += float(weight)
 
             _word2norm = norm_from_dict(_word2dict)
-            for word, weight in iteritems(_word2norm):
+            for word, weight in _word2norm.iteritems():
                 word2dict.setdefault(word, 0.0)
                 word2dict[word] += float(weight)
 
     outlist = sorted(word2dict.iteritems(), key=lambda d:d[1], reverse = True)
     outlist = outlist[:max_words]
 
-    normlist = norm_from_list(outlist)    
+    normlist = norm_from_list(outlist, 'maxmin')    
 
     wfd = open(outfile, 'w')
     for word, weight in normlist:
