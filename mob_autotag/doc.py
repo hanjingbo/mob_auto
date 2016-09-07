@@ -1,7 +1,7 @@
 #coding=utf-8
 """
     desc: get document from url
-    input: file(../data/all_urllink_cate)
+    input: file(../data/link)
     output:
     name: han
     date: 20160817
@@ -45,7 +45,7 @@ def url_to_doc(url):
     return doc
 
 
-def main(inputfile, outfile, max_word=80, max_sentence=3):
+def main_to_file(inputfile, outfile, max_word=3, max_sentence=3):
     if os.path.exists(outfile):
         os.remove(outfile)
 
@@ -64,11 +64,8 @@ def main(inputfile, outfile, max_word=80, max_sentence=3):
             if len(i)>max_word:
                 doc += " " + i
                 cnt += 1
-                #print str(len(i)) + ":" + i
         if cnt<max_sentence:
             doc = ""
-        #else:
-        #    print str(cnt) + ":" + doc
 
         if len(doc)>0:
             wfd = open(outfile, 'a')
@@ -78,7 +75,12 @@ def main(inputfile, outfile, max_word=80, max_sentence=3):
 
         print_proc_log("doc", sum_cnt, 500)
 
-def pd_by_adv_cate(adv_id='5535', cate='手机', outfile='../data/test'):
+def main(fkey, max_word=3, max_sentence=3):
+    inputfile = "../data/link_" + fkey
+    outfile = "../data/doc_" + fkey
+    main_to_file(inputfile, outfile, max_word=max_word, max_sentence=max_sentence)
+
+def doc_by_pd_adv(adv_id='5535', cate='手机', outfile='../data/test'):
     conn = MySQLdb.connect(host='192.168.144.12', user='data',passwd='PIN239!@#$%^&8', charset='utf8')
     conn.select_db('optimus')
     sql = "select name, category, brand from product_info where advertiser_id=" + adv_id + " and category like \"%" + cate + "%\""
@@ -100,3 +102,6 @@ def doc_by_product_file(cate="手机", outfile='../data/test', inputfile="../dat
                 if cate in line:
                     wfd.write(line)
         wfd.close()
+
+
+

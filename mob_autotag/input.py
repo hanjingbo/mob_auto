@@ -11,7 +11,7 @@ sys.setdefaultencoding('UTF8')
 def rule_new_by_cate(cate, outfile):
     conn = MySQLdb.connect(host='192.168.144.237', user='data',passwd='PIN239!@#$%^&8', charset='utf8')
     conn.select_db('category')
-    sql = """select distinct domain, domain, category_list from rule_new where starting_position=0 and category_list=""" + cate + "limit 10"
+    sql = """select distinct domain, domain, category_list from rule_new where starting_position=0 and category_list=""" + cate
     url_df = pd.read_sql(sql=sql, con=conn)
     conn.close()
 

@@ -27,7 +27,7 @@ if __name__ == "__main__":
 
     docfile = "../data/doc" + "_" + fkey
     #doc.pd_by_adv_cate('5535', '手机', docfile)
-    doc.doc_by_product_file(cate, docfile, '../data/doc_3c_productaa')
+    doc.doc_by_product_file(cate, docfile, '../data/doc_all_product')
 
     wordfile = "../data/word" + "_" + fkey
     word.split_main(docfile, wordfile, 1000)

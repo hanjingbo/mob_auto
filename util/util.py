@@ -112,3 +112,16 @@ def shuf(infile, outfile):
     for line in flist:
         fwp.write(line)
     fwp.close()
+
+def shuf_sample(infile, cnt):
+    outfile = infile + str(cnt)
+    with open(infile, 'r') as f:
+        flist = f.readlines()
+        random.shuffle(flist)
+
+    if len(flist) < int(cnt): 
+        cnt = len(flist)
+    fwp = open(outfile, 'w')
+    for line in flist[:int(cnt)]:
+        fwp.write(line)
+    fwp.close()

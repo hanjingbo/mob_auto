@@ -35,30 +35,66 @@ def word_by_pynlpir(inputfile, word_dict, max_words=1000):
     for word, weight in weighted_word_list:
         try:
             word_class = word_to_class(word)
-            if word_class in ['time word', 'numeral', 'adverb', 'verb']: continue
+            if word_class in ['time word', 'numeral', 'adverb', 'verb', \
+                'locative word', 'distinguishing word']: continue
+            if len(word) < 2: continue
+            word_dict.setdefault(word, 0)
+            word_dict[word] += weight
+        except Exception, e:
+            print "exception %s" % str(e) + " " + word
+
+
+def wordclass_by_pynlpir(inputfile, word_dict, max_words=1000):
+
+    weighted_word_list = pynlpir.get_key_words(inputfile, weighted=True, max_words=max_words)
+
+    for word, weight in weighted_word_list:
+        try:
+            word_class = word_to_class(word)
+            if word_class in ['time word', 'numeral', 'adverb', 'verb', \
+                'locative word', 'distinguishing word']: continue
             if len(word) < 2: continue
             k = word + "\t" + word_class
             word_dict.setdefault(k, 0)
             word_dict[k] += weight
         except Exception, e:
-            print "exception %s" % str(e)
+            print "exception %s" % str(e) + " " + word
+
+
+def allclass_by_pynlpir(inputfile, word_dict, max_words=1000):
+
+    weighted_word_list = pynlpir.get_key_words(inputfile, weighted=True, max_words=max_words)
+
+    for word, weight in weighted_word_list:
+        try:
+            word_class = word_to_class(word)
+            k = word + "\t" + word_class
+            word_dict.setdefault(k, 0)
+            word_dict[k] += weight
+        except Exception, e:
+            print "exception %s" % str(e) + " allclass_by_pynlpir:" + word
 
 def word_to_class(word):
 
     c = "null"
-    c_list = pynlpir.segment(word)
-    if len(c_list)>=1:
-        c = c_list[0][1]
+    c_list = []
+    try:
+        c_list = pynlpir.segment(word)
+    except Exception, e:
+        print "exception %s" % str(e) + " word_to_class:" + word
+        return c
+    if len(c_list)>=1 and c_list[0][1] != None:
+        c = c_list[-1][1]
     return c
 
-def main(inputfile, outfile, max_words=1000):
+def main_to_file(inputfile, outfile, max_words=1000):
     if os.path.exists(outfile):
         os.remove(outfile)
 
     word_dict = {}
     try:
         f = open(inputfile,'r').read().decode('utf-8', "replace")
-        word_by_pynlpir(f, word_dict, max_words=max_words)
+        wordclass_by_pynlpir(f, word_dict, max_words=max_words)
 
         word_dict = sorted(word_dict.iteritems(), key=lambda d:d[1], reverse = True)
     except Exception, e:
@@ -69,7 +105,12 @@ def main(inputfile, outfile, max_words=1000):
         wfd.write(k + "\t" + str(w) + "\n")
     wfd.close()
 
-def split_main(inputfile, outfile, max_words=1000):
+def main(fkey="test", max_words=1000):
+    inputfile = "../data/doc_" + fkey
+    outfile = "../data/word_" + fkey
+    main_to_file(inputfile, outfile, max_words=max_words)
+
+def split_main_file(inputfile, outfile, max_words=1000):
     path = os.path.dirname(inputfile)
     filename = os.path.basename(inputfile)
 
@@ -89,4 +130,12 @@ def split_main(inputfile, outfile, max_words=1000):
             postfix = i.split(inputfile)[1]
             o = outfile + postfix
             main(i, o, max_words=max_words)
+
+def split_main(fkey, max_words=1000):
+    inputfile = "../data/doc_" + fkey
+    outfile = "../data/word_" + fkey
+    split_main_file(inputfile, outfile, max_words=1000)
+
+if __name__ == "__main__":
+    main()
 

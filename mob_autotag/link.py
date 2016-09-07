@@ -1,7 +1,7 @@
 #coding=utf-8
 """
     desc: get link from source url
-    input: file(../data/sql_url_cate)
+    input: file(../data/input)
     output:
     name: han
     date: 20160817
@@ -96,7 +96,7 @@ def link_to_file(url_dict, url, cate, outfile):
         wfd.write(i + "\t" + url + "\t" + cate + "\n")
     wfd.close()
 
-def main(inputfile, outfile, max_cnt=2000):
+def main_to_file(inputfile, outfile, max_cnt=2000):
     if os.path.exists(outfile):
         os.remove(outfile)
 
@@ -113,3 +113,9 @@ def main(inputfile, outfile, max_cnt=2000):
 
         sum_cnt += len(url_link_dict)
         print_proc_log("link", sum_cnt, 300)
+
+
+def main(fkey, max_cnt=2000):
+    inputfile = "../data/input_" + fkey
+    outfile = "../data/link_" + fkey
+    main_to_file(inputfile, outfile, max_cnt=max_cnt)

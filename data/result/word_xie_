@@ -1,0 +1,3000 @@
+xie_	韩版	distinguishing word	1.0
+xie_	时尚	noun	0.962399014823
+xie_	男士	noun	0.810140586223
+xie_	立领	noun	0.732225238116
+xie_	印花	noun	0.720525104641
+xie_	新款	noun	0.545563152918
+xie_	长袖	noun	0.533397633695
+xie_	连衣裙	noun	0.523607798622
+xie_	套装	noun	0.506523698929
+xie_	黑色	noun	0.461189458759
+xie_	短袖	distinguishing word	0.455728312262
+xie_	条纹	noun	0.454005710041
+xie_	纯棉	noun	0.451461249742
+xie_	圆领	noun	0.442829929326
+xie_	纯色	noun	0.427893976324
+xie_	上衣	noun	0.427412993099
+xie_	女士	noun	0.40426815717
+xie_	外套	noun	0.386353525512
+xie_	运动	noun	0.378095394888
+xie_	中长款	noun	0.368348752744
+xie_	潮流	noun	0.348008568947
+xie_	白色	noun	0.344695254945
+xie_	蕾丝	noun	0.335221320749
+xie_	学生	noun	0.334266544464
+xie_	儿童	noun	0.328153283434
+xie_	单鞋	distinguishing word	0.325817364905
+xie_	衬衫	noun	0.324630755759
+xie_	男装	noun	0.323299420968
+xie_	女装	noun	0.317209560207
+xie_	薄款	adjective	0.298430548298
+xie_	英伦	noun	0.278136412526
+xie_	男鞋	distinguishing word	0.263387423129
+xie_	板鞋	noun	0.257954832308
+xie_	蓝色	noun	0.25390045518
+xie_	长裤	noun	0.24583987122
+xie_	运动鞋	noun	0.245392763907
+xie_	短裤	noun	0.234473100056
+xie_	牛仔	noun	0.232559527282
+xie_	宝宝	noun	0.228570163092
+xie_	刺绣	noun	0.228496534451
+xie_	红色	noun	0.226727478334
+xie_	情侣	noun	0.225526380484
+xie_	潮男	noun	0.222198090286
+xie_	气质	noun	0.219896064737
+xie_	真皮	noun	0.218928442469
+xie_	个性	noun	0.216910696184
+xie_	雪纺	noun	0.211787288408
+xie_	青年	noun	0.211779179917
+xie_	衬衣	noun	0.206911042599
+xie_	格子	noun	0.204850322681
+xie_	凉鞋	noun	0.204620271766
+xie_	皮鞋	noun	0.203244575172
+xie_	牛仔裤	noun	0.200138529113
+xie_	女童	noun	0.200033944186
+xie_	卡通	noun	0.195970761307
+xie_	弹力	noun	0.195952567747
+xie_	宽松	adjective	0.195746607603
+xie_	裤子	noun	0.184125071989
+xie_	鞋子	noun	0.184109529388
+xie_	牛皮	noun	0.182897633759
+xie_	男女	distinguishing word	0.180696350743
+xie_	字母	noun	0.1787898907
+xie_	夏装	noun	0.176741635754
+xie_	蝴蝶结	noun	0.175616038596
+xie_	性感	noun	0.174629121362
+xie_	青少年	noun	0.17222168129
+xie_	背心	noun	0.166924695794
+xie_	商务	noun	0.159224123226
+xie_	小脚裤	noun	0.156648568393
+xie_	春秋	noun	0.149167048047
+xie_	棉麻	noun	0.146095061781
+xie_	马丁靴	noun	0.144093611117
+xie_	秋冬	noun	0.137720370126
+xie_	网纱	noun	0.134310235908
+xie_	圆头	noun	0.133156531569
+xie_	尖头	noun	0.128999475323
+xie_	男童	noun	0.128589625113
+xie_	商务休闲	noun	0.12758930526
+xie_	拉链	noun	0.126550759059
+xie_	灰色	noun	0.123932549243
+xie_	毛衣	noun	0.123725537484
+xie_	舒适	adjective	0.122261587478
+xie_	童装	noun	0.122240936036
+xie_	拖鞋	noun	0.120459956129
+xie_	学院风	noun	0.118429712513
+xie_	裙子	noun	0.115404530881
+xie_	高帮	noun	0.113503091662
+xie_	半身裙	noun	0.107490005111
+xie_	经典	noun	0.1066123582
+xie_	帆布鞋	noun	0.105007721917
+xie_	新品	noun	0.10312229619
+xie_	短裙	noun	0.102057695331
+xie_	粉色	noun	0.0988906178067
+xie_	衣服	noun	0.096897564338
+xie_	保暖	adjective	0.09462242592
+xie_	简约	adjective	0.0940586938669
+xie_	正品	noun	0.0935421882555
+xie_	豆豆鞋	noun	0.091167302438
+xie_	小脚	noun	0.0901640749785
+xie_	流苏	noun	0.0870690289313
+xie_	雪纺衫	noun	0.0869522339347
+xie_	夹克	noun	0.0855354131168
+xie_	中大童	distinguishing word	0.0850803103633
+xie_	图案	noun	0.0850124680343
+xie_	吊带	noun	0.0839894844726
+xie_	长裙	noun	0.080795216333
+xie_	翻领	noun	0.079772560308
+xie_	妈妈装	noun	0.0773719631894
+xie_	绿色	noun	0.0773503165389
+xie_	全棉	noun	0.0766400201984
+xie_	民族风	noun	0.0744355857671
+xie_	毛领	noun	0.0742011751089
+xie_	婴儿	noun	0.0734599315179
+xie_	棉服	noun	0.0727264043128
+xie_	内衣	noun	0.0700543946752
+xie_	乐福鞋	noun	0.0691913206984
+xie_	棉质	noun	0.0673103051637
+xie_	字母印花	noun	0.066641739965
+xie_	睡衣	noun	0.0651275870287
+xie_	春夏	noun	0.0643577370726
+xie_	秋冬新款	noun	0.0629909396112
+xie_	松紧腰	noun	0.0603776372757
+xie_	亚麻	noun	0.0595991349256
+xie_	棉衣	noun	0.0592057539329
+xie_	女单鞋	noun	0.0584816638651
+xie_	春装	noun	0.0584489573469
+xie_	口袋	noun	0.0582516461788
+xie_	鱼嘴	noun	0.0559758431569
+xie_	花朵	noun	0.0555740552252
+xie_	黄色	noun	0.0540601209475
+xie_	中老年	noun	0.0523885112801
+xie_	高跟鞋	noun	0.0520279190198
+xie_	夏装新款	noun	0.0510433456828
+xie_	羽绒服	noun	0.0505189015438
+xie_	阔腿裤	adjective	0.0505070146049
+xie_	荷叶边	noun	0.0496731338039
+xie_	浅口	adjective	0.0495361600181
+xie_	公主	noun	0.0488780300738
+xie_	沙滩鞋	noun	0.0483750690815
+xie_	凉拖鞋	adjective	0.0479134836369
+xie_	文艺	noun	0.0477561125727
+xie_	沙滩	noun	0.0475805374507
+xie_	小童	noun	0.0471245639086
+xie_	西装	noun	0.0463516707159
+xie_	风衣	noun	0.0440536468179
+xie_	男款	distinguishing word	0.0435852248392
+xie_	羊毛	noun	0.0418293890343
+xie_	铅笔裤	noun	0.0417906971202
+xie_	棒球服	noun	0.0410107528784
+xie_	布鞋	noun	0.0391378978151
+xie_	淑女	noun	0.0382940008019
+xie_	马甲	noun	0.0376246197824
+xie_	跑鞋	noun	0.0370361009783
+xie_	铆钉	noun	0.0359711735228
+xie_	波点	noun	0.0357015311029
+xie_	孕妇	noun	0.0354328967266
+xie_	网面	noun	0.034729352793
+xie_	糖果色	noun	0.0342554933723
+xie_	装饰	noun	0.0341985704892
+xie_	小香风	noun	0.0324717520009
+xie_	雪地靴	noun	0.0323140612533
+xie_	腰带	noun	0.0314015755075
+xie_	莫代尔	noun	0.0309513728477
+xie_	文胸	noun	0.0308676179949
+xie_	女夏	noun	0.0304141550872
+xie_	坡跟	noun	0.0298937386887
+xie_	内裤	noun	0.0286853817221
+xie_	冬装	noun	0.0284591932512
+xie_	网布	noun	0.0283866586071
+xie_	通勤	noun	0.0271433632277
+xie_	金属	noun	0.0267988540838
+xie_	针织衫	distinguishing word	0.026005934467
+xie_	甜美	adjective	0.025778802908
+xie_	系列	noun	0.0256060662358
+xie_	职业	noun	0.0246846383632
+xie_	魔术贴	noun	0.0237825359821
+xie_	靴子	noun	0.0234964985327
+xie_	羽绒棉服	noun	0.0231291108751
+xie_	紧身	noun	0.0229012635856
+xie_	大衣	noun	0.0228095841977
+xie_	黑白	noun	0.0222119004685
+xie_	热裤	adjective	0.0215292033192
+xie_	中国风	noun	0.0214580517477
+xie_	紫色	noun	0.0213466715139
+xie_	豹纹	noun	0.021249671601
+xie_	单鞋单鞋	distinguishing word	0.0211449771537
+xie_	家居服	noun	0.0209759528736
+xie_	花边	noun	0.0205399616264
+xie_	蝙蝠袖	noun	0.0204489752564
+xie_	棉鞋	noun	0.0197742824111
+xie_	马毛	noun	0.0195445195602
+xie_	娃娃领	noun	0.0193804993373
+xie_	大童	noun	0.0189133670672
+xie_	胖mm	adjective	0.018127224643
+xie_	春夏新款	noun	0.017895892462
+xie_	棉袄	noun	0.0175497402013
+xie_	平底	distinguishing word	0.0165896665213
+xie_	公主裙	noun	0.0164752966746
+xie_	名媛	noun	0.0162647969434
+xie_	靴女式靴子	noun	0.0159473985654
+xie_	羊皮	noun	0.0158249874426
+xie_	中童	noun	0.0153195221079
+xie_	牛漆皮	noun	0.0152788300851
+xie_	细跟	adjective	0.0151583944563
+xie_	妈妈	noun	0.0149739594526
+xie_	童鞋	noun	0.0144408087112
+xie_	礼服	noun	0.0144126458442
+xie_	潮牌	noun	0.0143545772275
+xie_	格纹	noun	0.0141222423074
+xie_	胖MM	adjective	0.0141126629583
+xie_	呢子大衣	noun	0.0138808420375
+xie_	毛边	noun	0.0136642965924
+xie_	真丝	noun	0.0125539712405
+xie_	潮鞋	noun	0.0125528034748
+xie_	户外	locative word	0.0125331958628
+xie_	港风	noun	0.0122514067305
+xie_	漆皮	noun	0.0121403078411
+xie_	中老年女装	noun	0.0114144372289
+xie_	运动服	noun	0.0113369456792
+xie_	欧美	noun	0.0101521741614
+xie_	春装新款	noun	0.00938918296406
+xie_	绒面	noun	0.00928486095204
+xie_	班服	noun	0.00864373533925
+xie_	男士休闲裤	noun	0.00827160366037
+xie_	背带裙	noun	0.00813585526841
+xie_	蓬蓬裙	noun	0.00808499858323
+xie_	背带裤	noun	0.00779033887333
+xie_	加肥加大码	distinguishing word	0.00768155983445
+xie_	男鞋子	distinguishing word	0.00756897614091
+xie_	情侣装	noun	0.00750687627663
+xie_	针织	distinguishing word	0.00717287316556
+xie_	牛皮革	noun	0.00693062206158
+xie_	妈妈鞋	noun	0.00691547346389
+xie_	学院	noun	0.00687882772763
+xie_	港仔	noun	0.00671122335728
+xie_	韩版修身	distinguishing word	0.00635636612172
+xie_	女式靴子	distinguishing word	0.00629907151332
+xie_	皮带扣	noun	0.0062421702211
+xie_	可爱	adjective	0.00622197549424
+xie_	西服	noun	0.00618647354185
+xie_	日常休闲	distinguishing word	0.00582222093688
+xie_	时尚潮流	noun	0.00581279051838
+xie_	英伦风	noun	0.00574969952532
+xie_	气质优雅	noun	0.00570905248182
+xie_	弹力布	noun	0.00552623158555
+xie_	网布鞋	noun	0.00545022126075
+xie_	舒适透气	adjective	0.00532112870527
+xie_	慢跑鞋	adjective	0.00530140781453
+xie_	花色	noun	0.0052670961759
+xie_	长袖衬衫	noun	0.00519141781644
+xie_	高领	noun	0.00510615612902
+xie_	商务休闲鞋	noun	0.00499931417134
+xie_	发型师	noun	0.00452555558992
+xie_	凉鞋女式凉鞋	noun	0.00435744475188
+xie_	男士休闲鞋	noun	0.00421516214481
+xie_	女裤	noun	0.0042023059006
+xie_	连体裤	noun	0.00411850629785
+xie_	高跟鞋单鞋	noun	0.00410306996354
+xie_	旗袍	noun	0.00402625312347
+xie_	男子	noun	0.00393376092173
+xie_	沙滩裤	noun	0.00378929252109
+xie_	男士外套	noun	0.00359242783592
+xie_	女单鞋单鞋	noun	0.00311310028593
+xie_	喇叭袖	noun	0.00302650550315
+xie_	男式休闲鞋	distinguishing word	0.00297905926995
+xie_	棒球帽	noun	0.00286342040339
+xie_	牛仔短裤	noun	0.00276926432525
+xie_	灰配	adjective	0.00269661528203
+xie_	单肩包	distinguishing word	0.00252428333483
+xie_	男士裤子	noun	0.00245527220774
+xie_	中性款	distinguishing word	0.00242655919872
+xie_	鞋男	noun	0.0023628331171
+xie_	孕妇装	noun	0.00227199723427
+xie_	缓震	adjective	0.00215232441385
+xie_	哈伦	noun	0.00212018208858
+xie_	男款跑步鞋	distinguishing word	0.00204790666774
+xie_	旅游鞋	noun	0.0020279783454
+xie_	运动休闲	noun	0.00193984802178
+xie_	水蓝	noun	0.00190527440683
+xie_	冬装新款	noun	0.0019002921424
+xie_	个人日化用品	noun	0.00183334310932
+xie_	女士半裙	noun	0.00182275163497
+xie_	鞋舒适透气	noun	0.00181037254607
+xie_	男款徒步鞋	distinguishing word	0.00178330238478
+xie_	男士商务鞋	noun	0.00178219070937
+xie_	素面	adjective	0.00177490397326
+xie_	男针织衫	distinguishing word	0.00172698681502
+xie_	啡色	noun	0.00170949666162
+xie_	棕色	noun	0.00162452676232
+xie_	上衣+	noun	0.00160477831491
+xie_	韩版时尚	distinguishing word	0.00159850397768
+xie_	公主鞋	noun	0.00156570505233
+xie_	军靴	noun	0.00151469596003
+xie_	女士靴子	noun	0.00151182291437
+xie_	韩版潮流	distinguishing word	0.00149249805489
+xie_	男士运动鞋	noun	0.00138653164609
+xie_	加肥加大	distinguishing word	0.00132341739021
+xie_	斜挎包	adjective	0.0013189163007
+xie_	蓝配	adjective	0.0012697991756
+xie_	文艺复古	noun	0.00123828977236
+xie_	凉拖	adjective	0.00122456969926
+xie_	男士西装	noun	0.00115566951613
+xie_	束脚裤	classifier	0.00115111235861
+xie_	黑+	adjective	0.00114427297816
+xie_	中大童女童	noun	0.00112401462942
+xie_	蕾丝花边	noun	0.00111071580123
+xie_	牛仔长裤	noun	0.00110512057383
+xie_	羊京	noun	0.00106992500445
+xie_	商务休闲皮鞋	noun	0.00104578866278
+xie_	竹节棉	noun	0.00104258249246
+xie_	牛仔背带裙	noun	0.00100354609213
+xie_	女式休闲鞋	distinguishing word	0.000991913742527
+xie_	中长	noun	0.00097314942381
+xie_	男士衬衫	noun	0.000970171572289
+xie_	手提包	noun	0.000964993784696
+xie_	直筒裤	adjective	0.000954466220256
+xie_	技术	noun	0.000942246043032
+xie_	鞋单鞋	noun	0.000938695330617
+xie_	圆领短袖	noun	0.000937499397268
+xie_	网面透气	noun	0.000937229527756
+xie_	皮凉鞋	noun	0.000904931736129
+xie_	鞋学生	noun	0.00090179837057
+xie_	卡通印花	noun	0.00080996149625
+xie_	格利特	noun	0.000805992695154
+xie_	玫红	noun	0.000803528863729
+xie_	情侣款	noun	0.000802438253449
+xie_	情侣鞋	noun	0.000791713564579
+xie_	绒面羊皮	noun	0.000766761403259
+xie_	大红	distinguishing word	0.000705853676521
+xie_	学生鞋	noun	0.000700560948929
+xie_	牛皮男单鞋	noun	0.000687391861612
+xie_	魅力潮流	noun	0.000679491736038
+xie_	时尚百搭	noun	0.00066028893825
+xie_	手机壳	noun	0.000653420819637
+xie_	商务鞋	noun	0.000647888055109
+xie_	子装	noun	0.00063032539418
+xie_	鞋学生鞋	noun	0.000624113478115
+xie_	韩版潮	distinguishing word	0.000621507871265
+xie_	鱼嘴鞋单鞋	noun	0.000618111914133
+xie_	格力特	noun	0.000608672684656
+xie_	纯羊毛	adjective	0.000608353386935
+xie_	男士牛仔裤	noun	0.00059623142933
+xie_	中大童儿童	distinguishing word	0.000592860979456
+xie_	轮滑鞋	noun	0.000573588366288
+xie_	鞋韩版潮流	noun	0.000569859751764
+xie_	阿玛尼	noun	0.000569089705863
+xie_	作训鞋	noun	0.000564377903996
+xie_	鞋轻便舒适	noun	0.000563457216043
+xie_	鞋男鞋子	noun	0.000559691685543
+xie_	真丝连衣裙	noun	0.000551085952154
+xie_	乐福鞋	adjective	0.000528866064558
+xie_	欧根纱	distinguishing word	0.000526403606173
+xie_	牛皮+	noun	0.000525269488549
+xie_	鞋舒适	noun	0.00052355165768
+xie_	鞋英伦	noun	0.000517822230823
+xie_	男女宝宝	distinguishing word	0.000509197417999
+xie_	豆豆鞋男	noun	0.00049842452316
+xie_	羊皮毛一体	noun	0.000488831700525
+xie_	女士内衣	noun	0.000482061790609
+xie_	男青年	distinguishing word	0.000476470110955
+xie_	棕色牛皮	noun	0.000475472213363
+xie_	纯羊毛	noun	0.000475184321192
+xie_	鞋舒适耐磨	noun	0.000473176899469
+xie_	名媛淑女	noun	0.000469651164706
+xie_	女童时装鞋	noun	0.000466437093344
+xie_	礼服裙	noun	0.000463896874605
+xie_	男童女童	noun	0.00045089720127
+xie_	粉紫	noun	0.000424883417288
+xie_	蕾丝衫	noun	0.000404545312053
+xie_	图案印花	noun	0.000400448988461
+xie_	男女童	distinguishing word	0.000398059187616
+xie_	鞋时尚百搭	noun	0.00038639061042
+xie_	白衬衫	noun	0.000384965320674
+xie_	纯色简约	noun	0.000378847811722
+xie_	平底凉鞋	distinguishing word	0.000378825580218
+xie_	时尚简约	noun	0.000375156001071
+xie_	胎牛皮	noun	0.000360208821715
+xie_	丝麻	noun	0.000359933437795
+xie_	细跟高跟鞋	adjective	0.000355091523079
+xie_	单鞋四季鞋	distinguishing word	0.000348796734539
+xie_	乐福鞋单鞋	noun	0.000344643717206
+xie_	拉链衫	noun	0.000343187215722
+xie_	哈伦裤	distinguishing word	0.000340714727797
+xie_	铆钉装饰	noun	0.000335142366523
+xie_	洞洞鞋	noun	0.000334932917248
+xie_	精致耐用	adjective	0.000333855951759
+xie_	魅力潮流孕妇	noun	0.000331112605071
+xie_	羊皮革	noun	0.00032872287868
+xie_	高帮鞋	noun	0.000319168712372
+xie_	单肩	distinguishing word	0.000318369259724
+xie_	棉质舒适	noun	0.000308313187123
+xie_	沙滩裙	noun	0.000304991473628
+xie_	牛皮拼接	noun	0.000294017559035
+xie_	女单鞋子	noun	0.000293967257524
+xie_	印花短袖	distinguishing word	0.000292113595579
+xie_	时候卫衣男	noun	0.000284171276286
+xie_	气质百搭	noun	0.000279937509256
+xie_	哈伦裤	noun	0.000279536921712
+xie_	拉夫劳伦	noun	0.000278252989698
+xie_	新娘结婚	noun	0.000275508675043
+xie_	厚款	adjective	0.000275218074605
+xie_	毛毛靴	noun	0.000269999998558
+xie_	鞋平底	noun	0.000260239185563
+xie_	南韩真丝	noun	0.000259820578676
+xie_	鱼嘴鞋	noun	0.00025792237869
+xie_	刺绣印花	noun	0.000256017156002
+xie_	孕妇连衣裙	noun	0.000254839843568
+xie_	春秋装	noun	0.000251574284443
+xie_	牛仔长裤男	noun	0.000248522854239
+xie_	浅口鞋	adjective	0.000243776637636
+xie_	时尚潮流演出	noun	0.000242092663589
+xie_	优雅气质	adjective	0.000231776339266
+xie_	宴会晚礼服	noun	0.000228704184383
+xie_	弹簧夹	noun	0.000227510893695
+xie_	春秋款	noun	0.00022450494791
+xie_	鞋四季单鞋	noun	0.000223890085556
+xie_	平底鞋单鞋	noun	0.000223377999213
+xie_	阔腿裤套装	adjective	0.000222175063409
+xie_	西装领	noun	0.00022022585486
+xie_	杜嘉班纳	noun	0.00021623516863
+xie_	尖头鞋	noun	0.00021342733467
+xie_	韩版服饰	distinguishing word	0.000210380539538
+xie_	纯羊毛衫	noun	0.000209760815906
+xie_	时尚潮流休闲	noun	0.000205068784676
+xie_	平底防滑	distinguishing word	0.000203827314678
+xie_	小包	noun	0.000201550906558
+xie_	男士长袖衬衫	noun	0.000198983061368
+xie_	尖头浅口	noun	0.000197981150047
+xie_	简约时尚	adjective	0.000194829413312
+xie_	牛头酋长	noun	0.000192771046127
+xie_	鞋圆头	noun	0.000192477330691
+xie_	社会精神小伙	noun	0.00019118560228
+xie_	提花棉	distinguishing word	0.000190655987887
+xie_	羊皮凉鞋	noun	0.000189330007221
+xie_	短袖Polo衫	distinguishing word	0.000188841613572
+xie_	胖Mm	adjective	0.000188624243076
+xie_	石头纹牛皮	noun	0.000188486962349
+xie_	系列男款	noun	0.000188223326181
+xie_	纱裙	noun	0.000187012782483
+xie_	鞋休闲鞋男	noun	0.000185455043038
+xie_	鱼漂	noun	0.000184243094795
+xie_	格子衬衫	noun	0.000179183115259
+xie_	秋冬款	noun	0.000178284911089
+xie_	厚底板鞋	adjective	0.000174966990254
+xie_	鞋一脚蹬	noun	0.00017409892738
+xie_	清新可爱	adjective	0.000172355817282
+xie_	可开档	noun	0.000171157331895
+xie_	活性染	distinguishing word	0.000171135906135
+xie_	钢托	noun	0.000168095049585
+xie_	鞋女式凉鞋	noun	0.000167955764554
+xie_	柳丁	noun	0.000167775798448
+xie_	跟骑士靴	preposition	0.000167545624421
+xie_	煜婴坊	noun	0.000167255397486
+xie_	时尚英伦	noun	0.000166272797798
+xie_	悠诺	adjective	0.000166066910518
+xie_	细高跟单鞋	status word	0.000163934075871
+xie_	潮流演出潮	noun	0.000163707486185
+xie_	冰丝绸	noun	0.000163481641203
+xie_	鞋个性	noun	0.000161984553117
+xie_	中大童夏季	distinguishing word	0.000161933534558
+xie_	中大儿童	distinguishing word	0.000161613239725
+xie_	舒适棉质	adjective	0.000160225594342
+xie_	博柏利	noun	0.000159644014501
+xie_	跟凉鞋	preposition	0.000155011221185
+xie_	长袖衬衫男	noun	0.000153535725029
+xie_	游戏人物	noun	0.000152954478805
+xie_	舒适透气耐磨	adjective	0.000150601819476
+xie_	鞋旅游驾车	noun	0.000150374540141
+xie_	紧身训练	noun	0.000150006155568
+xie_	细高跟凉鞋	status word	0.000148255590582
+xie_	鞋架衣帽架	noun	0.000147434942074
+xie_	棉袄子	noun	0.00014732552504
+xie_	儿童休闲鞋	noun	0.000146963123238
+xie_	轮滑滑板	noun	0.00014617462579
+xie_	鞋防砸防刺	noun	0.000146162377586
+xie_	英伦学院风	noun	0.000145228629195
+xie_	Minimoto	noun	0.000139299887838
+xie_	尖头皮鞋	noun	0.000138821605428
+xie_	binpaw	noun	0.000138522672031
+xie_	红色婚鞋	noun	0.000138053244804
+xie_	中国民族风	noun	0.000137678568778
+xie_	桑蚕丝时尚	noun	0.000137391902097
+xie_	头围	noun	0.000137351528905
+xie_	儿童高跟鞋	noun	0.000134371763434
+xie_	酷感	adjective	0.000133975587467
+xie_	性感夜店	noun	0.000133363855387
+xie_	毛衣+	noun	0.000131893063285
+xie_	刀锋战士	noun	0.000129155674977
+xie_	鞋街舞鞋	noun	0.000128720744039
+xie_	男鞋英伦	distinguishing word	0.000127848086226
+xie_	三角裤内裤	noun	0.00012642045908
+xie_	男士休闲皮鞋	noun	0.000125163847094
+xie_	鞋唐	noun	0.000124351503764
+xie_	尖头单鞋	noun	0.00012375672461
+xie_	纤维胶	noun	0.000122604674802
+xie_	女童风衣	noun	0.000120463403655
+xie_	酒吧潮	noun	0.000120461080213
+xie_	鞋防滑耐磨	noun	0.000119943841342
+xie_	户外鞋	locative word	0.00011979873913
+xie_	户外休闲	locative word	0.000119427184595
+xie_	白鸭绒羽绒服	noun	0.000118592562249
+xie_	女装春秋	noun	0.00011732958926
+xie_	潮猴	noun	0.000117160605852
+xie_	纯桑蚕丝	adjective	0.000117153281404
+xie_	韩版修身型	distinguishing word	0.000115498822231
+xie_	专柜新品简洁	noun	0.000115397138196
+xie_	隐形袜	distinguishing word	0.000115068382649
+xie_	简洁设计	adjective	0.000114893771928
+xie_	棉毛	noun	0.000114109950951
+xie_	汗蒸服	noun	0.000113591868943
+xie_	男款溯溪鞋	distinguishing word	0.00011269414036
+xie_	男士风衣	noun	0.000110910841172
+xie_	平底单鞋	distinguishing word	0.000110880459173
+xie_	帆布鞋男	noun	0.000110568250257
+xie_	油蜡牛皮	noun	0.000110346171264
+xie_	个性印花	noun	0.000110309475727
+xie_	阿甘鞋	distinguishing word	0.000110231217549
+xie_	青少年学生	noun	0.000109497176579
+xie_	鞋男童女童	noun	0.000109385296091
+xie_	桑蚕丝真丝	noun	0.000109303436785
+xie_	棒球领	noun	0.000108797141915
+xie_	新郎结婚礼服	noun	0.000108620500976
+xie_	中小童儿童	distinguishing word	0.000107801380522
+xie_	民族风女装	noun	0.000107084785678
+xie_	豆豆鞋单鞋	noun	0.000106836411591
+xie_	时尚甜美	noun	0.000106474661784
+xie_	粒面皮	classifier	0.000106177878814
+xie_	偏光太阳镜	noun	0.000106031312548
+xie_	真皮羽绒服	noun	0.000105984537333
+xie_	卡通浮雕	noun	0.000105875502609
+xie_	男士水洗纯色	noun	0.000105674128081
+xie_	裤男式	noun	0.00010558060085
+xie_	senlinjeep	noun	0.000105454879047
+xie_	手术帽	noun	0.000105173724096
+xie_	工装短裤男	noun	0.00010515464104
+xie_	吊带裙	noun	0.000104520922965
+xie_	纹牛皮	noun	0.00010396971536
+xie_	校园款	noun	0.000103790659415
+xie_	青少年青春流行	noun	0.000103540176678
+xie_	驼色牛皮	noun	0.000101489855825
+xie_	仿皮草马甲	distinguishing word	0.000100408500012
+xie_	蜡笔小新	noun	9.99870053889e-05
+xie_	系列男子	noun	9.97133802182e-05
+xie_	纤腰	noun	9.96355119214e-05
+xie_	新款战地吉普	distinguishing word	9.9496116959e-05
+xie_	甜美可爱	adjective	9.91876065056e-05
+xie_	牛津纺衬衫	noun	9.88812498784e-05
+xie_	卡通游戏人物	noun	9.86294009848e-05
+xie_	肩开扣	noun	9.80777361297e-05
+xie_	公主鞋皮鞋	noun	9.77557013826e-05
+xie_	月子帽	noun	9.71384436364e-05
+xie_	日常修身	distinguishing word	9.62533299305e-05
+xie_	小孩外出服	noun	9.5934474104e-05
+xie_	潮童	noun	9.55493291245e-05
+xie_	保暖夹棉	adjective	9.53219558439e-05
+xie_	浮雕Logo	noun	9.48894510187e-05
+xie_	厚模杯	noun	9.38910921885e-05
+xie_	时尚街拍	noun	9.31116265927e-05
+xie_	非主流	distinguishing word	9.30142061225e-05
+xie_	花朵印花	noun	9.28904900528e-05
+xie_	西装+	noun	9.14794782928e-05
+xie_	鞋细高跟	noun	9.11527501298e-05
+xie_	渔具	noun	8.97121018542e-05
+xie_	长袖修身	noun	8.91608570325e-05
+xie_	时尚淑女	noun	8.88849995635e-05
+xie_	皮面保暖	noun	8.88289794253e-05
+xie_	衬衫男式	noun	8.83320146653e-05
+xie_	商品后缀	noun	8.79034500429e-05
+xie_	枪色牛皮	noun	8.75892300904e-05
+xie_	儿童裙装	noun	8.7484674223e-05
+xie_	潮猴印花	noun	8.73479205172e-05
+xie_	新生儿用品	noun	8.66430393197e-05
+xie_	蕾丝镂空	noun	8.66392035658e-05
+xie_	卡通动漫	noun	8.62681482253e-05
+xie_	成人轮滑鞋	noun	8.60274796288e-05
+xie_	牛仔马甲	noun	8.59629762057e-05
+xie_	平底休闲	distinguishing word	8.59558945825e-05
+xie_	男生鞋	noun	8.57443190091e-05
+xie_	短袖POLO衫	distinguishing word	8.57164172935e-05
+xie_	时尚美观	noun	8.56533562715e-05
+xie_	聚酯纤维经典	noun	8.54453924166e-05
+xie_	父亲节	noun	8.50359839371e-05
+xie_	方格纹	noun	8.46739767446e-05
+xie_	鞋瑜伽舞蹈	noun	8.42045648238e-05
+xie_	儿童公主鞋	noun	8.37934088991e-05
+xie_	胎牛毛	noun	8.3380512239e-05
+xie_	手提包手提包	noun	8.31223271381e-05
+xie_	香蕉夹	noun	8.24517966927e-05
+xie_	连体衣哈衣	noun	8.22106886948e-05
+xie_	鞋乐福鞋	noun	8.18595751629e-05
+xie_	童鞋品牌	noun	8.17367894285e-05
+xie_	+K100	punctuation mark	8.17213704752e-05
+xie_	英伦学院	noun	8.13716563676e-05
+xie_	黑色皮质	noun	8.12518486751e-05
+xie_	平底碎钉	distinguishing word	8.1181672837e-05
+xie_	旗袍式	noun	8.09035342694e-05
+xie_	卡通连体睡衣	noun	8.0284734185e-05
+xie_	苏宁正品	noun	8.02816079291e-05
+xie_	浅口头	adjective	7.99816540804e-05
+xie_	户外越野跑鞋	locative word	7.91470137339e-05
+xie_	系列女子	noun	7.82904062518e-05
+xie_	不倒翁	noun	7.80787944886e-05
+xie_	牛皮都市	noun	7.76529694523e-05
+xie_	夏装新款女装	noun	7.75129213688e-05
+xie_	新款中年女士	distinguishing word	7.72378996882e-05
+xie_	京剧脸谱	noun	7.71482520235e-05
+xie_	魔术贴调节	noun	7.70460342212e-05
+xie_	森林吉普	noun	7.68454003401e-05
+xie_	中国风棉麻	noun	7.65497459605e-05
+xie_	男式短袖	distinguishing word	7.65361557481e-05
+xie_	拉丁舞鞋女式	noun	7.58265913632e-05
+xie_	风衣外套	noun	7.57615084777e-05
+xie_	系列海军蓝	noun	7.53682504804e-05
+xie_	裤束脚裤	noun	7.49495793627e-05
+xie_	鞋网面	noun	7.4926520136e-05
+xie_	校园足球鞋	noun	7.46156710615e-05
+xie_	比基尼泳衣	noun	7.43890857967e-05
+xie_	保暖上装	adjective	7.40786765588e-05
+xie_	袖钉	noun	7.38945791461e-05
+xie_	甜美优雅	adjective	7.3787825225e-05
+xie_	纯羊毛衫	adjective	7.33151362802e-05
+xie_	时尚演出潮	noun	7.32643582758e-05
+xie_	新款男童女童	distinguishing word	7.29675172896e-05
+xie_	装饰设计	noun	7.28788537331e-05
+xie_	小脚铅笔裤	noun	7.27260790092e-05
+xie_	户外溯溪鞋	locative word	7.27224247214e-05
+xie_	纯棉料	noun	7.2397703928e-05
+xie_	林白	noun	7.22003445389e-05
+xie_	欧洲风	noun	7.1947927917e-05
+xie_	体操广场	noun	7.18989835846e-05
+xie_	裤卫裤	noun	7.15565535271e-05
+xie_	长袖修身衬衫	noun	7.13102464038e-05
+xie_	鞋男子运动鞋	noun	7.12022540108e-05
+xie_	韩版套裙	distinguishing word	7.06823177771e-05
+xie_	夜场装	noun	7.05640526364e-05
+xie_	裙装连衣裙	noun	6.99202517266e-05
+xie_	镜面pu	noun	6.97892148759e-05
+xie_	衬衫青少年	noun	6.97347269708e-05
+xie_	绣花鞋民族风	noun	6.96287945029e-05
+xie_	鞋浅口	noun	6.96033449551e-05
+xie_	裤小脚裤	noun	6.90427408831e-05
+xie_	时尚潮流日常	noun	6.8847458775e-05
+xie_	礼仪鞋	noun	6.8811717779e-05
+xie_	实战战靴	noun	6.83180330191e-05
+xie_	淑女款	noun	6.82905455563e-05
+xie_	女子紧身训练	noun	6.82005420901e-05
+xie_	无缝美体	distinguishing word	6.81461292759e-05
+xie_	真丝丝巾	noun	6.80515618847e-05
+xie_	字母印花短袖	noun	6.77077801622e-05
+xie_	男鞋篮球鞋	distinguishing word	6.75000254741e-05
+xie_	棒球领外套	noun	6.73383814098e-05
+xie_	春秋款韩版	noun	6.68169860045e-05
+xie_	婴儿鞋袜	noun	6.64978948369e-05
+xie_	饵料	noun	6.63072429301e-05
+xie_	民族风女童	noun	6.61025569169e-05
+xie_	瑜伽健身	noun	6.59878545105e-05
+xie_	中国风亚麻	noun	6.56081902068e-05
+xie_	瘦身	adjective	6.54749236053e-05
+xie_	新款真皮	distinguishing word	6.5474782635e-05
+xie_	英伦潮牌	noun	6.53567888899e-05
+xie_	法兰绒家居服	noun	6.51396013667e-05
+xie_	背带棉裤	noun	6.50473001348e-05
+xie_	平底鞋休闲鞋	noun	6.46271568036e-05
+xie_	满版印花	adjective	6.46157479497e-05
+xie_	鱼嘴高跟鞋	noun	6.42714111301e-05
+xie_	鞋必备	noun	6.41354276414e-05
+xie_	店主风夏装	noun	6.39742787529e-05
+xie_	男工装鞋	distinguishing word	6.39667465008e-05
+xie_	文胸厚小胸	noun	6.36962541146e-05
+xie_	柔软轻便	adjective	6.35224562559e-05
+xie_	小中童	noun	6.35007433575e-05
+xie_	新款促销	distinguishing word	6.34694953364e-05
+xie_	驼绒棉裤	noun	6.34062178443e-05
+xie_	鞋舒适驾车	noun	6.34041438464e-05
+xie_	儿童机能鞋	noun	6.30739629124e-05
+xie_	非一次性	distinguishing word	6.30718726367e-05
+xie_	鞋休闲皮鞋	noun	6.30693953937e-05
+xie_	跟粗跟	preposition	6.29343371463e-05
+xie_	领口钉珠	noun	6.2640883165e-05
+xie_	细高跟尖头	status word	6.24000438214e-05
+xie_	文化休闲	noun	6.23926389911e-05
+xie_	肩短袖	noun	6.21623997233e-05
+xie_	时尚潮流保暖	noun	6.21213717938e-05
+xie_	牛仔裤单裤	noun	6.20355083375e-05
+xie_	舒适驾车鞋	adjective	6.19028126581e-05
+xie_	女童冬装	noun	6.18931906241e-05
+xie_	K100	noun	6.18154961184e-05
+xie_	明星流行	noun	6.16782895167e-05
+xie_	太极拳服装	noun	6.16310754362e-05
+xie_	羊胎绒	noun	6.15914709393e-05
+xie_	鞋特步	noun	6.15270854367e-05
+xie_	软面皮高跟鞋	adjective	6.14709127759e-05
+xie_	软壳衣	adjective	6.13365116415e-05
+xie_	刺绣男士	noun	6.12766098317e-05
+xie_	菱格纹	noun	6.10954986363e-05
+xie_	皮鞋五粒豆	noun	6.10754915662e-05
+xie_	篮球鞋男子	noun	6.10396002202e-05
+xie_	宽大	adjective	6.02989215419e-05
+xie_	星空夏日	noun	6.00863362264e-05
+xie_	口单鞋	noun	6.00548368731e-05
+xie_	尿垫	noun	6.00169572627e-05
+xie_	鞋秋冬舞鞋	noun	5.99000585272e-05
+xie_	加棉加厚	noun	5.97610119581e-05
+xie_	肥腿	noun	5.9760257252e-05
+xie_	新款青春	distinguishing word	5.95934599825e-05
+xie_	男士短袖	noun	5.95650717052e-05
+xie_	鞋热销	noun	5.93784781087e-05
+xie_	足球袜	noun	5.93349753382e-05
+xie_	时尚英伦潮流	noun	5.90325421173e-05
+xie_	藏蓝+	distinguishing word	5.90296076136e-05
+xie_	镜面休闲鞋	noun	5.90013716433e-05
+xie_	细斜纹	adjective	5.89876297979e-05
+xie_	慢跑步鞋	adjective	5.89202633804e-05
+xie_	女士羊皮	noun	5.87321871373e-05
+xie_	黑色粘纤	noun	5.85479358702e-05
+xie_	肩章双排扣	noun	5.78269743027e-05
+xie_	男童时装鞋	noun	5.76289890895e-05
+xie_	重磅真丝旗袍	distinguishing word	5.75723142167e-05
+xie_	瑜伽跑步	noun	5.75507835521e-05
+xie_	时尚街头青春	noun	5.74974551984e-05
+xie_	前开扣	noun	5.73686634065e-05
+xie_	简约大气舒适	adjective	5.71338440731e-05
+xie_	Lauren	noun	5.66995324582e-05
+xie_	阿迪达斯男子	noun	5.63803614764e-05
+xie_	都市健步鞋	noun	5.61444168933e-05
+xie_	韩版修身猫	distinguishing word	5.61048816678e-05
+xie_	伊卡侬	distinguishing word	5.60989333373e-05
+xie_	靴裤	noun	5.60459823655e-05
+xie_	腰带束腰	noun	5.6011396329e-05
+xie_	范短袖	noun	5.58362957864e-05
+xie_	军鞋	noun	5.56941737782e-05
+xie_	李牌	noun	5.56314863004e-05
+xie_	鞋船鞋	noun	5.55787777077e-05
+xie_	鞋四季鞋	noun	5.55183869279e-05
+xie_	欧根	distinguishing word	5.54741979798e-05
+xie_	旗舰店正品	noun	5.53875226678e-05
+xie_	特大号女装	distinguishing word	5.53500652982e-05
+xie_	儿童防晒衣	noun	5.52998274489e-05
+xie_	男装裤子	noun	5.52760067539e-05
+xie_	牛仔夹克	noun	5.5264422782e-05
+xie_	鞋网面透气	noun	5.51648660487e-05
+xie_	韩版潮男	distinguishing word	5.51154464457e-05
+xie_	孕妇托腹	noun	5.5027523133e-05
+xie_	新款高帮	distinguishing word	5.48865280418e-05
+xie_	短裙套装	noun	5.48497014145e-05
+xie_	弹力靴	noun	5.4806276907e-05
+xie_	秋冬男	noun	5.46394106338e-05
+xie_	中山装唐装	noun	5.44572652291e-05
+xie_	悦动精彩	adjective	5.4367637366e-05
+xie_	绅士商务休闲	noun	5.41513108486e-05
+xie_	中性儿童	distinguishing word	5.40493366692e-05
+xie_	鞋青春街头	noun	5.40408249932e-05
+xie_	青年时尚	noun	5.40213634719e-05
+xie_	虎头鞋	noun	5.39119691157e-05
+xie_	蓝绿	noun	5.39018141576e-05
+xie_	HAUTTON	noun	5.3808649516e-05
+xie_	校园班服	noun	5.37532173426e-05
+xie_	沙滩凉拖鞋	noun	5.36337538492e-05
+xie_	福袋	noun	5.35264679156e-05
+xie_	席城	noun	5.3499087057e-05
+xie_	职业装工作服	noun	5.31781834447e-05
+xie_	青少年板鞋	noun	5.31695386882e-05
+xie_	海边沙滩鞋	locative word	5.31268095847e-05
+xie_	鞋民族	noun	5.29060087806e-05
+xie_	裙撑	noun	5.28193414659e-05
+xie_	鞋磨砂	noun	5.26614781442e-05
+xie_	夹克男	noun	5.26416457995e-05
+xie_	亮面	adjective	5.26004295747e-05
+xie_	运动服运动生活	noun	5.25592382123e-05
+xie_	草足球鞋	noun	5.22539047983e-05
+xie_	裙+	noun	5.22337736657e-05
+xie_	黑色羊	noun	5.22292897218e-05
+xie_	女士文艺复古	noun	5.2217647077e-05
+xie_	软钢圈	adjective	5.20528719953e-05
+xie_	宝宝背带裤	noun	5.18316751046e-05
+xie_	自动隐形	distinguishing word	5.17952574954e-05
+xie_	新款超轻	noun	5.17612138622e-05
+xie_	爵士舞鞋时尚	noun	5.17189491641e-05
+xie_	韩版绣	distinguishing word	5.16853310662e-05
+xie_	雨鞋雨靴	noun	5.16823757638e-05
+xie_	拖鞋家居拖鞋	noun	5.15945755794e-05
+xie_	天然草地	distinguishing word	5.15753708575e-05
+xie_	跟尖头	preposition	5.1540102902e-05
+xie_	纯羊绒	adjective	5.15145098359e-05
+xie_	泳衣套装	noun	5.14152320616e-05
+xie_	高中生大学生	noun	5.12736375562e-05
+xie_	裤加大码	noun	5.11042640037e-05
+xie_	毛涤	noun	5.09631080763e-05
+xie_	款玫红色	noun	5.08609796938e-05
+xie_	平底单鞋单鞋	distinguishing word	5.06760622704e-05
+xie_	透明内裤	adjective	5.06717887039e-05
+xie_	连衣裙礼服	noun	5.06194570483e-05
+xie_	禅衣	noun	5.05291450806e-05
+xie_	B103B201	noun	5.04821754419e-05
+xie_	鞋水陆	noun	5.03832578395e-05
+xie_	B101B201	noun	5.03662426768e-05
+xie_	日常修身复古	distinguishing word	5.03625390984e-05
+xie_	甜美淑女	adjective	5.02865660413e-05
+xie_	新款孕妇	distinguishing word	5.01916615738e-05
+xie_	鞋学生旅游	noun	5.01465352885e-05
+xie_	鞋旅游单鞋	noun	5.01185037747e-05
+xie_	菱形绗缝	noun	5.01010763085e-05
+xie_	哈咪奇	distinguishing word	5.00197090796e-05
+xie_	睡衣套装	noun	4.98392089918e-05
+xie_	狐狸毛皮草	noun	4.96647575873e-05
+xie_	软鞋	adjective	4.93417871377e-05
+xie_	女童俏皮	noun	4.90572527908e-05
+xie_	精品晚宴	noun	4.9002670551e-05
+xie_	个性潮牌	noun	4.89533660331e-05
+xie_	浮标	noun	4.88930360585e-05
+xie_	跟浅口	preposition	4.88810690872e-05
+xie_	款隐形按钮	noun	4.88806050994e-05
+xie_	发型师鞋	noun	4.88427604976e-05
+xie_	轻便耐磨	adjective	4.88255038764e-05
+xie_	时尚运动服	noun	4.87196673344e-05
+xie_	假发帽	noun	4.8607041811e-05
+xie_	鞋千	noun	4.85790613222e-05
+xie_	棉服淼	noun	4.85041069642e-05
+xie_	透明透视	adjective	4.82512847374e-05
+xie_	短裤多	noun	4.82075780204e-05
+xie_	鹰标	noun	4.80483474812e-05
+xie_	中长款防晒	noun	4.80401571327e-05
+xie_	胸超聚拢	noun	4.7999131105e-05
+xie_	鞋防护	noun	4.79611494585e-05
+xie_	长袖前开	noun	4.79145392599e-05
+xie_	中大童时尚	distinguishing word	4.78578506835e-05
+xie_	拖鞋女生	noun	4.78360947187e-05
+xie_	纯羊绒衫	noun	4.77730036574e-05
+xie_	鞋拼色	noun	4.76989993107e-05
+xie_	青少年运动服	noun	4.76923707067e-05
+xie_	坚固耐用	adjective	4.7690006416e-05
+xie_	Rain	noun	4.74421869086e-05
+xie_	纯色麻花	noun	4.73720478786e-05
+xie_	丝褶皱	noun	4.73563447311e-05
+xie_	荧光橘黄	noun	4.73297678525e-05
+xie_	儿童羽绒	noun	4.71841622444e-05
+xie_	法兰绒磨毛	noun	4.71053384895e-05
+xie_	女童裙裤	noun	4.70643647964e-05
+xie_	鞋粗跟	noun	4.70520767673e-05
+xie_	刺绣点缀	noun	4.70257418317e-05
+xie_	山羊绒时尚	noun	4.70113490576e-05
+xie_	跟超高跟鞋	preposition	4.69364459659e-05
+xie_	手术室	noun	4.69279335187e-05
+xie_	棒球帽鸭舌帽	noun	4.69278157531e-05
+xie_	户外两用	locative word	4.68830212946e-05
+xie_	数码迷	noun	4.67216448134e-05
+xie_	礼帽子	noun	4.66875983667e-05
+xie_	瑕疵折扣	noun	4.66395924876e-05
+xie_	男孩儿童	noun	4.65279378296e-05
+xie_	K009	noun	4.64269480265e-05
+xie_	春夏新款时尚	noun	4.62214974041e-05
+xie_	耐用	adjective	4.61833034318e-05
+xie_	品质款	noun	4.5929826384e-05
+xie_	登山鞋男鞋	noun	4.58784393096e-05
+xie_	黑色聚酯纤维经典	noun	4.58003261325e-05
+xie_	都市慢跑鞋	noun	4.55413767879e-05
+xie_	橘红	distinguishing word	4.55169964073e-05
+xie_	鞋青单鞋	noun	4.54725790886e-05
+xie_	军装版	noun	4.53691959836e-05
+xie_	职业女装	noun	4.53205771174e-05
+xie_	卡子	noun	4.49994653729e-05
+xie_	宝宝加毛	noun	4.49879959156e-05
+xie_	面板鞋男	noun	4.48735311256e-05
+xie_	鞋广场舞	noun	4.48080637e-05
+xie_	胖太太	adjective	4.48076299609e-05
+xie_	秋冬女士新款	noun	4.46346137603e-05
+xie_	可爱卡通	adjective	4.45406636269e-05
+xie_	橡胶雨鞋	noun	4.45086498292e-05
+xie_	工作服夏装	noun	4.45086498292e-05
+xie_	鞋跑钉鞋	noun	4.43214814229e-05
+xie_	裤西裤	noun	4.42564598991e-05
+xie_	跟裸靴	preposition	4.40905639249e-05
+xie_	图案卫衣	noun	4.40031296367e-05
+xie_	白长	noun	4.398234764e-05
+xie_	新款春秋季	noun	4.38379272906e-05
+xie_	年会礼服	noun	4.38115742145e-05
+xie_	鞋牛津鞋	noun	4.37620326369e-05
+xie_	清新甜美	adjective	4.35825683834e-05
+xie_	正品男士	noun	4.33507537642e-05
+xie_	户外运动	locative word	4.32575980096e-05
+xie_	中老年女士	noun	4.3165584215e-05
+xie_	鬼舞步街舞	noun	4.31392898442e-05
+xie_	羽绒服运动服	noun	4.31371136438e-05
+xie_	鞋网	noun	4.30661214701e-05
+xie_	短装旗袍	noun	4.29902324813e-05
+xie_	孕妇内衣胸罩	noun	4.29286425206e-05
+xie_	英伦休闲	noun	4.28152217989e-05
+xie_	套装运动服	noun	4.27582882721e-05
+xie_	轻便防滑	adjective	4.27517346882e-05
+xie_	篮球鞋运动鞋	noun	4.27433283765e-05
+xie_	时尚亮面	noun	4.27105382969e-05
+xie_	运动服休闲	noun	4.26906844148e-05
+xie_	徽标	noun	4.25542030062e-05
+xie_	男士爆款	noun	4.24664275583e-05
+xie_	衬衣男B262	noun	4.2455108041e-05
+xie_	隐形内衣	distinguishing word	4.24517511939e-05
+xie_	男士棉纺	noun	4.23651860534e-05
+xie_	棉靴	noun	4.21787486875e-05
+xie_	夏装新款男装	noun	4.21366602755e-05
+xie_	裤衩潮男	noun	4.20741016447e-05
+xie_	地板鞋	noun	4.20607992463e-05
+xie_	劳工工装鞋	noun	4.20246207049e-05
+xie_	暗红	status word	4.18835753822e-05
+xie_	单口袋	distinguishing word	4.18498255094e-05
+xie_	针织羊毛衫	distinguishing word	4.18423263691e-05
+xie_	舞蹈训练鞋	noun	4.1813734528e-05
+xie_	卡帝乐鳄鱼	noun	4.17353341633e-05
+xie_	套裤ol	noun	4.14525694313e-05
+xie_	经典鞋	noun	4.13759075951e-05
+xie_	卡通可爱	noun	4.12662988959e-05
+xie_	文艺风	noun	4.11378952303e-05
+xie_	鞋子男单	noun	4.10991069136e-05
+xie_	麻花纹	noun	4.10165123089e-05
+xie_	款吸湿排汗	noun	4.09978157264e-05
+xie_	雪纺纱巾	noun	4.09314038834e-05
+xie_	鞋阿甘	noun	4.08856311691e-05
+xie_	鞋子日常	noun	4.08138810858e-05
+xie_	手工盘扣	noun	4.07473504356e-05
+xie_	隐形袜套	distinguishing word	4.06675619299e-05
+xie_	真皮挂钩	noun	4.06620246958e-05
+xie_	靴街头	noun	4.06354319441e-05
+xie_	鞋一脚蹬懒	noun	4.05521018667e-05
+xie_	牛皮革商务	noun	4.04750622032e-05
+xie_	骷髅潮牌	noun	4.04517802669e-05
+xie_	簿款	noun	4.0303301248e-05
+xie_	deify	noun	4.01526170633e-05
+xie_	意动	noun	4.01281942765e-05
+xie_	喇叭长袖	noun	3.99348990199e-05
+xie_	珊瑚蓝	noun	3.9934686036e-05
+xie_	+T63	punctuation mark	3.98856205243e-05
+xie_	腊感	noun	3.98339532655e-05
+xie_	钩针编织	noun	3.98314016114e-05
+xie_	DX32	noun	3.97004282881e-05
+xie_	裙ZLLY	noun	3.96953808744e-05
+xie_	女士休闲	noun	3.96600337219e-05
+xie_	刺绣仙人掌	noun	3.9658432505e-05
+xie_	衣连体	noun	3.9658432505e-05
+xie_	型文胸套装	noun	3.95359553466e-05
+xie_	款裙裤	noun	3.91702884413e-05
+xie_	织物配皮	noun	3.91027532718e-05
+xie_	草地足球鞋	noun	3.90853047995e-05
+xie_	工装衬衫	noun	3.88978077947e-05
+xie_	个性手工	noun	3.87039867781e-05
+xie_	HBLJR9629	noun	3.85717256459e-05
+xie_	鞋成熟	noun	3.85641571792e-05
+xie_	舞台表演	noun	3.83946664439e-05
+xie_	新款MTEE	distinguishing word	3.83892505282e-05
+xie_	麻鞋	noun	3.83394873359e-05
+xie_	新郎礼服时尚	noun	3.82785815618e-05
+xie_	高贵典雅	adjective	3.81664416712e-05
+xie_	糖果色休闲	noun	3.79429610936e-05
+xie_	发簪	noun	3.78964370191e-05
+xie_	健身操	noun	3.78725884394e-05
+xie_	男士羊毛衫	noun	3.77710351217e-05
+xie_	恒源祥彩羊	noun	3.75304636568e-05
+xie_	炭包	noun	3.74471515295e-05
+xie_	韩版双层	distinguishing word	3.74160206546e-05
+xie_	海边必备	locative word	3.73630488616e-05
+xie_	热情粉	adjective	3.73453239338e-05
+xie_	钓具	noun	3.71447477846e-05
+xie_	靴平底	noun	3.71273097421e-05
+xie_	男士藏青	noun	3.70600585311e-05
+xie_	毛皮草外套	noun	3.70258207304e-05
+xie_	精品童装	noun	3.69346059137e-05
+xie_	西服马甲	noun	3.68396957013e-05
+xie_	儿童上装	noun	3.68395501569e-05
+xie_	鞋打孔	noun	3.67615336633e-05
+xie_	韩版泡泡	distinguishing word	3.67310128577e-05
+xie_	坡跟凉鞋	noun	3.67064938634e-05
+xie_	青少年初中	noun	3.66400550799e-05
+xie_	手心防滑	noun	3.66382550021e-05
+xie_	紫精灵熊	adjective	3.6520044827e-05
+xie_	男鞋牛津鞋	distinguishing word	3.65015327969e-05
+xie_	卡通印花短袖	noun	3.64889874406e-05
+xie_	时尚渐变	noun	3.64049960556e-05
+xie_	套装中小学生	noun	3.64042319641e-05
+xie_	外套批发	noun	3.6264573179e-05
+xie_	耐磨跑步鞋	adjective	3.6174404003e-05
+xie_	自由骑士	adjective	3.61291396722e-05
+xie_	尖头女单鞋	noun	3.61096222787e-05
+xie_	蝙蝠短袖	noun	3.60958659101e-05
+xie_	童鞋批发	noun	3.602493914e-05
+xie_	装饰制作	noun	3.60040180555e-05
+xie_	DX33	noun	3.59905798051e-05
+xie_	西瓜帽	noun	3.59687682269e-05
+xie_	皮质板鞋	noun	3.59677144596e-05
+xie_	新款丝绸	distinguishing word	3.5923246611e-05
+xie_	MONCLER	noun	3.58571905371e-05
+xie_	雪纺衫罩衫	noun	3.57963290153e-05
+xie_	棉麻裤	noun	3.57559003315e-05
+xie_	鞋情侣	noun	3.5734709032e-05
+xie_	系列网球	noun	3.57293841028e-05
+xie_	都市特工	noun	3.56879286723e-05
+xie_	新款减震	distinguishing word	3.5664060433e-05
+xie_	宗教	noun	3.5612693184e-05
+xie_	兔童装	noun	3.55971095742e-05
+xie_	真人实拍	noun	3.55175263049e-05
+xie_	原色牛仔裤	noun	3.54876670712e-05
+xie_	鞋外长	noun	3.54177130524e-05
+xie_	电脑绣花	noun	3.54125205514e-05
+xie_	平底耐磨防	distinguishing word	3.52563436125e-05
+xie_	冬装经典	noun	3.52407689792e-05
+xie_	淑女气质	noun	3.51689106834e-05
+xie_	毛线筒	noun	3.51342245827e-05
+xie_	前开襟	noun	3.51268901806e-05
+xie_	宴会百搭	noun	3.50675142922e-05
+xie_	沙滩鞋鸟巢	noun	3.50228076069e-05
+xie_	凉鞋包头	noun	3.50171973262e-05
+xie_	棉衣裤	noun	3.48855330264e-05
+xie_	水貂皮草	noun	3.47916154952e-05
+xie_	时尚个性	noun	3.46496812274e-05
+xie_	永高人	distinguishing word	3.44017446756e-05
+xie_	纽扣领	noun	3.43912154173e-05
+xie_	扣头皮带	noun	3.43322454881e-05
+xie_	沙滩裤裤衩	noun	3.43131496303e-05
+xie_	双向拉链	distinguishing word	3.41948054156e-05
+xie_	工装长裤	noun	3.41852104961e-05
+xie_	badboy	noun	3.41817744333e-05
+xie_	时尚欧美	noun	3.41788886117e-05
+xie_	鞋防砸	noun	3.40992257313e-05
+xie_	婴儿童	noun	3.40982645325e-05
+xie_	男士优质	noun	3.39841402127e-05
+xie_	珠光羊皮	noun	3.39622067009e-05
+xie_	皮面正品纯色	noun	3.39490700036e-05
+xie_	轻泡	adjective	3.39265657366e-05
+xie_	工作服班服	noun	3.39185142707e-05
+xie_	女童公主	noun	3.38474826074e-05
+xie_	鞋中老年	noun	3.37166726667e-05
+xie_	电子表	noun	3.36991929919e-05
+xie_	高贵纯色	adjective	3.36930308313e-05
+xie_	镜面超纤	noun	3.35846529682e-05
+xie_	男童秋装	noun	3.3573258e-05
+xie_	儿童防晒服	noun	3.35320020063e-05
+xie_	甜橙红	noun	3.35320020063e-05
+xie_	鞋松糕	noun	3.34798540175e-05
+xie_	户外登山休闲	locative word	3.3424935162e-05
+xie_	摩式狄门	distinguishing word	3.34170067728e-05
+xie_	潮流精品	noun	3.32355848475e-05
+xie_	面皮豆豆鞋	noun	3.32333357415e-05
+xie_	棱纹	noun	3.3115544549e-05
+xie_	凤冠	noun	3.30959070719e-05
+xie_	女士仿皮pu	noun	3.29971455256e-05
+xie_	个性韩版	noun	3.29936719649e-05
+xie_	近视镜	adjective	3.27734507228e-05
+xie_	礼包	noun	3.27275254312e-05
+xie_	文胸光面	noun	3.26873458355e-05
+xie_	Yonex	noun	3.25768556659e-05
+xie_	BRIT	noun	3.24816048019e-05
+xie_	奥丽侬	distinguishing word	3.24763573353e-05
+xie_	仿皮草外套	distinguishing word	3.24583076036e-05
+xie_	羊毛衬衫	noun	3.24458336324e-05
+xie_	户外冲锋衣	locative word	3.24454758488e-05
+xie_	雕花镂空	noun	3.24235895905e-05
+xie_	小学生校服	noun	3.23953921677e-05
+xie_	外套大衣	noun	3.23002202776e-05
+xie_	真皮透气	noun	3.2295572311e-05
+xie_	皮革时尚	noun	3.21372739686e-05
+xie_	新款仿皮	distinguishing word	3.21225093483e-05
+xie_	帆布鞋运动鞋	noun	3.20970556646e-05
+xie_	男士长袖修身	noun	3.20389030207e-05
+xie_	皮鞋子	noun	3.19485652413e-05
+xie_	中长款斗篷	noun	3.18693263049e-05
+xie_	毛尼	noun	3.18345575605e-05
+xie_	儿童下装	noun	3.17929312329e-05
+xie_	卫海	noun	3.17856714306e-05
+xie_	宝宝遮阳帽	noun	3.1739978834e-05
+xie_	鱼嘴凉鞋	noun	3.16766209504e-05
+xie_	款尖头	noun	3.16354647985e-05
+xie_	毛巾绣	noun	3.16242765347e-05
+xie_	男款轻便	distinguishing word	3.15718464548e-05
+xie_	学生装中长款	noun	3.15716959028e-05
+xie_	广场舞服装	noun	3.15413493764e-05
+xie_	男子羽毛球	noun	3.1525120405e-05
+xie_	棉裤小脚裤	noun	3.14023322764e-05
+xie_	提花面料	distinguishing word	3.12408809291e-05
+xie_	男士冲浪裤	noun	3.11432875579e-05
+xie_	眼扣	noun	3.11294865997e-05
+xie_	羊毛衫男	noun	3.111687206e-05
+xie_	专柜正品女子	noun	3.11075527386e-05
+xie_	婚礼礼服	noun	3.10293717791e-05
+xie_	皮面隐形按钮	noun	3.10157336331e-05
+xie_	中国风龙	noun	3.10062748717e-05
+xie_	女装文艺	noun	3.08847356824e-05
+xie_	欧美童装	noun	3.08643742176e-05
+xie_	老人奶奶装	noun	3.08481645853e-05
+xie_	家居裙	noun	3.08246245469e-05
+xie_	春装新款男士	noun	3.0819278625e-05
+xie_	女式休闲	distinguishing word	3.08018830963e-05
+xie_	高档中老年	distinguishing word	3.07592907105e-05
+xie_	高档潮流	distinguishing word	3.07347628163e-05
+xie_	儿童手表	noun	3.07027960602e-05
+xie_	弹力面料	noun	3.06526142964e-05
+xie_	跟方根	preposition	3.05957034088e-05
+xie_	紧身包臀	noun	3.05704769954e-05
+xie_	新款港仔风	distinguishing word	3.04918500995e-05
+xie_	气垫跑鞋	noun	3.04441077368e-05
+xie_	水滴领	noun	3.04142581597e-05
+xie_	衫中长款防	noun	3.03911474868e-05
+xie_	儿童校园款	noun	3.03812604078e-05
+xie_	职业女性	noun	3.03338286076e-05
+xie_	新款胖MM	distinguishing word	3.02620014005e-05
+xie_	C6605	noun	3.01296806772e-05
+xie_	束腹带	classifier	3.01115193237e-05
+xie_	彩拔	noun	3.00636241902e-05
+xie_	护士职业	noun	3.00555912121e-05
+xie_	商务休闲斯文	noun	3.00447127508e-05
+xie_	镜腿	noun	3.00292713967e-05
+xie_	丝光棉短袖	distinguishing word	3.00171344658e-05
+xie_	鞋日常休闲	noun	2.99788359889e-05
+xie_	系列网球鞋	noun	2.99680742971e-05
+xie_	外套老年人	noun	2.99555602799e-05
+xie_	淑女约会	noun	2.99062790714e-05
+xie_	蕾丝网纱	noun	2.98837872767e-05
+xie_	剑领	noun	2.98670104269e-05
+xie_	鞋子日常驾车	noun	2.98428921377e-05
+xie_	阴囊托	noun	2.98408294154e-05
+xie_	时尚经典	noun	2.98112639162e-05
+xie_	纯色全棉	noun	2.98055156137e-05
+xie_	保暖长袖衬衫	adjective	2.97575606203e-05
+xie_	Zegna	noun	2.96899046371e-05
+xie_	巧尼熊	noun	2.96790073234e-05
+xie_	宝石装饰	noun	2.96640948146e-05
+xie_	纯棉法兰绒	noun	2.95227445669e-05
+xie_	鞋厚	noun	2.9513080893e-05
+xie_	七彩裤长裤	noun	2.95000957965e-05
+xie_	旗袍苏州	noun	2.94788503065e-05
+xie_	灯笼裤印花	noun	2.94760136533e-05
+xie_	印花设计	noun	2.94676455084e-05
+xie_	鞋高帮鞋	noun	2.94496578037e-05
+xie_	长裤子潮	adjective	2.93014945494e-05
+xie_	菲拉格慕	distinguishing word	2.92989292062e-05
+xie_	鲨鱼兄弟	noun	2.92407635159e-05
+xie_	工装衬衫男式	noun	2.92072312618e-05
+xie_	韩版合体	distinguishing word	2.92072312618e-05
+xie_	紧腿裤	adjective	2.90845657361e-05
+xie_	鞋夏新款	noun	2.90795961735e-05
+xie_	小巧精致	adjective	2.90714623978e-05
+xie_	裤糖果色	noun	2.90712401232e-05
+xie_	JQYR2971	noun	2.90320622669e-05
+xie_	韩版外出	distinguishing word	2.89887948998e-05
+xie_	男子休闲	noun	2.89615318644e-05
+xie_	悦跑	adjective	2.89030683188e-05
+xie_	跟浅口尖头	preposition	2.88627286008e-05
+xie_	专柜新品新型	noun	2.88446973542e-05
+xie_	太阳镜男	noun	2.88117097735e-05
+xie_	鞋儿童	noun	2.87961017856e-05
+xie_	男外衣	distinguishing word	2.87400365706e-05
+xie_	纹样	noun	2.86779663191e-05
+xie_	裤机	noun	2.86300832112e-05
+xie_	茵曼夏季	noun	2.8629392775e-05
+xie_	男爸爸装	distinguishing word	2.86269293401e-05
+xie_	糖果拼色	noun	2.8588388916e-05
+xie_	香港潮牌	noun	2.85507529142e-05
+xie_	头绳	noun	2.85333541892e-05
+xie_	都市轻运动	noun	2.84526821304e-05
+xie_	红线防砸	adjective	2.84236409539e-05
+xie_	新款溜冰鞋儿童	distinguishing word	2.83549279936e-05
+xie_	正品新款	noun	2.83365516413e-05
+xie_	宾陆童装	noun	2.82400749778e-05
+xie_	花布板鞋	noun	2.82214231513e-05
+xie_	+STYLE	punctuation mark	2.81568091459e-05
+xie_	阿迪达斯女子	noun	2.80960702503e-05
+xie_	牛皮尖圆头	noun	2.80079209246e-05
+xie_	礼仪旗袍	noun	2.80004471772e-05
+xie_	双面戴	distinguishing word	2.79630841666e-05
+xie_	潮流草编	noun	2.79371549026e-05
+xie_	果冻单鞋	noun	2.79277625872e-05
+xie_	防风袖	noun	2.78609923117e-05
+xie_	韩版时尚欧	distinguishing word	2.78267168325e-05
+xie_	创意动物	noun	2.78176867445e-05
+xie_	锦纶棉	noun	2.78113978312e-05
+xie_	学生旅游	noun	2.77050298426e-05
+xie_	肥佬宽松	noun	2.76978215455e-05
+xie_	贴身透气	adjective	2.76484843099e-05
+xie_	巧护士	adjective	2.76268774253e-05
+xie_	优质棉长袖	noun	2.75644277825e-05
+xie_	珠饰	noun	2.75620026269e-05
+xie_	QYG822	noun	2.75521221024e-05
+xie_	宝宝必备	noun	2.74174442977e-05
+xie_	女装职业装套装	noun	2.73943678877e-05
+xie_	火爆插肩袖	adjective	2.73680987013e-05
+xie_	爱尔兰绿	noun	2.7220459305e-05
+xie_	薄冰丝	noun	2.72166303795e-05
+xie_	夹克胖子	noun	2.71868384977e-05
+xie_	婴儿宝宝	noun	2.71265758687e-05
+xie_	细跟尖头	adjective	2.71199606985e-05
+xie_	气质%	noun	2.71085441252e-05
+xie_	中空尖头	locative word	2.71041985074e-05
+xie_	经典五角星	noun	2.71006168893e-05
+xie_	保安秋冬	noun	2.70945831476e-05
+xie_	BigeyesFox	noun	2.70937520573e-05
+xie_	新款店主风	distinguishing word	2.69529315605e-05
+xie_	短袖LOGO	distinguishing word	2.6924741263e-05
+xie_	潮流尖头浅	noun	2.69200084416e-05
+xie_	潮流鱼嘴	noun	2.69200084416e-05
+xie_	鞋传统	noun	2.6895939843e-05
+xie_	毛绒	noun	2.68294702041e-05
+xie_	新款淑女	distinguishing word	2.68266243944e-05
+xie_	纯棉档	noun	2.68182259896e-05
+xie_	鞋男单鞋	noun	2.68017213258e-05
+xie_	短袖圆领	distinguishing word	2.67901737641e-05
+xie_	女装古装	noun	2.67877466903e-05
+xie_	足球机	noun	2.67677254797e-05
+xie_	家居凉拖鞋	noun	2.67553522322e-05
+xie_	鱼竿	noun	2.67239751534e-05
+xie_	五星图案	distinguishing word	2.66538731352e-05
+xie_	痕文胸	noun	2.66097075843e-05
+xie_	薄荷绿色	noun	2.65857576967e-05
+xie_	浅灰色	adjective	2.65230501635e-05
+xie_	套装工作服	noun	2.64979598002e-05
+xie_	绅士风	noun	2.64942640405e-05
+xie_	鞋帆船鞋	noun	2.64905186901e-05
+xie_	时尚潮流lead	noun	2.64500168946e-05
+xie_	草地足球	noun	2.64456589775e-05
+xie_	A666	noun	2.63730572398e-05
+xie_	交际舞	noun	2.62563811538e-05
+xie_	迪斯尼系列	noun	2.62373395719e-05
+xie_	现代舞靴增高	noun	2.61738525815e-05
+xie_	羊皮纯色	noun	2.61527344776e-05
+xie_	尖头漆皮	noun	2.60448352838e-05
+xie_	桑蚕丝绸	noun	2.60042142502e-05
+xie_	凤凰刺绣	noun	2.59725314579e-05
+xie_	牛奶猴	noun	2.59524216566e-05
+xie_	C6606	noun	2.59462117241e-05
+xie_	幼童运动鞋	noun	2.59241067396e-05
+xie_	女式爵士舞鞋	distinguishing word	2.58399297504e-05
+xie_	秋收黄	noun	2.58335556303e-05
+xie_	外套柏	noun	2.57837565308e-05
+xie_	小脚花边	noun	2.57542897878e-05
+xie_	怪兽中长款	noun	2.5654977692e-05
+xie_	气质典雅	noun	2.56315174835e-05
+xie_	中大童竖	distinguishing word	2.56094212338e-05
+xie_	潮牌男装	noun	2.55700985185e-05
+xie_	韩版前后	distinguishing word	2.54839131683e-05
+xie_	圆领英文	noun	2.54626603429e-05
+xie_	室内健身鞋	locative word	2.54144830494e-05
+xie_	美体修身	noun	2.54039507058e-05
+xie_	水洗皮衣	distinguishing word	2.54025127281e-05
+xie_	耐穿户外	adjective	2.5367110355e-05
+xie_	彩棉背带	noun	2.53398286024e-05
+xie_	街头漫步鞋	locative word	2.52839142076e-05
+xie_	普通	adjective	2.5283220192e-05
+xie_	衩连衣裙	noun	2.52578579671e-05
+xie_	荷花棉衣	noun	2.52382235257e-05
+xie_	直筒裤子	adjective	2.52122013383e-05
+xie_	质舒适	noun	2.51899909782e-05
+xie_	家居浴室	noun	2.51833087386e-05
+xie_	爱心扣	noun	2.51683930683e-05
+xie_	真皮织带	noun	2.51419656024e-05
+xie_	VALENTINO	noun	2.50285034281e-05
+xie_	超级英雄	distinguishing word	2.50207752399e-05
+xie_	鞋防刺防	noun	2.49916180261e-05
+xie_	紧身衣套装	noun	2.4971740855e-05
+xie_	保圣	noun	2.49224601729e-05
+xie_	新款男夹克	distinguishing word	2.49110050164e-05
+xie_	女子减震	noun	2.48115292475e-05
+xie_	胖MM妹妹	adjective	2.48044283907e-05
+xie_	清凉风尚	adjective	2.47412813149e-05
+xie_	韩版蝴蝶结	distinguishing word	2.47118534931e-05
+xie_	微格	adjective	2.46831511846e-05
+xie_	鞋飞线编织	noun	2.46786985023e-05
+xie_	Lapapini	noun	2.46183883585e-05
+xie_	夹克衫新款	noun	2.46074645266e-05
+xie_	青男士	noun	2.45784671132e-05
+xie_	慢跑潮鞋	adjective	2.44629381543e-05
+xie_	时尚轻便	noun	2.4433911388e-05
+xie_	微晶体	adjective	2.44127351536e-05
+xie_	中老年妈妈鞋	noun	2.43383841447e-05
+xie_	工艺纽扣	noun	2.43353296841e-05
+xie_	可爱家居服	adjective	2.42875569992e-05
+xie_	豹迹	noun	2.42705136062e-05
+xie_	劳保鞋劳工	noun	2.42289462644e-05
+xie_	粗棉布	adjective	2.41996580436e-05
+xie_	鞋鬼舞步街	noun	2.4035681906e-05
+xie_	星星单鞋	noun	2.40274729489e-05
+xie_	鞋垫男女	noun	2.40204481608e-05
+xie_	绅士商务鞋	noun	2.39707846049e-05
+xie_	运动户外登山鞋	noun	2.39405811803e-05
+xie_	DX54	noun	2.38176394701e-05
+xie_	春装新款女装	noun	2.37819463004e-05
+xie_	女装基本	noun	2.37522915141e-05
+xie_	睡衣家居服	noun	2.37391742397e-05
+xie_	童装freeze	noun	2.36858569527e-05
+xie_	系列游泳鞋	noun	2.36192074574e-05
+xie_	巫师帽	noun	2.35768513858e-05
+xie_	中老年男装	noun	2.35154043651e-05
+xie_	山羊皮手套	noun	2.3502139711e-05
+xie_	室内家居	locative word	2.34543996186e-05
+xie_	女士涤纶	noun	2.3383043547e-05
+xie_	冬新品	noun	2.33107282151e-05
+xie_	螺纹收腰	noun	2.32112107419e-05
+xie_	潮酷	noun	2.3210608775e-05
+xie_	清风鞋	noun	2.31591256304e-05
+xie_	头盔护具	noun	2.31096290849e-05
+xie_	串珠凉鞋	noun	2.30773113642e-05
+xie_	女式针织衫	distinguishing word	2.30501571904e-05
+xie_	轻便舒适耐磨	adjective	2.29063766314e-05
+xie_	jack	noun	2.28873890388e-05
+xie_	DISNEY	noun	2.27491754435e-05
+xie_	女士腈纶混纺	noun	2.2739486293e-05
+xie_	韩版季	distinguishing word	2.26265975546e-05
+xie_	雪花公主	noun	2.26229879229e-05
+xie_	五星上衣	distinguishing word	2.2614524576e-05
+xie_	男士加绒	noun	2.26099924921e-05
+xie_	工作服韩版	noun	2.25881311943e-05
+xie_	罗纹休闲裤	noun	2.25149884759e-05
+xie_	时尚青年	noun	2.24046805694e-05
+xie_	苏宁正品个性	noun	2.23943408615e-05
+xie_	春秋青少年学生	noun	2.23337400233e-05
+xie_	DX04	noun	2.23105135239e-05
+xie_	宝宝爬服	noun	2.22942192982e-05
+xie_	条纹米黄	noun	2.21945807588e-05
+xie_	冰丝透气	noun	2.21945807588e-05
+xie_	僧衣	noun	2.21667786078e-05
+xie_	男童短袜	noun	2.21441156085e-05
+xie_	尖头细跟	noun	2.20351728173e-05
+xie_	卡通韩版	noun	2.19763690064e-05
+xie_	外套空调衫	noun	2.19549508195e-05
+xie_	制服鞋	noun	2.19338896155e-05
+xie_	衣防晒服	noun	2.19235569978e-05
+xie_	简约气质	adjective	2.19203332363e-05
+xie_	前轮闪光	noun	2.18974588067e-05
+xie_	帅男	noun	2.18341344802e-05
+xie_	双肩包运动	noun	2.18088074563e-05
+xie_	芭比	noun	2.16498002901e-05
+xie_	都市跑步鞋	noun	2.15776566067e-05
+xie_	定制logo	noun	2.15775089768e-05
+xie_	外场团队	noun	2.15651487312e-05
+xie_	温泉女士	noun	2.15639679486e-05
+xie_	宝宝连体衣	noun	2.1541975884e-05
+xie_	牛角夹	noun	2.15379474771e-05
+xie_	男装毛线	noun	2.15159428192e-05
+xie_	夏装新款重工	noun	2.14592151267e-05
+xie_	薄款竹	adjective	2.13404748293e-05
+xie_	衬衫搭配牛仔裤	noun	2.13315526063e-05
+xie_	貂绒毛衣	noun	2.12950935855e-05
+xie_	浅红	distinguishing word	2.12941895731e-05
+xie_	棉衣配	noun	2.12829168818e-05
+xie_	+T52	punctuation mark	2.12015649341e-05
+xie_	子棉免烫	noun	2.11808801584e-05
+xie_	鞋中大	noun	2.11279356028e-05
+xie_	灰衣	adjective	2.11204335035e-05
+xie_	韩版灯芯绒	distinguishing word	2.11204335035e-05
+xie_	xplay5a	noun	2.11066032676e-05
+xie_	裤清爽	noun	2.10577547147e-05
+xie_	新款女裤	distinguishing word	2.10367068239e-05
+xie_	口袋装饰	noun	2.1000251604e-05
+xie_	卡通鸭子	noun	2.09072304949e-05
+xie_	牙科	noun	2.08886389075e-05
+xie_	儿童军装	noun	2.08800472038e-05
+xie_	优质面料保暖	distinguishing word	2.08531232156e-05
+xie_	青少年学生装	noun	2.08422731436e-05
+xie_	摇滚靴	noun	2.08422731436e-05
+xie_	皮面帆布鞋	noun	2.08361106503e-05
+xie_	武术鞋练功	noun	2.08224529583e-05
+xie_	靴大小童	noun	2.07950165207e-05
+xie_	贵气	adjective	2.07889383549e-05
+xie_	胶质Logo	noun	2.07889383549e-05
+xie_	日常户外旅游鞋	distinguishing word	2.0776570821e-05
+xie_	凹凸纹理	noun	2.07185006052e-05
+xie_	上衣小孩	noun	2.07017464968e-05
+xie_	猫爪鞋	noun	2.06303609142e-05
+xie_	轻便舒适蛋卷	adjective	2.06168561285e-05
+xie_	图形印花	noun	2.05739264135e-05
+xie_	丝光棉半袖	distinguishing word	2.05627983542e-05
+xie_	女童五角星	noun	2.05579514895e-05
+xie_	中性双肩包	distinguishing word	2.05513548975e-05
+xie_	女童防晒	noun	2.05488724398e-05
+xie_	黑白条纹	noun	2.04982705686e-05
+xie_	保暖羊绒衫	adjective	2.0481234187e-05
+xie_	单色休闲	distinguishing word	2.04698538135e-05
+xie_	纯色工艺	noun	2.04679989243e-05
+xie_	可选套装	noun	2.03883083653e-05
+xie_	花盆帽	noun	2.03814032204e-05
+xie_	纯毛料	adjective	2.03583244528e-05
+xie_	黑玛瑙	adjective	2.03567655597e-05
+xie_	胖胖装	adjective	2.03407121002e-05
+xie_	针织卫裤	distinguishing word	2.03302075535e-05
+xie_	爵士跳舞	noun	2.03302030365e-05
+xie_	鞋硫化鞋	noun	2.03270650466e-05
+xie_	育儿	noun	2.03270650466e-05
+xie_	男士居家服	noun	2.02939687274e-05
+xie_	直筒裤休闲	adjective	2.02716969766e-05
+xie_	主流男装	noun	2.02639260442e-05
+xie_	潮流趋势	noun	2.02618761736e-05
+xie_	漆光	noun	2.02369064736e-05
+xie_	优雅复古改良	adjective	2.02130098809e-05
+xie_	针织衫线衣	distinguishing word	2.01758247233e-05
+xie_	职业装纯色	noun	2.01690183946e-05
+xie_	夏装中小	noun	2.00905964628e-05
+xie_	珊瑚红色	noun	2.00845608581e-05
+xie_	韩版彩色	distinguishing word	2.00627479593e-05
+xie_	款防晒透气	noun	2.00432828804e-05
+xie_	户外运动徒步	locative word	2.00342515748e-05
+xie_	实拍到货	adjective	2.00341402616e-05
+xie_	耐磨减震中帮	adjective	1.99930375076e-05
+xie_	千川	noun	1.98992738126e-05
+xie_	阔腿裙裤	adjective	1.98868548474e-05
+xie_	中国国旗	noun	1.98833878732e-05
+xie_	印花布拼接	noun	1.98765396583e-05
+xie_	摩蝎	distinguishing word	1.98737422714e-05
+xie_	服装鞋	noun	1.98732476091e-05
+xie_	货源韩版	noun	1.98586520186e-05
+xie_	欧式经典	distinguishing word	1.97423250333e-05
+xie_	男士洞洞鞋	noun	1.97114391114e-05
+xie_	鞋高帮	noun	1.95653917423e-05
+xie_	BIOM	noun	1.95602251622e-05
+xie_	棉服双层	noun	1.95555567994e-05
+xie_	港仔文艺	noun	1.95542328399e-05
+xie_	实战外场	noun	1.9533275106e-05
+xie_	春夏款男士	noun	1.95156446045e-05
+xie_	蔻依	noun	1.95005978413e-05
+xie_	鞋沙滩鞋	noun	1.94885681609e-05
+xie_	韩版椰子	distinguishing word	1.94054754603e-05
+xie_	小脚丫	adjective	1.93838318888e-05
+xie_	色加肥加大	noun	1.93791446393e-05
+xie_	团队实战	noun	1.93551136459e-05
+xie_	现货韩版	noun	1.93507438868e-05
+xie_	鞋底防滑	noun	1.92477718514e-05
+xie_	主推款	adjective	1.92157886711e-05
+xie_	缝缝裙	noun	1.92024710307e-05
+xie_	鞋花园	noun	1.91775148012e-05
+xie_	竞技实战	noun	1.91580587241e-05
+xie_	常规韩版	noun	1.91049414911e-05
+xie_	鞋型	noun	1.91013457205e-05
+xie_	珠百搭	noun	1.90726342333e-05
+xie_	纯棉半袖	noun	1.90657245429e-05
+xie_	A.L.C	noun	1.90279946129e-05
+xie_	浅灰裤	adjective	1.90272257132e-05
+xie_	鞋子日常男	noun	1.89861843245e-05
+xie_	新生儿内衣	noun	1.89795760137e-05
+xie_	领带衬衫	noun	1.89228001659e-05
+xie_	鞋亲子鞋	noun	1.8911854198e-05
+xie_	K105	noun	1.88850731559e-05
+xie_	卡通纯棉	noun	1.88779075786e-05
+xie_	潮流斑马	noun	1.88748314663e-05
+xie_	婴儿袜子	noun	1.88716759814e-05
+xie_	轻便胶鞋	adjective	1.88488578079e-05
+xie_	文胸比基尼	noun	1.87493097551e-05
+xie_	鸭舌帽防晒	noun	1.87035991484e-05
+xie_	中帮篮球鞋	noun	1.867321234e-05
+xie_	泡泡棉	noun	1.85756733951e-05
+xie_	褶皱休闲	noun	1.85721481313e-05
+xie_	旗袍中老年	noun	1.85343989666e-05
+xie_	夏装精品	noun	1.85163809571e-05
+xie_	焕新	noun	1.8485095568e-05
+xie_	男千	distinguishing word	1.8466810801e-05
+xie_	鞋渐变	noun	1.83967712255e-05
+xie_	泰迪熊	noun	1.83706463504e-05
+xie_	乐天	noun	1.83563996667e-05
+xie_	圣罗兰	noun	1.83286699036e-05
+xie_	深绿	distinguishing word	1.83129210397e-05
+xie_	灯芯绒衬衫	noun	1.82711112944e-05
+xie_	宴会晚装	noun	1.8246064993e-05
+xie_	鞋飞线	noun	1.82350248708e-05
+xie_	情侣运动鞋	noun	1.8219756398e-05
+xie_	女童浪漫	noun	1.82099594644e-05
+xie_	裙裤套装	noun	1.81417699699e-05
+xie_	凉鞋雅	noun	1.81356923569e-05
+xie_	两用沙滩鞋	noun	1.81337666606e-05
+xie_	鞋出口	noun	1.81275721705e-05
+xie_	旗袍领	noun	1.8068675015e-05
+xie_	滑轮速滑	noun	1.79927432184e-05
+xie_	衣佛教	noun	1.79927432184e-05
+xie_	天鹅绒系列	noun	1.79131485612e-05
+xie_	宽松娃娃	adjective	1.79029857036e-05
+xie_	熊男士	noun	1.79029857036e-05
+xie_	兔子图案	noun	1.77601151187e-05
+xie_	口袋巾	noun	1.77588989935e-05
+xie_	韩版奢华	distinguishing word	1.7735205975e-05
+xie_	韩版米字旗	distinguishing word	1.76833713831e-05
+xie_	新款超大	distinguishing word	1.76362745044e-05
+xie_	时尚潮流百	noun	1.76183213962e-05
+xie_	男子轻质	noun	1.76103491049e-05
+xie_	亮色漆皮	noun	1.75898221107e-05
+xie_	拖鞋浴室洗澡	noun	1.75706165835e-05
+xie_	秘鲁棉	noun	1.75488018696e-05
+xie_	专柜正品代购	noun	1.75460097294e-05
+xie_	合体型	noun	1.75327667239e-05
+xie_	婴儿彩棉	noun	1.75176475625e-05
+xie_	盆栽印花	noun	1.75106283433e-05
+xie_	分体裙	noun	1.75022839459e-05
+xie_	手工串珠	noun	1.75006325149e-05
+xie_	矮筒	adjective	1.74832544313e-05
+xie_	马夹老年人	noun	1.74613047504e-05
+xie_	卷鞋	classifier	1.74483250916e-05
+xie_	省心时尚	adjective	1.74421415839e-05
+xie_	花镜包邮	noun	1.73922653794e-05
+xie_	褐色鞋子日常	noun	1.73862484362e-05
+xie_	翼领	noun	1.73094183689e-05
+xie_	棉鞋中老年	noun	1.73052047452e-05
+xie_	140S	noun	1.72063000443e-05
+xie_	鞋尼姑鞋	noun	1.71773195239e-05
+xie_	商务休闲老板	noun	1.71773195239e-05
+xie_	女士紧身	noun	1.717457456e-05
+xie_	韩版金属	distinguishing word	1.71657476876e-05
+xie_	领口拼色	noun	1.71476074975e-05
+xie_	棉服老年人	noun	1.71447982554e-05
+xie_	新款英国	distinguishing word	1.71261753715e-05
+xie_	金标	noun	1.71182042228e-05
+xie_	局部镂空	noun	1.71182042228e-05
+xie_	纯棉手套	noun	1.71182042228e-05
+xie_	实战团队	noun	1.71107985221e-05
+xie_	南瓜黄	noun	1.70905990425e-05
+xie_	紫红色棉质	noun	1.70544661741e-05
+xie_	瓦片灰	noun	1.70226961931e-05
+xie_	树状印花	distinguishing word	1.70029454977e-05
+xie_	TONELLO	noun	1.69907281254e-05
+xie_	卡通汽车	noun	1.69901424664e-05
+xie_	少女卡通	noun	1.69897347577e-05
+xie_	场地运动鞋子	noun	1.69574396221e-05
+xie_	立体字母印花	distinguishing word	1.69257834397e-05
+xie_	鞋ZOOM	noun	1.69190011738e-05
+xie_	新款羽毛	distinguishing word	1.69029335502e-05
+xie_	日常户外登山	distinguishing word	1.68266427979e-05
+xie_	老师服	noun	1.68083637904e-05
+xie_	气质名媛	noun	1.66753143723e-05
+xie_	文胸桃红	noun	1.66633284616e-05
+xie_	棉裤妈妈装	noun	1.66252690026e-05
+xie_	贴身衣服	adjective	1.66109671898e-05
+xie_	意树	distinguishing word	1.65979696933e-05
+xie_	香云纱上衣	noun	1.65975058486e-05
+xie_	韩版大号	distinguishing word	1.65885694541e-05
+xie_	裤投	noun	1.65267892013e-05
+xie_	婴童女	noun	1.65128573923e-05
+xie_	上衣品牌	noun	1.65107676118e-05
+xie_	外套防晒衣	noun	1.65060105335e-05
+xie_	袖子卫衣	noun	1.64954027672e-05
+xie_	衫外衣	noun	1.64907311445e-05
+xie_	新款纯棉水洗	distinguishing word	1.64423808138e-05
+xie_	提花短袖	distinguishing word	1.64312175307e-05
+xie_	欧美童装女童	noun	1.63933949692e-05
+xie_	女生套装	noun	1.63731781198e-05
+xie_	蝴蝶中长款	noun	1.63395075807e-05
+xie_	活力百搭	noun	1.632058089e-05
+xie_	裤沙滩裤	noun	1.632058089e-05
+xie_	款古典	noun	1.62914599163e-05
+xie_	玫瑰花公主裙	noun	1.62794502507e-05
+xie_	长袖职业	noun	1.62497407463e-05
+xie_	西裤爸爸裤	noun	1.62279063033e-05
+xie_	班服队服	noun	1.62268431074e-05
+xie_	冬装新款女装	noun	1.6219385717e-05
+xie_	武术服	noun	1.62159322653e-05
+xie_	地板凉拖鞋	noun	1.61985919973e-05
+xie_	CAVALLI	noun	1.6140046876e-05
+xie_	羊翻	noun	1.61340808607e-05
+xie_	大头工装靴	noun	1.60817630992e-05
+xie_	韩版提花	distinguishing word	1.60681072775e-05
+xie_	黑红蓝	status word	1.60501442088e-05
+xie_	中国风女童	noun	1.60424532977e-05
+xie_	童袜	noun	1.60410064914e-05
+xie_	时尚铆钉	noun	1.60235105615e-05
+xie_	青少男	adjective	1.60049734703e-05
+xie_	鞋工鞋	noun	1.60036408935e-05
+xie_	鸟巢沙滩鞋	noun	1.59322975739e-05
+xie_	男款软壳	distinguishing word	1.59112041989e-05
+xie_	四季单	noun	1.59041061345e-05
+xie_	男单靴	noun	1.58977355283e-05
+xie_	糖果色弹力	noun	1.58565205528e-05
+xie_	衬衣星座	noun	1.58549948774e-05
+xie_	英国进口	noun	1.58077848744e-05
+xie_	男款暗	distinguishing word	1.57063814043e-05
+xie_	男款咖啡色	distinguishing word	1.56704382778e-05
+xie_	黑裤	adjective	1.56521543374e-05
+xie_	防寒服男	noun	1.5611239307e-05
+xie_	夏装裙装	noun	1.56036047421e-05
+xie_	战地吉普男士	noun	1.55649097691e-05
+xie_	新版韩版	distinguishing word	1.55193545849e-05
+xie_	男上装	distinguishing word	1.54732403792e-05
+xie_	劳保雨靴	noun	1.54517075772e-05
+xie_	耐磨防滑	adjective	1.54163255309e-05
+xie_	儿童披肩	noun	1.54051351725e-05
+xie_	轻盈防滑	adjective	1.53929897511e-05
+xie_	韩版混	distinguishing word	1.53875499249e-05
+xie_	金丝蕾丝	noun	1.5339530488e-05
+xie_	板鞋公主鞋	noun	1.5321700746e-05
+xie_	宽松OVERSIZE	adjective	1.5276300586e-05
+xie_	家居日用	noun	1.52740631342e-05
+xie_	羊毛蚕丝	noun	1.52446020348e-05
+xie_	黑暗系	adjective	1.52426101203e-05
+xie_	梅花印花	noun	1.52349742134e-05
+xie_	胖mm冬装	adjective	1.5228785871e-05
+xie_	西装新郎礼服	noun	1.52226808564e-05
+xie_	双面印花	distinguishing word	1.52105497792e-05
+xie_	肩包单肩包	noun	1.51997221376e-05
+xie_	韩版淑	distinguishing word	1.51801468137e-05
+xie_	软绵	adjective	1.51786142515e-05
+xie_	脚宽	noun	1.51543991537e-05
+xie_	雕花复古	noun	1.51241356933e-05
+xie_	K281	noun	1.5105940372e-05
+xie_	反面	noun	1.50627259346e-05
+xie_	男款板	distinguishing word	1.50498763314e-05
+xie_	羊毛绒衫	noun	1.50491061619e-05
+xie_	纽扣弹力	noun	1.50490069444e-05
+xie_	秋冬女士	noun	1.50360537925e-05
+xie_	洛弛	distinguishing word	1.49729076999e-05
+xie_	鞋绝缘	noun	1.49486339557e-05
+xie_	长裤子男	adjective	1.49458327873e-05
+xie_	金白	noun	1.49352148168e-05
+xie_	男士精品	noun	1.49221119281e-05
+xie_	款模杯	noun	1.48916852056e-05
+xie_	鞋子舒适平底鞋	noun	1.48906162351e-05
+xie_	童鞋真	noun	1.48658292979e-05
+xie_	婚礼连衣裙	noun	1.48353207206e-05
+xie_	杯垫	noun	1.482363447e-05
+xie_	款高领	noun	1.48091152791e-05
+xie_	丝光棉花	distinguishing word	1.47601435416e-05
+xie_	黑色光面	noun	1.47507660193e-05
+xie_	裤外贸	noun	1.47489070835e-05
+xie_	四季大象	noun	1.4741817433e-05
+xie_	四季方块	noun	1.4741817433e-05
+xie_	新款镂空透气	distinguishing word	1.471598271e-05
+xie_	脚跟垫	noun	1.47071253502e-05
+xie_	职业衬衫	noun	1.46781999871e-05
+xie_	桌上足球	locative word	1.46435139033e-05
+xie_	女士休闲裤	noun	1.46354385023e-05
+xie_	胖子加肥	noun	1.46353449041e-05
+xie_	女孩子鞋	noun	1.46160678367e-05
+xie_	俏皮蝴蝶结	adjective	1.45814944714e-05
+xie_	中老年人优质	noun	1.45712912927e-05
+xie_	毛线针织	noun	1.45441790455e-05
+xie_	羊皮垫	noun	1.45323978869e-05
+xie_	连衣裙收腰	noun	1.45055216203e-05
+xie_	淡色女士	noun	1.45049442266e-05
+xie_	热匡威Converse	noun	1.44927198415e-05
+xie_	男鞋SY	distinguishing word	1.44896910884e-05
+xie_	单鞋休	distinguishing word	1.44642030797e-05
+xie_	商务休闲庄爵	noun	1.44485928333e-05
+xie_	线条印花	noun	1.43949222019e-05
+xie_	舞蹈服演出	noun	1.43629618989e-05
+xie_	毛线上衣	noun	1.43535883987e-05
+xie_	胖女孩	adjective	1.43409265123e-05
+xie_	沙滩游泳	noun	1.43066884965e-05
+xie_	韩版春天	distinguishing word	1.42467697154e-05
+xie_	宽松飘逸	adjective	1.42420371223e-05
+xie_	柜简易	noun	1.42161888942e-05
+xie_	棉衣防寒	noun	1.41952899567e-05
+xie_	植物染	noun	1.4166596626e-05
+xie_	BLUMARINE	noun	1.41225159345e-05
+xie_	男装类目	noun	1.41163748594e-05
+xie_	时尚潮流演出潮	noun	1.40797059546e-05
+xie_	中学学生	noun	1.4052206369e-05
+xie_	袖西服	noun	1.4052206369e-05
+xie_	圆形复古	noun	1.40141658722e-05
+xie_	竹叶绿	noun	1.40018730673e-05
+xie_	薄款牛奶	adjective	1.39520146177e-05
+xie_	男夹克外套	distinguishing word	1.39061199789e-05
+xie_	板鞋贝壳	noun	1.38866111624e-05
+xie_	男士棉混纺	noun	1.38675637397e-05
+xie_	款面包服	noun	1.38638595959e-05
+xie_	TOKI	noun	1.38142670836e-05
+xie_	款空调	noun	1.38131165222e-05
+xie_	男潮韩	distinguishing word	1.38007986026e-05
+xie_	流光溢彩	noun	1.37870245232e-05
+xie_	文员	noun	1.37789390792e-05
+xie_	网状镂空	noun	1.3753721932e-05
+xie_	冰丝连衣裙	noun	1.37489454744e-05
+xie_	黑色羊绒	noun	1.37458648884e-05
+xie_	男士白色棉	noun	1.37451633869e-05
+xie_	女童时装	noun	1.37435134376e-05
+xie_	厚薄可选	noun	1.37174546032e-05
+xie_	专柜正品Converse	noun	1.37017208496e-05
+xie_	寸衫潮	classifier	1.36091661719e-05
+xie_	台湾专柜	noun	1.35974475323e-05
+xie_	袖披肩	noun	1.35597792832e-05
+xie_	欧美女	noun	1.35488734963e-05
+xie_	泡泡纱拼接	noun	1.35372767214e-05
+xie_	FUSEFORM	noun	1.35338501378e-05
+xie_	KLKX1628	noun	1.35053938784e-05
+xie_	单位制服	noun	1.35004108392e-05
+xie_	潮流编织	noun	1.34710902618e-05
+xie_	甜媛	adjective	1.34683596728e-05
+xie_	棉桑蚕丝	noun	1.34674265194e-05
+xie_	卡其欧尼	noun	1.33916325941e-05
+xie_	女板鞋学生	noun	1.33549882012e-05
+xie_	睡袍男	noun	1.33515552828e-05
+xie_	冬装爆款	noun	1.33293322272e-05
+xie_	正方形围巾	noun	1.33278141238e-05
+xie_	UPF50	noun	1.33225368888e-05
+xie_	圆领老虎	noun	1.33072605763e-05
+xie_	冬装卫衣	noun	1.32811266282e-05
+xie_	款天然	noun	1.32456321909e-05
+xie_	兔毛时尚	noun	1.32301832528e-05
+xie_	蕾丝提花	noun	1.32182565015e-05
+xie_	班服定做	noun	1.32162891829e-05
+xie_	吊带裤	noun	1.31901110399e-05
+xie_	背后字母印花	noun of locality	1.31782014515e-05
+xie_	彩凰	noun	1.31663804912e-05
+xie_	点子套装	noun	1.31510794857e-05
+xie_	外衣青少年	noun	1.31510794857e-05
+xie_	海军绿	noun	1.31480002938e-05
+xie_	户外漫步	locative word	1.31418138882e-05
+xie_	两用男士	noun	1.31343380553e-05
+xie_	儿童书包	noun	1.31343380553e-05
+xie_	硫磺绿	noun	1.31343380553e-05
+xie_	男单网	noun	1.31343380553e-05
+xie_	圆头厚	noun	1.3129946636e-05
+xie_	皮带男	noun	1.31028129577e-05
+xie_	太空棉棒球服	noun	1.30962317152e-05
+xie_	脐带魔术贴	noun	1.30957011061e-05
+xie_	中大童漏	distinguishing word	1.30758530278e-05
+xie_	经典男裤	noun	1.30405324165e-05
+xie_	橄榄灰	noun	1.30389412829e-05
+xie_	职业装套装	noun	1.29278686168e-05
+xie_	领带短袖	noun	1.2907948459e-05
+xie_	足球鞋透明	noun	1.29048918966e-05
+xie_	卡通狸猫	noun	1.28659816025e-05
+xie_	刺绣大象	noun	1.28659816025e-05
+xie_	春秋遮阳	noun	1.28459880305e-05
+xie_	威尼斯红	noun	1.28403610675e-05
+xie_	运动鞋高尔夫	noun	1.28167643508e-05
+xie_	春秋装新款	noun	1.28167643508e-05
+xie_	纯色风采	noun	1.28162071811e-05
+xie_	绸缎旗袍	noun	1.27711909991e-05
+xie_	运动鞋椰子	noun	1.276488225e-05
+xie_	中大童泼墨	distinguishing word	1.27620430665e-05
+xie_	新款男式	distinguishing word	1.27553480234e-05
+xie_	新款足球运动	distinguishing word	1.27553480234e-05
+xie_	女童西瓜	noun	1.2744348845e-05
+xie_	牛皮秀气	noun	1.27439014169e-05
+xie_	男士棒球服	noun	1.27067377234e-05
+xie_	宝宝三角	noun	1.26755179228e-05
+xie_	男平脚	distinguishing word	1.2656764892e-05
+xie_	青年宴会	noun	1.26114044362e-05
+xie_	气质睡袍	noun	1.26114044362e-05
+xie_	美丽公主	adjective	1.25838010478e-05
+xie_	板鞋帆布鞋	noun	1.25623371081e-05
+xie_	韩版免	distinguishing word	1.25312968485e-05
+xie_	中长款百褶裙	noun	1.25162127482e-05
+xie_	TB6607	noun	1.25074174263e-05
+xie_	条纹聚拢	noun	1.24880125899e-05
+xie_	新款首发圆头	distinguishing word	1.24571518649e-05
+xie_	凉拖女式	adjective	1.24238554918e-05
+xie_	KRUZIN	noun	1.24013296977e-05
+xie_	款天蓝色	noun	1.23701728289e-05
+xie_	韩版尖	distinguishing word	1.23578785017e-05
+xie_	鞋自行车	noun	1.2316055089e-05
+xie_	恐龙连体睡衣	noun	1.22874186049e-05
+xie_	五指鞋	noun	1.22403373104e-05
+xie_	内裤组合	noun	1.21815261204e-05
+xie_	商务工装	noun	1.21567231849e-05
+xie_	鞋交叉	noun	1.21520808649e-05
+xie_	freeshare	noun	1.21318171644e-05
+xie_	宽松蝙蝠	adjective	1.21069138303e-05
+xie_	士韩版	noun	1.20964770025e-05
+xie_	青少年初中生	noun	1.20869883543e-05
+xie_	qipao	noun	1.20832687305e-05
+xie_	欧洲原装进口	noun	1.20759913484e-05
+xie_	鱼饵	noun	1.20508672706e-05
+xie_	精美花边	adjective	1.2047812096e-05
+xie_	婴儿外出服	noun	1.20423549907e-05
+xie_	步履鞋	noun	1.20271025736e-05
+xie_	中学生鞋	noun	1.20248851377e-05
+xie_	网纱三角裤	noun	1.20248460092e-05
+xie_	轻奢侈	adjective	1.20191603278e-05
+xie_	夏秋季时尚潮流	noun	1.20156641652e-05
+xie_	薄款无缝	adjective	1.1985427051e-05
+xie_	机械人	noun	1.19741886226e-05
+xie_	奶牛拼色	noun	1.19559422551e-05
+xie_	波司登童装	noun	1.19298876421e-05
+xie_	紧身牛仔长裤	noun	1.19141486513e-05
+xie_	美丽绒	adjective	1.19107849375e-05
+xie_	care	noun	1.18819907003e-05
+xie_	舒适休息	adjective	1.18788089207e-05
+xie_	中老年妇女	noun	1.18607946672e-05
+xie_	基础百搭	noun	1.18274194718e-05
+xie_	韩版闪	distinguishing word	1.18271144408e-05
+xie_	豆沙+	noun	1.18164595748e-05
+xie_	牌老鹰	noun	1.17896927385e-05
+xie_	工装鞋护士	noun	1.1771974156e-05
+xie_	薄款灯笼裤	adjective	1.17586188595e-05
+xie_	科技缓震	noun	1.17487861264e-05
+xie_	儿童便服	noun	1.17434966829e-05
+xie_	丝棉男士	noun	1.17379682458e-05
+xie_	A081	noun	1.17297714093e-05
+xie_	网布拼接	noun	1.17279833071e-05
+xie_	牛仔布帆布鞋	noun	1.17120902052e-05
+xie_	TAMD81261	noun	1.17076054958e-05
+xie_	旗袍印花	noun	1.17032637051e-05
+xie_	时尚压	noun	1.17032637051e-05
+xie_	绿盒子	adjective	1.16982314811e-05
+xie_	牛皮靴子	noun	1.16916648784e-05
+xie_	保暖制服	adjective	1.16850196333e-05
+xie_	会场爆款	noun	1.16682171651e-05
+xie_	海边度假裙	locative word	1.16304458109e-05
+xie_	褶折	noun	1.16059457973e-05
+xie_	舞蹈练习	noun	1.16042127388e-05
+xie_	新款简约时尚	distinguishing word	1.15985044368e-05
+xie_	指针	noun	1.15827989441e-05
+xie_	女童通用	noun	1.15467456024e-05
+xie_	里料	noun of locality	1.15415900719e-05
+xie_	医院工作鞋	noun	1.15177502354e-05
+xie_	上下拼色	noun of locality	1.15156041012e-05
+xie_	KHOTY	noun	1.15144266406e-05
+xie_	体恤衫男装	noun	1.14996905512e-05
+xie_	部队训练鞋	noun	1.14984565862e-05
+xie_	弹性小脚裤	noun	1.14831030826e-05
+xie_	皮靴青少年运动	noun	1.14825652871e-05
+xie_	帽马夹	noun	1.14766316167e-05
+xie_	冬装新款文艺	noun	1.14700882002e-05
+xie_	男士手表	noun	1.14396734444e-05
+xie_	貂绒衫圆领	noun	1.14350015254e-05
+xie_	鞋独家	noun	1.14263811652e-05
+xie_	水手印花	noun	1.14225991013e-05
+xie_	理发师男	noun	1.14225991013e-05
+xie_	旗袍晚礼服	noun	1.14098198937e-05
+xie_	英格里奥	noun	1.13674323626e-05
+xie_	绒布休闲	noun	1.13542363738e-05
+xie_	雅紫色	adjective	1.13435425664e-05
+xie_	棉布短袖	noun	1.13302288222e-05
+xie_	HYDROGEN	noun	1.13180417922e-05
+xie_	jean	noun	1.12978864237e-05
+xie_	刺绣LOGO	noun	1.12755695596e-05
+xie_	XC3010QSJA34	noun	1.12200933073e-05
+xie_	格纹饰	distinguishing word	1.11554557195e-05
+xie_	仙女长裙	noun	1.11431528503e-05
+xie_	衫丽	noun	1.1109354606e-05
+xie_	衬衫套裙	noun	1.10987953931e-05
+xie_	文胸聚拢	noun	1.10878394537e-05
+xie_	荧光亮绿	noun	1.10182263679e-05
+xie_	皇冠字母	noun	1.10182263679e-05
+xie_	款银	noun	1.09876700636e-05
+xie_	超高粗跟	distinguishing word	1.09518932439e-05
+xie_	时尚表演	noun	1.08992101236e-05
+xie_	纯色光面	noun	1.08596102735e-05
+xie_	纯棉水洗男士	noun	1.08536298754e-05
+xie_	时尚数字	noun	1.08513327041e-05
+xie_	铝合金	noun	1.08128186916e-05
+xie_	牛皮配	noun	1.07896604422e-05
+xie_	鞋柜欧式	noun	1.07757833048e-05
+xie_	麦韩亲子装	noun	1.07713069227e-05
+xie_	隐形哺乳	distinguishing word	1.07387125015e-05
+xie_	非谜	distinguishing word	1.0729165063e-05
+xie_	工装裤潮	noun	1.06978520532e-05
+xie_	麻花中长款	noun	1.0692214292e-05
+xie_	拖鞋男女夏	noun	1.06860557962e-05
+xie_	套鞋男鞋	noun	1.06768224004e-05
+xie_	英雄联盟LOL	noun	1.06675784691e-05
+xie_	日韩时尚简约	noun	1.0661654841e-05
+xie_	铆钉流苏	noun	1.06616324649e-05
+xie_	巧祺	noun	1.06519867021e-05
+xie_	女童大小	noun	1.06472232896e-05
+xie_	LASCANA	noun	1.06459024009e-05
+xie_	尼外套	distinguishing word	1.06455519218e-05
+xie_	风潮男装	noun	1.06321488634e-05
+xie_	淑女旗袍连衣裙	noun	1.06197900231e-05
+xie_	韩版蛇	distinguishing word	1.05960420241e-05
+xie_	慢跑步鞋子	adjective	1.05665875653e-05
+xie_	字拖沙滩	noun	1.05543167045e-05
+xie_	松紧带休闲裤	noun	1.05519467222e-05
+xie_	镜面皮	noun	1.05217159576e-05
+xie_	门将手套	noun	1.04905680024e-05
+xie_	女士法兰绒	noun	1.04903558036e-05
+xie_	纯色牛津纺	noun	1.04731829704e-05
+xie_	青苔绿	noun	1.04720684668e-05
+xie_	Dsquared2	noun	1.04345891519e-05
+xie_	韩版狗	distinguishing word	1.04296084782e-05
+xie_	轻盈百搭	adjective	1.04294736779e-05
+xie_	男皮衣	distinguishing word	1.04152530905e-05
+xie_	场上战靴	locative word	1.04003345267e-05
+xie_	英伦暗黑	noun	1.03961270078e-05
+xie_	幼童保暖	noun	1.03674245486e-05
+xie_	中长款学生装	noun	1.03576095958e-05
+xie_	日常户外登山鞋	distinguishing word	1.03522992117e-05
+xie_	保暖舒适二棉	adjective	1.03137966384e-05
+xie_	牛津布	noun	1.02995840009e-05
+xie_	钛白	noun	1.02968497659e-05
+xie_	清凉薄款	adjective	1.0270316298e-05
+xie_	跟细跟	preposition	1.0261845478e-05
+xie_	beam	noun	1.0247427405e-05
+xie_	潮流涂鸦	noun	1.02378249664e-05
+xie_	儿童舞蹈鞋	noun	1.02155288771e-05
+xie_	中大童真	noun	1.02075972144e-05
+xie_	少年儿童	noun	1.02056193103e-05
+xie_	真丝交织	noun	1.01991484701e-05
+xie_	澜驰	noun	1.01942442949e-05
+xie_	青少年运动青	noun	1.0192547275e-05
+xie_	重工钉珠	noun	1.01762903609e-05
+xie_	披风斗篷	noun	1.01423205527e-05
+xie_	学生装印花	noun	1.01318857992e-05
+xie_	漆皮板鞋	noun	1.01198550778e-05
+xie_	桑蚕丝裙子	noun	1.0115548466e-05
+xie_	韩版学生装	distinguishing word	1.00900388395e-05
+xie_	清凉短裤	adjective	1.00848223252e-05
+xie_	衣橱	noun	1.00821076454e-05
+xie_	小人短袖	noun	1.00714092474e-05
+xie_	沙滩凉拖	noun	1.00642222799e-05
+xie_	古装帽	noun	1.00169548572e-05
+xie_	旅游鞋韩版	noun	1.00106556712e-05
+xie_	胸背心式	noun	1.00054184025e-05
+xie_	老年人松紧腰	noun	9.9887731385e-06
+xie_	防风防晒	noun	9.97661001703e-06
+xie_	星星刺绣	noun	9.97319640063e-06
+xie_	阿信	noun	9.95797466928e-06
+xie_	韩版绅士	distinguishing word	9.95797466928e-06
+xie_	港仔店主	noun	9.93306262369e-06
+xie_	男士胖子	noun	9.912253114e-06
+xie_	沙棉	noun	9.89273294131e-06
+xie_	红人款	noun	9.89273294131e-06
+xie_	女童分体	noun	9.88755062789e-06
+xie_	时尚潮流皮质	noun	9.87997465647e-06
+xie_	灯芯绒西服	noun	9.85261591773e-06
+xie_	春夏装	noun	9.84911813955e-06
+xie_	男单衬衣	noun	9.830383717e-06
+xie_	宽松数字	adjective	9.830383717e-06
+xie_	职业白领	noun	9.81145087081e-06
+xie_	麻醉师	noun	9.81051795448e-06
+xie_	新款常规	distinguishing word	9.78794936129e-06
+xie_	胖子装	noun	9.77813774971e-06
+xie_	加毛保暖	noun	9.77740953989e-06
+xie_	四季胖胖	noun	9.76823051602e-06
+xie_	四季草莓	noun	9.76823051602e-06
+xie_	1M38859	noun	9.75811741311e-06
+xie_	女式衬衫	distinguishing word	9.75646348941e-06
+xie_	男童勇士	noun	9.74177400602e-06
+xie_	螺纹百搭	noun	9.73641672507e-06
+xie_	B0430000	noun	9.72941239953e-06
+xie_	学生休闲	noun	9.72459057498e-06
+xie_	百家姓功夫衫	noun	9.71944703237e-06
+xie_	西服西裤	noun	9.69950659511e-06
+xie_	桔红裤	distinguishing word	9.68952824022e-06
+xie_	羽毛球包	noun	9.66988669113e-06
+xie_	行政西装	noun	9.6568965362e-06
+xie_	光泽阔腿	noun	9.6418388683e-06
+xie_	韩版烫金	distinguishing word	9.603841657e-06
+xie_	连体泳衣	noun	9.5971144776e-06
+xie_	新款短袖	distinguishing word	9.55956916707e-06
+xie_	Asics	noun	9.55731213305e-06
+xie_	新款二棉	distinguishing word	9.55544472268e-06
+xie_	纯羊绒衫	adjective	9.53845787236e-06
+xie_	舒适轻便	adjective	9.53126215917e-06
+xie_	羊皮绒	noun	9.52892616466e-06
+xie_	拖鞋宽松舒适	noun	9.52858991171e-06
+xie_	长发公主	noun	9.51497981982e-06
+xie_	管家	noun	9.50113250816e-06
+xie_	耐磨徒步	adjective	9.48693944458e-06
+xie_	兔子图案印花	noun	9.48220685885e-06
+xie_	套装短衣	noun	9.46445027688e-06
+xie_	塔夫绸	noun	9.44846065637e-06
+xie_	外贸半身裙	noun	9.43978071305e-06
+xie_	中空一	locative word	9.43443616672e-06
+xie_	鸳鸯战靴	noun	9.43443616672e-06
+xie_	家居睡衣	noun	9.40595850469e-06
+xie_	DONDUP	noun	9.40590033153e-06
+xie_	阴影条纹	noun	9.35349540803e-06
+xie_	质感男士	noun	9.35349540803e-06
+xie_	耐克官方	noun	9.34030641464e-06
+xie_	麦黄	noun	9.33971927647e-06
+xie_	实拍大量	adjective	9.33108044231e-06
+xie_	人气爆款	noun	9.33080329125e-06
+xie_	连体衣哈	noun	9.30912548683e-06
+xie_	芭蕾鞋	noun	9.28044112307e-06
+xie_	男装供应	noun	9.26040024226e-06
+xie_	军装外套	noun	9.24978594453e-06
+xie_	男士褐色	noun	9.23714740733e-06
+xie_	优质韩版	distinguishing word	9.23196603439e-06
+xie_	COOREENA	noun	9.22261946429e-06
+xie_	韩版精致	distinguishing word	9.21888131132e-06
+xie_	智能跑步鞋	noun	9.20123289746e-06
+xie_	鞋LX	noun	9.18533002681e-06
+xie_	马海毛加厚	noun	9.18049424679e-06
+xie_	色调内裤	noun	9.16606554736e-06
+xie_	套装潮韩版	noun	9.16037471695e-06
+xie_	连体袜	noun	9.15270567679e-06
+xie_	连衣裙飘逸	noun	9.13733646267e-06
+xie_	薄款父亲	adjective	9.1286352791e-06
+xie_	精工刺绣	noun	9.1272161189e-06
+xie_	宝宝保健	noun	9.08962151433e-06
+xie_	无缝内衣	distinguishing word	9.08962151433e-06
+xie_	款褐色	noun	9.0859659943e-06
+xie_	SM60181	noun	9.03762307967e-06
+xie_	夹克jacket	noun	9.03518752712e-06
+xie_	道教	noun	9.00748503595e-06
+xie_	时尚珍珠	noun	8.99443720556e-06
+xie_	曲珠	noun	8.96370307467e-06
+xie_	时尚糖果色	noun	8.94389929344e-06
+xie_	清凉百搭	adjective	8.93973771062e-06
+xie_	纯色单面	noun	8.93450537471e-06
+xie_	DQ8003	noun	8.92924889676e-06
+xie_	中长款牛仔衫	noun	8.90869377536e-06
+xie_	女士棉纺	noun	8.88495865893e-06
+xie_	宽松彩虹	adjective	8.88102104947e-06
+xie_	女孩童装	noun	8.87191285057e-06
+xie_	大树印花	noun	8.85447594335e-06
+xie_	衫领口	noun	8.84475399005e-06
+xie_	T3113	noun	8.83995165651e-06
+xie_	字鱼尾	noun	8.82013569741e-06
+xie_	薄料	adjective	8.8192447508e-06
+xie_	女童萌动	noun	8.81012758932e-06
+xie_	四季款新款	noun	8.79939925803e-06
+xie_	单鞋四季	distinguishing word	8.78864403324e-06
+xie_	舞会裙	noun	8.72787753342e-06
+xie_	木炭色	noun	8.72787753342e-06
+xie_	鞋靴	noun	8.71858171202e-06
+xie_	金属质感	noun	8.70478179596e-06
+xie_	BARBA	noun	8.70478179596e-06
+xie_	个性剪裁	noun	8.69636502979e-06
+xie_	A807	noun	8.68764053286e-06
+xie_	小孩雨披	noun	8.68750424119e-06
+xie_	超薄超轻	distinguishing word	8.68339442139e-06
+xie_	披肩纱巾	noun	8.67838330665e-06
+xie_	鞋中考	noun	8.67516596243e-06
+xie_	羊绒保暖	noun	8.67503082674e-06
+xie_	婴儿床	noun	8.66928035957e-06
+xie_	羽绒坎肩	noun	8.65763251491e-06
+xie_	连衣裙露	noun	8.64882427722e-06
+xie_	超市咖啡厅	noun	8.64550960776e-06
+xie_	胶鞋休闲	noun	8.63521147004e-06
+xie_	丝袜连裤袜	noun	8.61462614808e-06
+xie_	连裤袜防勾	noun	8.61462614808e-06
+xie_	藤黄	noun	8.61310184124e-06
+xie_	条纹体恤衫	noun	8.60585534528e-06
+xie_	卡纷	noun	8.57730569859e-06
+xie_	MONNALISA	noun	8.57730569859e-06
+xie_	FENDI	noun	8.53276991052e-06
+xie_	鞋欧洲	noun	8.53063366431e-06
+xie_	中大童校服	distinguishing word	8.50607647343e-06
+xie_	新款女士	distinguishing word	8.49217482311e-06
+xie_	款成人	noun	8.43948307293e-06
+xie_	韩版流	distinguishing word	8.42461135139e-06
+xie_	清凉休闲鞋	adjective	8.42026189096e-06
+xie_	妈妈鞋蛋卷	noun	8.41615873071e-06
+xie_	薄款风衣	adjective	8.40260543049e-06
+xie_	精仿	adjective	8.36997441454e-06
+xie_	日常时尚	distinguishing word	8.35363580737e-06
+xie_	简约铅笔裤	adjective	8.34190976116e-06
+xie_	+B22	punctuation mark	8.34085491455e-06
+xie_	服饰棉麻	noun	8.33141651778e-06
+xie_	型廓	noun	8.31603633645e-06
+xie_	春夏天	noun	8.31502749416e-06
+xie_	配方	noun	8.29728153319e-06
+xie_	半身长裙	noun	8.26818423748e-06
+xie_	常春藤系列	noun	8.2511397393e-06
+xie_	毛针织衫	noun	8.24989984452e-06
+xie_	青春街头	noun	8.24352263587e-06
+xie_	优质面料	distinguishing word	8.23144447307e-06
+xie_	青少年运动旅	noun	8.20814011012e-06
+xie_	生日礼服裙	noun	8.1964510321e-06
+xie_	新款春夏	noun	8.19644586656e-06
+xie_	韩版街	distinguishing word	8.19319941195e-06
+xie_	女士雨鞋	noun	8.18058116212e-06
+xie_	鞋马拉松鞋	noun	8.1731051813e-06
+xie_	装饰男士	noun	8.16916295277e-06
+xie_	鞋乐福	noun	8.16671618233e-06
+xie_	JZ03QSJA34	noun	8.13051542178e-06
+xie_	新款高档	distinguishing word	8.11911400953e-06
+xie_	Canali	noun	8.11014341244e-06
+xie_	简单短袖	adjective	8.10734405633e-06
+xie_	四季鞋单鞋	noun	8.10639438281e-06
+xie_	羊皮皮鞋	noun	8.10527584337e-06
+xie_	男士水洗	noun	8.09261500543e-06
+xie_	男水貂	distinguishing word	8.07728377658e-06
+xie_	皮鞋老人	noun	8.07675981886e-06
+xie_	锁头鞋	noun	8.06776322526e-06
+xie_	女士围脖	noun	8.06507290395e-06
+xie_	黄胶片	noun	8.04041108375e-06
+xie_	室内专业运动鞋	locative word	8.01085090046e-06
+xie_	绿巨人	noun	8.00411391865e-06
+xie_	女装领口	noun	7.96199705061e-06
+xie_	全棉纯色	noun	7.96111894735e-06
+xie_	场下男鞋	locative word	7.94909296457e-06
+xie_	单面内衣	distinguishing word	7.87848117262e-06
+xie_	裙婚纱	noun	7.86737690407e-06
+xie_	鞋工装	noun	7.85798921015e-06
+xie_	衫遮阳	noun	7.85650853119e-06
+xie_	生日熊	noun	7.85397729781e-06
+xie_	优鲨春装	adjective	7.8467704346e-06
+xie_	草原狼	noun	7.84547807585e-06
+xie_	上装潮	noun	7.84547807585e-06
+xie_	鞋总长	noun	7.84445756373e-06
+xie_	男鞋团队	distinguishing word	7.83386162007e-06
+xie_	韩版风情	distinguishing word	7.82006826831e-06
+xie_	拉丁服	noun	7.81365099968e-06
+xie_	男沙滩裤	distinguishing word	7.81365099968e-06
+xie_	韩版香槟	distinguishing word	7.7980648943e-06
+xie_	婴幼儿下装	noun	7.76089125153e-06
+xie_	裤现货	noun	7.75782409878e-06
+xie_	特别版	adjective	7.74871106564e-06
+xie_	新款NB	distinguishing word	7.74486373131e-06
+xie_	质量新款	noun	7.73120795567e-06
+xie_	府绸	noun	7.68024654742e-06
+xie_	靴交叉	noun	7.67716141644e-06
+xie_	凉鞋夏季精品	noun	7.63682076439e-06
+xie_	潮男毛线	noun	7.62833847367e-06
+xie_	男式太阳	distinguishing word	7.61809873271e-06
+xie_	嫩黄拼色	distinguishing word	7.61728842983e-06
+xie_	伴郎西服	noun	7.61588462112e-06
+xie_	夏天薄款	noun	7.59786059098e-06
+xie_	合金扣	noun	7.58619532643e-06
+xie_	圆领字母印花	noun	7.58238735005e-06
+xie_	铅笔裤十分	noun	7.56041840363e-06
+xie_	空调鞋	noun	7.55950240045e-06
+xie_	春夏秋冬新款	noun	7.5469608135e-06
+xie_	胖子拼接	noun	7.53953114132e-06
+xie_	儿童眼镜	noun	7.53372391873e-06
+xie_	俏色	adjective	7.51052849511e-06
+xie_	浅红色	adjective	7.49418019147e-06
+xie_	形蕾丝	noun	7.49022271788e-06
+xie_	CTBB	noun	7.49019133225e-06
+xie_	Palomitas	noun	7.4846094567e-06
+xie_	牛皮电镀	noun	7.48248183147e-06
+xie_	长袖动物	noun	7.45171743841e-06
+xie_	链接	noun	7.44139421618e-06
+xie_	fessura	noun	7.43716923114e-06
+xie_	青少年休闲服	noun	7.43076318216e-06
+xie_	时尚毛衫	noun	7.4300208222e-06
+xie_	勇士冲锋	noun	7.41265796427e-06
+xie_	WOOLRICH	noun	7.40576591564e-06
+xie_	中长款仿真	noun	7.40204062632e-06
+xie_	糖果色男士	noun	7.39467289397e-06
+xie_	夏秋季日常时尚	noun	7.39156697849e-06
+xie_	P0042	noun	7.38894028052e-06
+xie_	鞋果冻	noun	7.37075925561e-06
+xie_	兔毛皮	noun	7.37020302488e-06
+xie_	灰白拼	status word	7.36863951138e-06
+xie_	校服套装	noun	7.36595427949e-06
+xie_	民族风元素	noun	7.35076513341e-06
+xie_	圆头套	noun	7.33733074748e-06
+xie_	毛拖鞋	noun	7.33539556214e-06
+xie_	两用裤	noun	7.30156714107e-06
+xie_	学生装简约	noun	7.28655960762e-06
+xie_	男士暗红	noun	7.27739811058e-06
+xie_	轻盈舒适	adjective	7.24859361263e-06
+xie_	女装代理	noun	7.23463617656e-06
+xie_	男士胸口	noun	7.23463617656e-06
+xie_	短袖学生装	distinguishing word	7.23463617656e-06
+xie_	臀连衣裙	noun	7.21519222302e-06
+xie_	方根粗跟	noun	7.21309877734e-06
+xie_	儿童芭蕾舞	noun	7.2117126711e-06
+xie_	妩媚女士	adjective	7.20674320056e-06
+xie_	纤体	noun	7.1944526666e-06
+xie_	公主靴	noun	7.19406872158e-06
+xie_	海滨蓝	locative word	7.19073338179e-06
+xie_	23.5CM	noun	7.16662029445e-06
+xie_	24.5CM	noun	7.16662029445e-06
+xie_	洋+	adjective	7.16646429805e-06
+xie_	短袖班服	distinguishing word	7.16646429805e-06
+xie_	春装新款文艺	noun	7.16594101782e-06
+xie_	船员领	noun	7.13925721317e-06
+xie_	毛衣套衫	noun	7.1341365859e-06
+xie_	鞋气	noun	7.12381451147e-06
+xie_	男士轻薄	noun	7.11565082697e-06
+xie_	儿男童	noun	7.07588677253e-06
+xie_	桑时尚	noun	7.07018676446e-06
+xie_	室内木地板	locative word	7.05584386106e-06
+xie_	钓饵	noun	7.04608628738e-06
+xie_	xbionic	noun	7.04107795556e-06
+xie_	吊带连衣裙	noun	7.03897671827e-06
+xie_	遮阳帽防	noun	7.03740549855e-06
+xie_	不规则拼接	adjective	7.03599197534e-06
+xie_	军装长裤	noun	7.02615840174e-06
+xie_	溜冰鞋成年	noun	7.01528405537e-06
+xie_	领口短袖	noun	7.00512667326e-06
+xie_	螺纹小脚	noun	7.00266428226e-06
+xie_	牛皮棉鞋	noun	7.00111631576e-06
+xie_	分体比基尼	distinguishing word	7.00029948829e-06
+xie_	珍珠粉	noun	6.99482155104e-06
+xie_	夏装中大童	noun	6.98573536098e-06
+xie_	彩绘休闲	noun	6.97328979065e-06
+xie_	帽食品	noun	6.95533214185e-06
+xie_	新款桑蚕丝	distinguishing word	6.9161680249e-06
+xie_	女士便鞋	noun	6.8784697931e-06
+xie_	韩版结婚	distinguishing word	6.87353188514e-06
+xie_	GEOX	noun	6.85637838401e-06
+xie_	Mocmoc	noun	6.81623749248e-06
+xie_	新品发布	noun	6.80673455522e-06
+xie_	蝴蝶结女童	noun	6.80574740805e-06
+xie_	时尚刀锋	noun	6.80574740805e-06
+xie_	新款正品	distinguishing word	6.79111204327e-06
+xie_	生日礼物	noun	6.78944938066e-06
+xie_	胖MM冬装	adjective	6.7866405522e-06
+xie_	印花牡丹	distinguishing word	6.78064167247e-06
+xie_	皮面透气	noun	6.76575719586e-06
+xie_	潮流衬衫青少年	noun	6.76545347299e-06
+xie_	款新生儿	noun	6.7630259462e-06
+xie_	鞋nb	noun	6.76050547258e-06
+xie_	慢生活	adjective	6.74956852692e-06
+xie_	男士巧克力色	noun	6.72890228663e-06
+xie_	夏新男士	noun	6.70809389749e-06
+xie_	貂毛线	noun	6.69334081824e-06
+xie_	款浅色	noun	6.6584480027e-06
+xie_	手掌杯	noun	6.64593540345e-06
+xie_	男士浅色	noun	6.64593540345e-06
+xie_	拳击鞋	noun	6.64098933486e-06
+xie_	双面尼	distinguishing word	6.64040737122e-06
+xie_	H222	noun	6.63095066915e-06
+xie_	罗纹透气	noun	6.61076720447e-06
+xie_	T910	noun	6.59766781608e-06
+xie_	男士炭	noun	6.58669362352e-06
+xie_	漏斗领	noun	6.58669362352e-06
+xie_	耳朵棒球	noun	6.57342848933e-06
+xie_	夏装主	noun	6.57342848933e-06
+xie_	足球比赛	noun	6.56146948026e-06
+xie_	短袖下装	distinguishing word	6.5589327379e-06
+xie_	睡袋春秋	noun	6.55419468883e-06
+xie_	潮流体恤衫	noun	6.54903139784e-06
+xie_	雨伞女士	noun	6.53771381837e-06
+xie_	若白	noun	6.529540623e-06
+xie_	长袖外套	noun	6.51998620842e-06
+xie_	童鞋菠萝	noun	6.51483527551e-06
+xie_	憨豆龙	adjective	6.50065132363e-06
+xie_	甜美公主	adjective	6.46524978309e-06
+xie_	高挑显	adjective	6.45594490172e-06
+xie_	NANAN	noun	6.44855272611e-06
+xie_	杂物包	noun	6.43318440327e-06
+xie_	外罩衫	noun of locality	6.42364467978e-06
+xie_	口尖头中空	noun	6.3678923841e-06
+xie_	绒围巾	noun	6.36357162909e-06
+xie_	文胸虾	noun	6.35355868784e-06
+xie_	零食	noun	6.34462310481e-06
+xie_	父子韩版	noun	6.3386586355e-06
+xie_	大头鞋男	noun	6.31942256162e-06
+xie_	通用杯	noun	6.31405949858e-06
+xie_	丝绒外套	noun	6.31041182869e-06
+xie_	浪漫童话	adjective	6.29468226423e-06
+xie_	慧乐	noun	6.29468226423e-06
+xie_	金属装饰舒适	noun	6.29148858095e-06
+xie_	前扣性感	noun	6.27685474798e-06
+xie_	前卫百搭	noun	6.25049995601e-06
+xie_	C225	noun	6.23145759729e-06
+xie_	袖丝绸	noun	6.22872586518e-06
+xie_	贴身短袖	adjective	6.22872586518e-06
+xie_	男士旅游鞋	noun	6.22846027477e-06
+xie_	擎天柱印花	noun	6.20151762256e-06
+xie_	动感派对	noun	6.20151762256e-06
+xie_	简装	adjective	6.20151762256e-06
+xie_	多彩童年	status word	6.20151762256e-06
+xie_	螺纹收口	noun	6.20151762256e-06
+xie_	哈衣爬	distinguishing word	6.18923050068e-06
+xie_	卡通喂奶	noun	6.18313702167e-06
+xie_	工装鞋保	noun	6.17904790327e-06
+xie_	宝石紫	noun	6.16947435755e-06
+xie_	鞋韩版青春	noun	6.16387840286e-06
+xie_	棉柔	noun	6.15361841095e-06
+xie_	韩版领口	distinguishing word	6.14416574234e-06
+xie_	新款劳保	distinguishing word	6.13848271279e-06
+xie_	青少年非主流	noun	6.12011921474e-06
+xie_	肚脐围	noun	6.10835298089e-06
+xie_	便捷魔术	adjective	6.10835298089e-06
+xie_	女神蕾丝	noun	6.10428081693e-06
+xie_	妈妈装婚礼	noun	6.09455670595e-06
+xie_	马海毛时尚	noun	6.09152179975e-06
+xie_	中花灰	noun	6.09017317199e-06
+xie_	潮鞋帮	noun	6.06948523671e-06
+xie_	灯芯绒裤男	noun	6.06613387937e-06
+xie_	腰际	noun	6.06008027108e-06
+xie_	褶连衣裙	noun	6.0431999526e-06
+xie_	韩版棉袄	distinguishing word	6.04074028297e-06
+xie_	杯怀孕期产后	noun	6.03672424994e-06
+xie_	COSTUMENCOSTUME	noun	6.02778375106e-06
+xie_	褂青年	noun	6.0235830354e-06
+xie_	韩版DOPE	distinguishing word	6.02162142926e-06
+xie_	三合一冲锋	noun	6.01777013145e-06
+xie_	儿童机能	noun	6.01518833922e-06
+xie_	棉花边	noun	6.01457052905e-06
+xie_	新潮舞蹈鞋	noun	6.01452411259e-06
+xie_	腿神	noun	6.01186055507e-06
+xie_	印花双层	distinguishing word	6.01186055507e-06
+xie_	套装网球	noun	6.01040928987e-06
+xie_	棉纺半身裙	distinguishing word	6.00978491466e-06
+xie_	小女童装	noun	5.96350504515e-06
+xie_	男童男孩	noun	5.95156212271e-06
+xie_	手术鞋	noun	5.9440629405e-06
+xie_	韩版白搭	distinguishing word	5.9305134804e-06
+xie_	战术军	noun	5.92827169255e-06
+xie_	李宁夏	noun	5.92712548087e-06
+xie_	个性英文	noun	5.92214187316e-06
+xie_	初中版	noun	5.92202369755e-06
+xie_	斜纹卡	noun	5.91933256107e-06
+xie_	韩版女裤	distinguishing word	5.91675330032e-06
+xie_	高帮减震	noun	5.90078137244e-06
+xie_	孕妇专用	noun	5.90030765368e-06
+xie_	机车韩版	noun	5.89456316546e-06
+xie_	成人儿童跆拳道	noun	5.89431687892e-06
+xie_	城市红	noun	5.88102563117e-06
+xie_	城市蓝	noun	5.88102563117e-06
+xie_	摩登灰	adjective	5.88102563117e-06
+xie_	棉果果	noun	5.85870724437e-06
+xie_	棉府绸	noun	5.85613542267e-06
+xie_	棉辅料	noun	5.85613542267e-06
+xie_	鞋适合	noun	5.85613542267e-06
+xie_	男士发热	noun	5.85062005718e-06
+xie_	保暖加绒	adjective	5.84806088043e-06
+xie_	华美钉珠	noun	5.84557367302e-06
+xie_	元素短袖	noun	5.84074767892e-06
+xie_	ZK11	noun	5.83827375098e-06
+xie_	酒店工作鞋	noun	5.83827188964e-06
+xie_	宝宝多功能	noun	5.83696676149e-06
+xie_	款风衣	noun	5.83587095142e-06
+xie_	英码	distinguishing word	5.82691868775e-06
+xie_	蓝米格	adjective	5.82635061196e-06
+xie_	补丁破洞	noun	5.81417452201e-06
+xie_	真皮牛	noun	5.80764752903e-06
+xie_	韩版猫头鹰	distinguishing word	5.76822706783e-06
+xie_	活力青年	noun	5.75085727951e-06
+xie_	日常男士	distinguishing word	5.74948405747e-06
+xie_	汗蒸	noun	5.74250860881e-06
+xie_	大气简约	noun	5.7150931731e-06
+xie_	雪地靴女真	noun	5.6973023355e-06
+xie_	字母铁塔	noun	5.69094397665e-06
+xie_	礼拜帽	noun	5.69055192994e-06
+xie_	夏装新款复	noun	5.67950381501e-06
+xie_	新款罗纹	distinguishing word	5.669800814e-06
+xie_	户外运动越野	locative word	5.66975945971e-06
+xie_	大衣外套	noun	5.66308226863e-06
+xie_	炽风	noun	5.65929850206e-06
+xie_	潮流网布	noun	5.65405784407e-06
+xie_	针织长裤	distinguishing word	5.64190200891e-06
+xie_	牛皮闪耀	noun	5.63985488402e-06
+xie_	学生装雪纺	noun	5.63944258927e-06
+xie_	中长款大衣	noun	5.63944258927e-06
+xie_	男装Ta	noun	5.6293626939e-06
+xie_	帆布硫化鞋	noun	5.62577325835e-06
+xie_	人气百搭	noun	5.62128983252e-06
+xie_	领结连衣裙	noun	5.60585756022e-06
+xie_	新款宽大	distinguishing word	5.60444828628e-06
+xie_	家庭装全家	noun	5.59992068143e-06
+xie_	老年人夏装	noun	5.59898880496e-06
+xie_	松紧带纯色	noun	5.59508151099e-06
+xie_	披肩连衣裙	noun	5.59508151099e-06
+xie_	女童美女	noun	5.59508151099e-06
+xie_	领子修身	noun	5.59508151099e-06
+xie_	耀红	noun	5.568637059e-06
+xie_	中大童阳光	distinguishing word	5.53092427093e-06
+xie_	魅力男士	noun	5.52161659307e-06
+xie_	水洗休闲	noun	5.50375416821e-06
+xie_	麻料短袖	noun	5.50099521938e-06
+xie_	手套棉服	noun	5.49050971384e-06
+xie_	韩版运动衣	distinguishing word	5.49050971384e-06
+xie_	青年两用	noun	5.48878085702e-06
+xie_	子装家庭	noun	5.48445002433e-06
+xie_	港风修身	noun	5.48220670882e-06
+xie_	棉麻修	noun	5.48207704859e-06
+xie_	信封包	noun	5.47711489967e-06
+xie_	男十	distinguishing word	5.45539532164e-06
+xie_	WMN60091	noun	5.43896984811e-06
+xie_	灰姑娘礼服裙	noun	5.4381885544e-06
+xie_	ARDL004	noun	5.43577853404e-06
+xie_	ABPL009	noun	5.43577853404e-06
+xie_	尼龙运动	noun	5.43314097819e-06
+xie_	韩版常规	distinguishing word	5.42922969333e-06
+xie_	耐穿男士	adjective	5.40790527728e-06
+xie_	裤松紧	noun	5.4016181104e-06
+xie_	安脚	noun	5.38867705729e-06
+xie_	徽章贴布	noun	5.37920423698e-06
+xie_	男工作	distinguishing word	5.3690725862e-06
+xie_	色镜框	noun	5.36725305875e-06
+xie_	随机印花	distinguishing word	5.3630711749e-06
+xie_	花样鞋	noun	5.36155028066e-06
+xie_	宝贝浅	noun	5.34640626497e-06
+xie_	经典跑步鞋	noun	5.34297814713e-06
+xie_	男士网布鞋	noun	5.34148727704e-06
+xie_	素纤维	adjective	5.32940708813e-06
+xie_	中长款茧	noun	5.31470925179e-06
+xie_	公爵蓝	noun	5.2941939615e-06
+xie_	乔其纱女式	noun	5.29263342522e-06
+xie_	滑轮鞋溜冰鞋	noun	5.28707957686e-06
+xie_	户外活动	locative word	5.28274539263e-06
+xie_	耐磨平绒	adjective	5.28274539263e-06
+xie_	湖蓝+	distinguishing word	5.2741378449e-06
+xie_	一体大衣	noun	5.27033831529e-06
+xie_	包头宝宝	noun	5.26987120585e-06
+xie_	男孩夏装	noun	5.26923366151e-06
+xie_	老人上衣	noun	5.25606812381e-06
+xie_	金丝绒运动	noun	5.25567057345e-06
+xie_	欣清	noun	5.24960230521e-06
+xie_	蛋卷男鞋	noun	5.24341700438e-06
+xie_	耐磨减震	adjective	5.22212153792e-06
+xie_	厂家批发	noun	5.20494199722e-06
+xie_	斜口袋	adjective	5.20334996058e-06
+xie_	可爱云朵	adjective	5.1984500932e-06
+xie_	中长款修	noun	5.17695179437e-06
+xie_	绒布秋	noun	5.17670656418e-06
+xie_	灯芯绒女裤	noun	5.16934973945e-06
+xie_	T8122	noun	5.15960036345e-06
+xie_	短袖横	distinguishing word	5.14306366142e-06
+xie_	外场战靴	noun	5.13945169861e-06
+xie_	裤松紧腰	noun	5.12656468726e-06
+xie_	针织衫山羊绒	distinguishing word	5.0868648801e-06
+xie_	条码印花	noun	5.07171302074e-06
+xie_	猿人头	noun	5.07171302074e-06
+xie_	Love	noun	5.06714375198e-06
+xie_	猎人迷彩	noun	5.06461456795e-06
+xie_	斗篷外套	noun	5.06268188509e-06
+xie_	Goodbaby	noun	5.05030371673e-06
+xie_	男宝	distinguishing word	5.03732825885e-06
+xie_	职业装衬衫	noun	5.02188976581e-06
+xie_	雕花男士	noun	4.98286153259e-06
+xie_	正品Nike	noun	4.98230098179e-06
+xie_	中大童坎肩	distinguishing word	4.96735667697e-06
+xie_	保暖单裤	adjective	4.96344211166e-06
+xie_	手工晶	noun	4.95448967116e-06
+xie_	男士加大码	noun	4.93767808776e-06
+xie_	舞台演出	noun	4.92229921586e-06
+xie_	耐磨专业	adjective	4.9202715356e-06
+xie_	韩版娃娃	distinguishing word	4.90792830038e-06
+xie_	韩版褶皱	distinguishing word	4.90792830038e-06
+xie_	室内室外	locative word	4.9073303459e-06
+xie_	蕾丝披风	noun	4.90597486509e-06
+xie_	男装糖果色	noun	4.89535019238e-06
+xie_	岩浆红	noun	4.88049887467e-06
+xie_	桑席猫	noun	4.87124193017e-06
+xie_	蝙蝠衫卫衣	noun	4.83617952183e-06
+xie_	衫衬	noun	4.80405027424e-06
+xie_	尔纤维	pronoun	4.79956917746e-06
+xie_	富绅衬衫	noun	4.78592676094e-06
+xie_	MANOUSH	noun	4.75302277729e-06
+xie_	光滑皮	adjective	4.73689106448e-06
+xie_	女生跑步鞋	noun	4.72953033697e-06
+xie_	披风连衣裙	noun	4.72913142778e-06
+xie_	薄膜杯	noun	4.71350063232e-06
+xie_	短裤短裤	noun	4.71190819273e-06
+xie_	螺口	noun	4.69097611281e-06
+xie_	聚酯经典	noun	4.68928472861e-06
+xie_	环保印花	noun	4.6789458845e-06
+xie_	物业单位	noun	4.67071581876e-06
+xie_	韩版新生	distinguishing word	4.6693057858e-06
+xie_	黑色工作	noun	4.65740600896e-06
+xie_	樱粉色	noun	4.65156310777e-06
+xie_	儿童雨伞	noun	4.63598120865e-06
+xie_	字母女	noun	4.63129368068e-06
+xie_	精品套装	noun	4.63005417211e-06
+xie_	时尚水晶	noun	4.61771871416e-06
+xie_	款板鞋	noun	4.61078401393e-06
+xie_	煤黑+	noun	4.60263546041e-06
+xie_	四季新款休闲	noun	4.60232924482e-06
+xie_	女士情趣	noun	4.59154555167e-06
+xie_	白条色	noun	4.58825592842e-06
+xie_	简约素雅	adjective	4.58769722728e-06
+xie_	胶防滑	noun	4.58528930294e-06
+xie_	平底鞋旅游鞋	noun	4.58277386524e-06
+xie_	文胸防震	noun	4.5784006438e-06
+xie_	Kumpoo	noun	4.5784006438e-06
+xie_	少女甜美	noun	4.57353769771e-06
+xie_	帽北欧	noun	4.55811514779e-06
+xie_	潮流尖头	noun	4.55108304657e-06
+xie_	短袖藏青	distinguishing word	4.54908367163e-06
+xie_	跟尖头中空	preposition	4.54782925637e-06
+xie_	红色预售	noun	4.54741324013e-06
+xie_	文胸外贸	noun	4.50262952868e-06
+xie_	韩版仿	distinguishing word	4.50262952868e-06
+xie_	云头	noun	4.49288155514e-06
+xie_	划痕	noun	4.462460277e-06
+xie_	冬装新款韩	noun	4.45898982466e-06
+xie_	聚氨酯防滑	noun	4.45235373873e-06
+xie_	绿牌	adjective	4.44550971362e-06
+xie_	长袖桑蚕丝	noun	4.42681298016e-06
+xie_	男装虎头	noun	4.40283561901e-06
+xie_	鞋女婴	noun	4.40283561901e-06
+xie_	翅膀图案	noun	4.39810455159e-06
+xie_	金妆	noun	4.37845023395e-06
+xie_	棒球外套	noun	4.37643926492e-06
+xie_	宇宙蓝	noun	4.37120712343e-06
+xie_	蝉翼皮肤衣	noun	4.35907952392e-06
+xie_	Geox	noun	4.33374882618e-06
+xie_	套装幼儿园	noun	4.33280441851e-06
+xie_	保暖连体	adjective	4.3283175362e-06
+xie_	伯爵男士	noun	4.31525480918e-06
+xie_	羊皮皮衣	noun	4.31393071065e-06
+xie_	洋兰	noun	4.29607019856e-06
+xie_	简易舒适	adjective	4.28481582e-06
+xie_	金属色	noun	4.28350018388e-06
+xie_	布料休闲	noun	4.2796728816e-06
+xie_	花苞半身	noun	4.26974347352e-06
+xie_	浮雕印花	noun	4.26944672799e-06
+xie_	韩版波浪	distinguishing word	4.26891183945e-06
+xie_	问号绣花	noun	4.26891183945e-06
+xie_	上装短袖	noun	4.24496613944e-06
+xie_	深色直筒	distinguishing word	4.24412446715e-06
+xie_	针孔透气	noun	4.23906767335e-06
+xie_	羽翼	noun	4.23829836751e-06
+xie_	胸罩带子	noun	4.22838687197e-06
+xie_	旱冰直排轮	noun	4.22466207357e-06
+xie_	男士衬衣	noun	4.20503737537e-06
+xie_	强人正品	noun	4.19270187765e-06
+xie_	民俗印花	noun	4.18089234839e-06
+xie_	白花灰	noun	4.16376751473e-06
+xie_	秋冬衣	noun	4.15905465868e-06
+xie_	时尚雪花	noun	4.15708080366e-06
+xie_	儿童浴巾	noun	4.15513549628e-06
+xie_	氢音速	noun	4.15513549628e-06
+xie_	褐色+	noun	4.15496720408e-06
+xie_	蕾丝超薄	noun	4.15467982582e-06
+xie_	甜趣	adjective	4.15189550581e-06
+xie_	裙婚礼	noun	4.13218334189e-06
+xie_	爸款	noun	4.13027271325e-06
+xie_	刺绣超级	noun	4.02315297952e-06
+xie_	韩版原色	distinguishing word	4.02151039525e-06
+xie_	山羊绒时尚羊绒衫	noun	3.98816619304e-06
+xie_	女童内裤	noun	3.98734761929e-06
+xie_	禅修僧布鞋	noun	3.98321659808e-06
+xie_	法式袖	noun	3.9791643571e-06
+xie_	麂皮半身裙	noun	3.94312433807e-06
+xie_	校园青春潮流	noun	3.94126081456e-06
+xie_	男鞋绑带	distinguishing word	3.94126081456e-06
+xie_	宝宝吊带	noun	3.92657885763e-06
+xie_	超薄透气防	distinguishing word	3.92157921856e-06
+xie_	民族风格	noun	3.9079976399e-06
+xie_	浴室防	noun	3.88773362592e-06
+xie_	JMC007QSJA34	noun	3.88234582921e-06
+xie_	国际服饰	noun	3.8724015808e-06
+xie_	尼龙裤	noun	3.86462691999e-06
+xie_	正品CONVERSE	noun	3.86371356434e-06
+xie_	袖理发师	noun	3.84833454056e-06
+xie_	B433	noun	3.77787602542e-06
+xie_	西服套装男	noun	3.7635161122e-06
+xie_	甘蓝绿	noun	3.759187946e-06
+xie_	裤子腰围	noun	3.75454729751e-06
+xie_	T523QSJA34	noun	3.75361341732e-06
+xie_	皓顿	noun	3.74742049264e-06
+xie_	夹角凉鞋	noun	3.73321399828e-06
+xie_	黑色金属扣	noun	3.73321399828e-06
+xie_	潮男头像	noun	3.73178369671e-06
+xie_	裙子配	noun	3.73178369671e-06
+xie_	褶皱拼接	noun	3.73178369671e-06
+xie_	紫铜	noun	3.68607229746e-06
+xie_	高级雪纺	adjective	3.67564807936e-06
+xie_	纯棉后背	noun	3.67256518258e-06
+xie_	弹性铅笔裤	noun	3.66488728389e-06
+xie_	男鞋彩色	distinguishing word	3.64722977832e-06
+xie_	男弹性	distinguishing word	3.63804589111e-06
+xie_	孔眼	noun	3.63247371879e-06
+xie_	纯色棉布	noun	3.63084866661e-06
+xie_	新生儿宝宝	noun	3.62720542924e-06
+xie_	蓝色领子	noun	3.62720542924e-06
+xie_	腿袜	noun	3.62228873158e-06
+xie_	袖太空棉	noun	3.58908164428e-06
+xie_	羊绒羊毛衫	noun	3.58796616399e-06
+xie_	大号女装	distinguishing word	3.58450407679e-06
+xie_	凉鞋公主	noun	3.5275325387e-06
+xie_	Sienviron	noun	3.51588292633e-06
+xie_	户外运动劳保	locative word	3.50969673719e-06
+xie_	公子短袖	noun	3.49971789542e-06
+xie_	款软壳	noun	3.49712439588e-06
+xie_	新款流	distinguishing word	3.49614859352e-06
+xie_	军旅迷	noun	3.47990225368e-06
+xie_	老太太加厚	noun	3.46817931626e-06
+xie_	新品刀锋	noun	3.46817931626e-06
+xie_	下装短裤	noun	3.46624652694e-06
+xie_	鞋跟镶钻	noun	3.45355769803e-06
+xie_	老字号步瀛斋	noun	3.44452044443e-06
+xie_	男童女	distinguishing word	3.42195511777e-06
+xie_	裙G756	noun	3.39867960002e-06
+xie_	女士丰富	noun	3.39081418385e-06
+xie_	青年送礼	noun	3.37685272972e-06
+xie_	灯芯绒男	noun	3.37183834337e-06
+xie_	套包臀	noun	3.37183834337e-06
+xie_	民族风鲤鱼	noun	3.36630833567e-06
+xie_	灯芯绒衬衣	noun	3.36465057999e-06
+xie_	沙滩装套装	noun	3.36465057999e-06
+xie_	衣裤子	noun	3.34777414118e-06
+xie_	单网	noun	3.34057362869e-06
+xie_	Phisofa	noun	3.33713987913e-06
+xie_	WMN60085	noun	3.33436237384e-06
+xie_	长裤男款	noun	3.32611408206e-06
+xie_	桑蚕丝上衣	noun	3.32240063312e-06
+xie_	R261	noun	3.32037643417e-06
+xie_	婴儿围嘴	noun	3.31341373078e-06
+xie_	美观简约	adjective	3.31024860256e-06
+xie_	男款运动卫	distinguishing word	3.27625595288e-06
+xie_	婚礼领带	noun	3.27618463828e-06
+xie_	双肩休闲	noun	3.27537932493e-06
+xie_	DS63052	noun	3.27535312189e-06
+xie_	耐穿男款	adjective	3.27401318588e-06
+xie_	字符拼接	noun	3.26765209414e-06
+xie_	薄款外衣	adjective	3.2621152713e-06
+xie_	新款美人鱼	distinguishing word	3.24186136704e-06
+xie_	NSNF	noun	3.24018884657e-06
+xie_	妈妈婚宴	noun	3.24018884657e-06
+xie_	金丝雪纺	noun	3.23902457068e-06
+xie_	甜美猫	adjective	3.23665741983e-06
+xie_	宝宝围嘴	noun	3.23359274015e-06
+xie_	北京蓝	noun	3.23125787896e-06
+xie_	雪纺女神	noun	3.22638634207e-06
+xie_	肥加大时尚	noun	3.21948994557e-06
+xie_	蛤蟆镜男	noun	3.17875552759e-06
+xie_	斜条纹	adjective	3.17580762427e-06
+xie_	INCOTEX	noun	3.15957156009e-06
+xie_	B23165	noun	3.1479344296e-06
+xie_	品牌男	noun	3.13529804771e-06
+xie_	丝带蝴蝶结	noun	3.13412927723e-06
+xie_	男孩中大童	noun	3.13138555636e-06
+xie_	开开衬衫	noun	3.11198120192e-06
+xie_	光卫衣	noun	3.10109542929e-06
+xie_	商务休闲绅士	noun	3.09125606879e-06
+xie_	虎头棉	noun	3.06507768408e-06
+xie_	象牙色	noun	3.0641007395e-06
+xie_	滨海蓝	noun	3.05884629251e-06
+xie_	街头漫步	locative word	3.05602457369e-06
+xie_	学院风情	noun	3.05518208979e-06
+xie_	蕾丝旗袍	noun	3.05383765098e-06
+xie_	白黑色	noun	3.01948502518e-06
+xie_	TK01	noun	3.01866693994e-06
+xie_	款亚麻	noun	3.01219837689e-06
+xie_	鞋青少年运	noun	3.00497949439e-06
+xie_	法兰绒加厚	noun	2.99142928417e-06
+xie_	跟皮靴	preposition	2.9899397106e-06
+xie_	+8803B	punctuation mark	2.98172584617e-06
+xie_	贝雷帽子	noun	2.97065829187e-06
+xie_	系列耐磨	noun	2.96521579103e-06
+xie_	矮个子瘦	noun	2.96262359281e-06
+xie_	学生游戏	noun	2.95344319493e-06
+xie_	山羊皮浅口	noun	2.94890119204e-06
+xie_	新品中老年妇女	noun	2.94583027704e-06
+xie_	鞋裂纹	noun	2.94574849152e-06
+xie_	T1507	noun	2.93713248212e-06
+xie_	C8803	noun	2.93713248212e-06
+xie_	女童遮阳帽	noun	2.92385328418e-06
+xie_	夏装竹	noun	2.92156440039e-06
+xie_	尺码内裤	noun	2.90203561805e-06
+xie_	XXL150	noun	2.86957601779e-06
+xie_	酒杯细跟	noun	2.86685400668e-06
+xie_	肌理裙子	noun	2.86667182401e-06
+xie_	江博士	noun	2.85901054561e-06
+xie_	色涂鸦	noun	2.84923087899e-06
+xie_	青春潮流运动	noun	2.83380898797e-06
+xie_	花布蕾丝	noun	2.83304723062e-06
+xie_	男士尼龙	noun	2.83270520541e-06
+xie_	红荧光	adjective	2.81761418638e-06
+xie_	紫红色+	noun	2.81196243511e-06
+xie_	女子户外	noun	2.79307322179e-06
+xie_	镜面牛皮	noun	2.78781894467e-06
+xie_	青中老年	adjective	2.7842079072e-06
+xie_	文艺棉麻	noun	2.76522256248e-06
+xie_	树皮纹	noun	2.75679813956e-06
+xie_	德国队	noun	2.74781418067e-06
+xie_	时尚弹性	noun	2.73672564518e-06
+xie_	新韩版	noun	2.73470224165e-06
+xie_	少年短袖	noun	2.73130410727e-06
+xie_	印花绸缎	distinguishing word	2.73099331519e-06
+xie_	正品质感	noun	2.72814931859e-06
+xie_	水晶石	noun	2.71874849597e-06
+xie_	韩版印	distinguishing word	2.71349263909e-06
+xie_	街头跳舞	locative word	2.69786359259e-06
+xie_	韩版花苞	distinguishing word	2.69341978284e-06
+xie_	C808	noun	2.68127304526e-06
+xie_	亮白色	noun	2.67883369847e-06
+xie_	四季通用	noun	2.66694679109e-06
+xie_	韩版都市	distinguishing word	2.66597353338e-06
+xie_	守门员手套	noun	2.6513421337e-06
+xie_	aquagirl	noun	2.64967804726e-06
+xie_	衣库	noun	2.64846396416e-06
+xie_	时装靴女式	noun	2.64433097214e-06
+xie_	纯色全棉透气	noun	2.63761431464e-06
+xie_	花布拼色	noun	2.63761431464e-06
+xie_	坡跟凉鞋女式凉鞋	noun	2.63703643116e-06
+xie_	女装海军	noun	2.63549322254e-06
+xie_	长袖娃娃	noun	2.60407746745e-06
+xie_	200gm	noun	2.59614424016e-06
+xie_	纯色白搭	noun	2.59325531233e-06
+xie_	店主风情	noun	2.59325531233e-06
+xie_	小提琴POLO	noun	2.56908187592e-06
+xie_	大帽子	noun	2.56280095911e-06
+xie_	丝袍	noun	2.55754788952e-06
+xie_	T1504	noun	2.54493226777e-06
+xie_	羊毛针织衫	noun	2.51445601139e-06
+xie_	男鞋经典鞋	distinguishing word	2.48359661793e-06
+xie_	牌藏青	noun	2.46743278934e-06
+xie_	马裤休闲	noun	2.45429229129e-06
+xie_	鞋初中	noun	2.44806142006e-06
+xie_	义胸	noun	2.43936277839e-06
+xie_	雨靴宝宝	noun	2.43936277839e-06
+xie_	版印	noun	2.43936277839e-06
+xie_	新款现货	distinguishing word	2.42623889489e-06
+xie_	B25487	noun	2.42562471962e-06
+xie_	飞人海尔斯	noun	2.39047689365e-06
+xie_	新款同步	distinguishing word	2.37687359268e-06
+xie_	棉楼	noun	2.37339625243e-06
+xie_	亮色系	noun	2.36173567724e-06
+xie_	套装面试	noun	2.3389366959e-06
+xie_	烫金Logo	distinguishing word	2.33424793865e-06
+xie_	高尔夫球鞋	noun	2.32822696782e-06
+xie_	雪地鞋靴	noun	2.30899036532e-06
+xie_	鼠小弟	noun	2.27136098471e-06
+xie_	女神印花	noun	2.27122834808e-06
+xie_	男女婴儿	distinguishing word	2.23267481257e-06
+xie_	套装整套	noun	2.23267481257e-06
+xie_	儿童太阳镜	noun	2.22546653833e-06
+xie_	健康文胸	adjective	2.22325836951e-06
+xie_	公寓	noun	2.22047764548e-06
+xie_	斗篷式	noun	2.21953107494e-06
+xie_	雪纺镂花	noun	2.20179187183e-06
+xie_	范铅笔裤	noun	2.19828101125e-06
+xie_	少年韩版	noun	2.19502995521e-06
+xie_	浴室拖	noun	2.17495493832e-06
+xie_	男tee	distinguishing word	2.16888123536e-06
+xie_	新款温州	distinguishing word	2.13212988695e-06
+xie_	靴宴会	noun	2.10935587913e-06
+xie_	上衣褂子	noun	2.10935587913e-06
+xie_	JACK	noun	2.09604416265e-06
+xie_	时尚数码	noun	2.09194317684e-06
+xie_	木纹坡跟	noun	2.0908327048e-06
+xie_	新款多彩	noun	2.08264439998e-06
+xie_	弧线摆	noun	2.07740840483e-06
+xie_	潮简	noun	2.07507141964e-06
+xie_	平底中空	distinguishing word	2.07254858001e-06
+xie_	弹力深色	noun	2.04880945934e-06
+xie_	裤子收口	noun	2.04798284284e-06
+xie_	C308	noun	2.02557978998e-06
+xie_	羊驼绒	noun	2.01694271149e-06
+xie_	鹰图案	noun	2.01694271149e-06
+xie_	唐老鸭图案	noun	2.01694271149e-06
+xie_	Snoopy	noun	2.00732599553e-06
+xie_	真皮羊毛	noun	2.00586662098e-06
+xie_	薄款透	adjective	1.99945254397e-06
+xie_	S8519	noun	1.99306546187e-06
+xie_	烟红色	noun	1.98624126329e-06
+xie_	color	noun	1.98205919025e-06
+xie_	素雅尖头	adjective	1.98144620352e-06
+xie_	男士长方形	noun	1.96921654554e-06
+xie_	松紧带短裤	noun	1.95573669554e-06
+xie_	MONOGRAM	noun	1.94294879612e-06
+xie_	品质男装	noun	1.91990342146e-06
+xie_	纯棉素色	noun	1.88823126067e-06
+xie_	男士纯毛	noun	1.88481058632e-06
+xie_	字母鞋	noun	1.88410278232e-06
+xie_	团队篮球鞋	noun	1.87008368511e-06
+xie_	鞋女单鞋	noun	1.85213864111e-06
+xie_	外套女孩子	noun	1.84830187395e-06
+xie_	民族风水墨画	noun	1.8397173845e-06
+xie_	妈妈装毛衣	noun	1.8303532521e-06
+xie_	花纹衬衣	noun	1.79453552617e-06
+xie_	连衣裙套裙	noun	1.77945019459e-06
+xie_	保暖鞋	adjective	1.77919705602e-06
+xie_	男士短袜	noun	1.77919705602e-06
+xie_	狼霸	noun	1.76223669611e-06
+xie_	矮腰	adjective	1.75951980985e-06
+xie_	自由百搭	adjective	1.74320103391e-06
+xie_	方块字母印花	noun	1.73819362533e-06
+xie_	ALCJ139	noun	1.71651188624e-06
+xie_	韩版马裤	distinguishing word	1.70648135412e-06
+xie_	麦色	noun	1.70331500964e-06
+xie_	春装新品	noun	1.70331500964e-06
+xie_	新款中年人	distinguishing word	1.70245908144e-06
+xie_	鞋太极拳	noun	1.70245908144e-06
+xie_	酷黑	adjective	1.70152679265e-06
+xie_	时尚套裙	noun	1.69744544942e-06
+xie_	填充物	noun	1.69516408444e-06
+xie_	衬衫美发	noun	1.69452628389e-06
+xie_	女王公主	noun	1.69452628389e-06
+xie_	性感萌动	noun	1.69073768828e-06
+xie_	耐磨柳	adjective	1.68191377541e-06
+xie_	领导服	noun	1.67448133702e-06
+xie_	女装坊	noun	1.64761750857e-06
+xie_	牛皮制作	noun	1.64557957307e-06
+xie_	都市户外	noun	1.64554582275e-06
+xie_	儿童黄金绒	noun	1.63874543283e-06
+xie_	功夫服	noun	1.63424899371e-06
+xie_	面料裤	noun	1.62390006139e-06
+xie_	唇膏红	noun	1.61401076747e-06
+xie_	钢圈调整型	noun	1.61367768741e-06
+xie_	褶西裤	noun	1.60558828406e-06
+xie_	双胞胎夏装	noun	1.59922133049e-06
+xie_	雪纺衫搭配	noun	1.5989251044e-06
+xie_	鞋充电	noun	1.59099402502e-06
+xie_	红青	noun	1.58845751107e-06
+xie_	好看印花	adjective	1.5820169097e-06
+xie_	造型帽	noun	1.58112229927e-06
+xie_	NRJ603	noun	1.57874867951e-06
+xie_	PRIMEKNIT	noun	1.55943269216e-06
+xie_	斯文修身	adjective	1.55854857193e-06
+xie_	名模男孩	noun	1.5543336619e-06
+xie_	男士蛇	noun	1.54734806846e-06
+xie_	盒子童装	noun	1.54328553905e-06
+xie_	暖宝宝	adjective	1.54328553905e-06
+xie_	男鲨鱼	distinguishing word	1.53475186808e-06
+xie_	元素棉麻	noun	1.53446185886e-06
+xie_	款大衣	noun	1.53434011124e-06
+xie_	清风boost	noun	1.52887365145e-06
+xie_	男孩上衣	noun	1.51652247233e-06
+xie_	马PUMA生活	noun	1.51012711453e-06
+xie_	白棉	noun	1.5023822942e-06
+xie_	中性休闲鞋	noun	1.4956459731e-06
+xie_	旱冰鞋滑轮鞋	noun	1.48656323994e-06
+xie_	裤甩	noun	1.48571429418e-06
+xie_	短袖运动服	distinguishing word	1.48446109335e-06
+xie_	INTOUCH	noun	1.46910691554e-06
+xie_	XL2037	noun	1.44463780176e-06
+xie_	商务衬	noun	1.44463780176e-06
+xie_	眼神灰	noun	1.44261580683e-06
+xie_	深色衬衣	distinguishing word	1.438846142e-06
+xie_	字母搭配	noun	1.42411595856e-06
+xie_	男款灰配	distinguishing word	1.42236672358e-06
+xie_	迈克·科尔斯	noun	1.4185571928e-06
+xie_	阿迪达斯三叶草男	noun	1.41513697356e-06
+xie_	家居服女士内衣	noun	1.40640997055e-06
+xie_	长袖体	noun	1.40521906545e-06
+xie_	天鹅绒卫衣	noun	1.40456324797e-06
+xie_	安踏男鞋	noun	1.39476278261e-06
+xie_	繁花唐装	noun	1.39093722661e-06
+xie_	短袖白衬衫	distinguishing word	1.38688294716e-06
+xie_	鞋虎	noun	1.38350264431e-06
+xie_	脚底加厚	noun	1.37770814697e-06
+xie_	短裙百褶裙	noun	1.37661613447e-06
+xie_	对称	adjective	1.3733854574e-06
+xie_	羊毛太空服	noun	1.3733854574e-06
+xie_	时尚裸	noun	1.36958927173e-06
+xie_	寒冬	noun	1.36229902258e-06
+xie_	真丝雪纺	noun	1.35453664248e-06
+xie_	Frame	noun	1.33733952184e-06
+xie_	飞船	noun	1.3248707472e-06
+xie_	婴儿遮阳帽	noun	1.32368847872e-06
+xie_	3016P45	noun	1.32013252439e-06
+xie_	马海毛针织衫	noun	1.31858803281e-06
+xie_	文艺复古水墨画	noun	1.31780388233e-06
+xie_	竹节纯棉	noun	1.31587883282e-06
+xie_	理发店衬衣	noun	1.3154990809e-06
+xie_	女装类目	noun	1.3076481911e-06
+xie_	礁石灰	noun	1.30145775433e-06
+xie_	新款海边	distinguishing word	1.30145279875e-06
+xie_	鞋白搭	noun	1.29687303879e-06
+xie_	常规短袖	noun	1.29318186069e-06
+xie_	男装修	distinguishing word	1.27193062116e-06
+xie_	成人短裤	noun	1.25636746288e-06
+xie_	竹叶刺绣	noun	1.25184980075e-06
+xie_	顺产	noun	1.24790312603e-06
+xie_	男款蓝配	distinguishing word	1.24026138278e-06
+xie_	红品	noun	1.23610760907e-06
+xie_	温泉泳衣	noun	1.23441402874e-06
+xie_	字凉	noun	1.23231103967e-06
+xie_	本命年文胸	noun	1.22180386733e-06
+xie_	薄款棉毛衫	adjective	1.21202894999e-06
+xie_	蓝桔	adjective	1.20859718513e-06
+xie_	中大童儿	distinguishing word	1.20623157167e-06
+xie_	棉花糖白	noun	1.20058659328e-06
+xie_	新款华丽	distinguishing word	1.19395820492e-06
+xie_	精灵童装	noun	1.18581606117e-06
+xie_	汉崇	noun	1.18528419347e-06
+xie_	款中式	noun	1.18350559111e-06
+xie_	坎肩棉	noun	1.17788054096e-06
+xie_	牛仔风格	noun	1.17153173851e-06
+xie_	框子	noun	1.16793612982e-06
+xie_	耳机狼	noun	1.1529628944e-06
+xie_	水中狼	locative word	1.1529628944e-06
+xie_	丛林狼	noun	1.1529628944e-06
+xie_	旅游鞋情侣	noun	1.14841301949e-06
+xie_	外套防寒服	noun	1.14841301949e-06
+xie_	林系列	noun	1.14841301949e-06
+xie_	三合一情侣	noun	1.14267690023e-06
+xie_	吉普车	noun	1.12480269143e-06
+xie_	舒适慢	adjective	1.10980652539e-06
+xie_	男士体恤	noun	1.09950289157e-06
+xie_	胸中薄	locative word	1.09855549226e-06
+xie_	鞋星星	noun	1.09712515709e-06
+xie_	鞋豆豆鞋超	noun	1.09324478319e-06
+xie_	户外女子	locative word	1.08203860003e-06
+xie_	新款雪花	distinguishing word	1.08203860003e-06
+xie_	强烈蓝	adjective	1.0804754787e-06
+xie_	观星	noun	1.07861810889e-06
+xie_	悦读	adjective	1.06697065325e-06
+xie_	Chiswick	noun	1.0663684444e-06
+xie_	空姐服	noun	1.06625621946e-06
+xie_	韩版罗纹	distinguishing word	1.05102019627e-06
+xie_	韩版外贸	distinguishing word	1.04329580166e-06
+xie_	钢丝	noun	1.0322592438e-06
+xie_	JMC061	noun	1.02919869653e-06
+xie_	棉服精致	noun	1.02282606643e-06
+xie_	兔子条纹	noun	1.00943777303e-06
+xie_	鞋桃红儿童	noun	9.79506971209e-07
+xie_	鞋轮滑滑板	noun	9.69068996474e-07
+xie_	外贸英伦	noun	9.66005138972e-07
+xie_	字母PLAY	noun	9.39797994994e-07
+xie_	深浅蓝	noun	9.25492945039e-07
+xie_	圆领烫金	noun	9.21961661957e-07
+xie_	猴运动	noun	9.08795021844e-07
+xie_	大气羊毛	noun	9.08795021844e-07
+xie_	运动漫步	noun	9.082930439e-07
+xie_	皮练功	noun	8.80588632982e-07
+xie_	newyork	noun	8.69301266832e-07
+xie_	印花透视	noun	8.66515898903e-07
+xie_	jieao	noun	8.60244113646e-07
+xie_	标准皮鞋码	noun	8.58321948897e-07
+xie_	SNXF946	noun	8.55988145217e-07
+xie_	硅胶隐形	noun	8.46401859938e-07
+xie_	C8802	noun	8.45398005573e-07
+xie_	插画	noun	8.37819544283e-07
+xie_	袋盖	noun	8.37180049382e-07
+xie_	檐棒球	noun	8.27991527059e-07
+xie_	大气舒适	noun	8.16593090398e-07
+xie_	品牌公主	noun	8.13472300112e-07
+xie_	蕾丝透视	noun	8.12637373087e-07
+xie_	韩版剪刀	distinguishing word	8.12637373087e-07
+xie_	真丝长袖	noun	8.07619626876e-07
+xie_	金箔印花	noun	7.97968405689e-07
+xie_	RUNDHOLZ	noun	7.84775932189e-07
+xie_	450ml	noun	7.80520168157e-07
+xie_	虚线款	noun	7.80085537667e-07
+xie_	纯色牛津	noun	7.75055563744e-07
+xie_	白色椭圆	noun	7.63500857117e-07
+xie_	白色普通	noun	7.63500857117e-07
+xie_	艺男士	noun	7.63500857117e-07
+xie_	禅意	noun	7.60900149377e-07
+xie_	男士小人	noun	7.58421567218e-07
+xie_	女孩亲子	noun	7.53923573781e-07
+xie_	韩版涂鸦	distinguishing word	7.51754489448e-07
+xie_	性感丝绸	adjective	7.51416362198e-07
+xie_	潮成品	noun	7.49346870456e-07
+xie_	真羊皮舒适	adjective	7.37525709937e-07
+xie_	FZ1115	noun	7.35889628143e-07
+xie_	高雅兔毛	adjective	7.20964278201e-07
+xie_	绷带内裤	noun	7.20325043775e-07
+xie_	职业裙	noun	7.19940346339e-07
+xie_	单光	noun	7.04239981221e-07
+xie_	阳离子夹棉	noun	6.98529699369e-07
+xie_	GRD	noun	6.94865244384e-07
+xie_	丝妃	noun	6.89337904782e-07
+xie_	长袖棉线	noun	6.85472071428e-07
+xie_	童女童装	noun	6.85254070095e-07
+xie_	青年裤带	noun	6.82483310807e-07
+xie_	续篇	noun	6.80612183543e-07
+xie_	菠萝儿童	noun	6.75568651578e-07
+xie_	BRIONI	noun	6.73787661249e-07
+xie_	定制女装	noun	6.42956815335e-07
+xie_	高领短袖	noun	6.42956815335e-07
+xie_	椒红色	noun	6.40054611426e-07
+xie_	鞋春节	noun	6.40054611426e-07
+xie_	新款金属	distinguishing word	6.38449627266e-07
+xie_	美元	noun	6.19135842856e-07
+xie_	裤百褶裙	noun	6.18298445168e-07
+xie_	笑脸圆领	noun	5.95283259784e-07
+xie_	大门新款	noun	5.95283259784e-07
+xie_	裤子大号	noun	5.95283259784e-07
+xie_	日常便鞋	distinguishing word	5.94248227611e-07
+xie_	异域印花	noun	5.94248227611e-07
+xie_	熙世界	noun	5.92931925175e-07
+xie_	男双排扣	noun	5.90607147523e-07
+xie_	设计师品牌	noun	5.90588618068e-07
+xie_	内裤诱惑	noun	5.79522451562e-07
+xie_	地主帽	noun	5.73621153481e-07
+xie_	超薄蕾丝	distinguishing word	5.68627108194e-07
+xie_	鬼舞步街	noun	5.58171090501e-07
+xie_	女士丝巾	noun	5.51792356458e-07
+xie_	机械猴	noun	5.18474480679e-07
+xie_	女士泳衣	noun	5.15565220887e-07
+xie_	小鹰	noun	5.02866446956e-07
+xie_	风帽	noun	5.02866446956e-07
+xie_	加州鞋	noun	5.02866446956e-07
+xie_	薄款产妇	adjective	4.95640843207e-07
+xie_	花瓣连衣裙	noun	4.91689492054e-07
+xie_	鞋专场	noun	4.72105367155e-07
+xie_	宝宝动物	noun	4.63181965865e-07
+xie_	毛毛虫男童	noun	4.58823353437e-07
+xie_	T640	noun	4.5319779122e-07
+xie_	儿童中大童	noun	4.4323984163e-07
+xie_	MIISTA	noun	4.39423688657e-07
+xie_	西装新郎	noun	4.35451738232e-07
+xie_	前后两	noun of locality	4.15465575793e-07
+xie_	海洋鹿	noun	4.14107464071e-07
+xie_	母女子	distinguishing word	4.1321421151e-07
+xie_	鞋漫步	noun	4.01868731771e-07
+xie_	修显	noun	3.96876240968e-07
+xie_	女童拉丁舞	noun	3.89693434704e-07
+xie_	长袖方格	noun	3.64797195154e-07
+xie_	鞋室外	noun	3.42142651371e-07
+xie_	男满身	distinguishing word	3.39492517699e-07
+xie_	明线装饰	noun	3.32473742671e-07
+xie_	新款飞织	distinguishing word	3.31203914185e-07
+xie_	北模	noun	3.29125758034e-07
+xie_	时尚可爱卡通	noun	3.06664231388e-07
+xie_	牌紫红色	noun	2.91359369119e-07
+xie_	条纹创意	noun	2.85370028115e-07
+xie_	天鹅绒连裤袜	noun	2.79544564128e-07
+xie_	勇士队	noun	2.77616770751e-07
+xie_	套装Z	noun	2.72178636868e-07
+xie_	鞋田园	noun	2.65463730045e-07
+xie_	浪漫蕾丝	adjective	2.29187280737e-07
+xie_	JETTRAIN	noun	2.2819544443e-07
+xie_	热带风	noun	2.27621320431e-07
+xie_	jaket	noun	2.07906421768e-07
+xie_	眼印花	noun	2.03486218837e-07
+xie_	C6608	noun	1.91730981652e-07
+xie_	裤松紧带	noun	1.77829099486e-07
+xie_	鞋智能	noun	1.73136050163e-07
+xie_	外贸时尚	noun	1.73136050163e-07
+xie_	暖黄铜	adjective	1.68060706397e-07
+xie_	nu3019	noun	1.50677698554e-07
+xie_	新款日常	distinguishing word	1.36328163244e-07
+xie_	兔毛中长款	noun	1.32789693699e-07
+xie_	腰鱼尾	noun	1.29921034034e-07
+xie_	新品抽象	noun	1.29921034034e-07
+xie_	骆驼童装	noun	1.2701825734e-07
+xie_	春装新款中老年	noun	1.25803619019e-07
+xie_	老年人长袖	noun	9.60581713316e-08
+xie_	新春新款	noun	9.3640985646e-08
+xie_	JEYG8876	noun	9.26897470794e-08
+xie_	内裤星期	noun	8.99409629578e-08
+xie_	开心猴	prefix	8.88889209736e-08
+xie_	透明蕾丝	adjective	7.68214991787e-08
+xie_	筒靴冬季	noun	7.0179068994e-08
+xie_	古典简约	distinguishing word	6.75667871326e-08
+xie_	舒适软	adjective	5.88918013212e-08
+xie_	旗服	noun	5.02691913392e-08
+xie_	法兰绒夹棉	noun	4.45548772566e-08
+xie_	Bendito	noun	3.64071743663e-08
+xie_	凯胜	noun	2.31977699958e-08
+xie_	旅游鞋户外	noun	2.09278421205e-08
+xie_	淡雅印花	adjective	2.0841578271e-08
+xie_	年轻韩版	adjective	1.61767527645e-08
+xie_	鞋聚会	noun	2.26964516889e-09
+xie_	时尚泡泡	noun	0.0

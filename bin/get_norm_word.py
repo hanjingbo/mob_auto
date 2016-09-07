@@ -22,7 +22,7 @@ if __name__ == "__main__":
     max_words = 3000
     if len(sys.argv) == 3:
         fkey = sys.argv[1]
-        max_words = sys.argv[2]
+        max_words = int(sys.argv[2])
     print fkey,max_words
 
     word_norm.main(fkey, max_words)

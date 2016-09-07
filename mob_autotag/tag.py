@@ -21,6 +21,7 @@ from bs4 import BeautifulSoup
 sys.path.append('..')
 from util.util import exec_cmd, search_to_fpath
 from mob_autotag.word import word_by_pynlpir
+from mob_autotag.word_norm import norm_from_dict
 reload(sys)
 sys.setdefaultencoding('UTF8')
 
@@ -28,26 +29,59 @@ sys.setdefaultencoding('UTF8')
 def print_and_save(dict, outfile):
     wfd = open(outfile, 'w')
     
-    i2w = {}
-    for i in dict:
-        for j in dict[i]:
-            i2w.setdefault(i,0.0)
-            i2w[i] += dict[i][j]
+    tag2score = {}
+    tag2list = {}
+    for tag in dict:
+        for word in dict[tag]:
+            tag2score.setdefault(tag,0.0)
+            tag2score[tag] += dict[tag][word]
 
-        dict[i] = sorted(dict[i].iteritems(), key=lambda d:d[1], reverse = True)
+        tag2list[tag] = sorted(dict[tag].iteritems(), key=lambda d:d[1], reverse = True)
 
+    tagsort = sorted(tag2score.iteritems(), key=lambda d:d[1], reverse = True)
+    for tag, score in tagsort:
+        if tagsort.index((tag, score)) == 0:
+            print "\n=============================================="
+            print "机器智能标签为："
+        if tagsort.index((tag, score)) == 1:
+            print "\n\n=============================================="
+            print "其它相似标签为："
+
+        if tagsort.index((tag, score)) >= 1:
+            score = score/2
         p_str = ""
-        for j,w in dict[i][:5]:
-            p_str += j + ":" + str(round(w,2)) + " "
-        print i + "\t" + str(round(i2w[i],2)) + "\t[" + p_str + "]"
+        for word,weight in tag2list[tag][:5]:
+            p_str += word + ":" + str(round(weight,2)) + " "
+        print tag + "\t" + str(round(score,2)) + "\t[" + p_str + "]"
 
-        for j,w in dict[i]:
-            wfd.write(i + "\t" + str(i2w[i]) + "\t" + j + "\t" + str(w) + "\n")
+        for word,weight in tag2list[tag]:
+            wfd.write(tag + "\t" + str(score) + "\t" + word + "\t" + str(weight) + "\n")
+    wfd.close()
 
-def doc_to_tag(doc="../data/doc", outfile="../data/tag_test", wordpath="../data/result/word"):
+def main(fkey="test", min_word=50):
+
+    inputfile = "../data/doc_" + fkey
+    outfile = "../data/tag_" + fkey
+    wordpath = "../data/result/word"
+    cleanfile = "../data/result/clean"
+    word_clean = {}
+    for line in file(cleanfile):
+        line = line.decode('utf-8', "replace").strip().split("\t")
+        if len(line)<3: continue
+        tag, word, weight = line[:3]
+        k = tag + "\t" + word
+        word_clean[k] = 1
+
     word_input = {}
-    f = open(doc,'r').read().decode('utf-8', "replace")
+    f = open(inputfile,'r').read().decode('utf-8', "replace")
+    if len(f)< min_word:
+        print "document word count is too small, less than " + str(min_word)
+        return ""
+
     word_by_pynlpir(f, word_input)
+    word_norm = norm_from_dict(word_input)
+    wordfile = "../data/word_" + fkey
+    save_word(word_norm, wordfile)
 
     path = os.path.dirname(wordpath)
     filename = os.path.basename(wordpath)
@@ -60,14 +94,21 @@ def doc_to_tag(doc="../data/doc", outfile="../data/tag_test", wordpath="../data/
             if len(line)<4: continue
             tag, word, word_class, weight = line[:4]
 
-            dim = word + "\t" + word_class
-            if dim not in word_input : continue
+            k = tag + "\t" + word
+            if k in word_clean: continue
+            if word not in word_norm : continue
             tag_word.setdefault(tag, {})
             tag_word[tag].setdefault(word, 0.0)
-            tag_word[tag][word] += float(weight)*word_input[dim]
+            tag_word[tag][word] += float(weight)*word_norm[word]
 
     print_and_save(tag_word, outfile)
 
+def save_word(word_dict, outfile):
+    wfd = open(outfile, 'w')
+    word_sort = sorted(word_dict.iteritems(), key=lambda d:d[1], reverse = True)
+    for word,weight in word_sort:
+        wfd.write(word + "\t" + str(weight) + "\n")
+    wfd.close()
 
 if __name__ == "__main__":
-    doc_to_tag()
+    main()
