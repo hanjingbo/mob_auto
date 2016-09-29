@@ -173,8 +173,8 @@ def main(query="品友", fkey="test", min_word=50):
     inputfile = "../data/desc_" + fkey
     outfile = "../data/desc_out_" + fkey
     #chengyufile = "../data/chengyu.txt"
-    #chengyufile = "../data/chengyu_bao.txt"
-    chengyufile = "../data/chengyu_bian.txt"
+    chengyufile = "../data/chengyu_bao.txt"
+    #chengyufile = "../data/chengyu_bian.txt"
     gecifile = "../data/geci.txt"
 
     w2weight = {}

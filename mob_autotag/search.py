@@ -23,6 +23,7 @@ class SearchToutiao(object):
         self.search_res_list = []
         self.search_doc_list = []
         self.search_url_list = []
+        self.search_image_list = []
 
     def search_keyword(self):
         base_api = "http://toutiao.com/search_content/?offset={offset}&format=json&keyword={keywords}&autoload=true&count={count}"
@@ -81,8 +82,9 @@ class SearchToutiao(object):
             doc = title + " " + abstract + " " + keywords
             self.search_doc_list.append(doc)
             self.search_url_list.append(url)
+            self.search_image_list.append(image_list)
 
-        return self.search_res_list,self.search_doc_list,self.search_url_list
+        return self.search_res_list,self.search_doc_list,self.search_url_list,self.search_image_list
 
 
 class Google:
@@ -196,13 +198,18 @@ class Google:
                     continue
         return self.search_url_list, self.search_doc_list
 
-def main_TD(keyword='uber', fkey='test'):
+def main_TD(keyword='中兴', fkey='test'):
     st = SearchToutiao(keyword)
-    res_list, doc_list, url_list = st.get_search_res()
+    res_list, doc_list, url_list, image_list = st.get_search_res()
 
     outfile = "../data/doc_" + fkey
     fwd = open(outfile, 'w')
     fwd.write(" ".join(doc_list))
+
+    #outfile = "../data/img_" + fkey
+    #fwd = open(outfile, 'w')
+    #fwd.write(" ".join(image_list))
+    print image_list
 
 def main_GG(keyword='方太', fkey='test'):
     gs = Google(keyword)    
@@ -215,6 +222,6 @@ def main_GG(keyword='方太', fkey='test'):
     fwd.write(" ".join(doc_list))
 
 if __name__ == "__main__":
-    main_GG()
-    #main_TD()
+    #main_GG()
+    main_TD()
 
