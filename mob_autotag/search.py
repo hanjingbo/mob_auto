@@ -9,6 +9,7 @@ import gzip, StringIO
 import re, random, types
 import requests
 import json
+from lxml import etree
 sys.path.append('..')
 from util.util import get_user_agent
 from bs4 import BeautifulSoup
@@ -198,6 +199,46 @@ class Google:
                     continue
         return self.search_url_list, self.search_doc_list
 
+
+class Baidu:
+    # search web
+    # @param query -> query key words
+    def __init__(self, query):
+        timeout = 10
+        self.query = query
+        self.search_doc = ""
+
+    def download_html(self, keywords):
+        key = {'wd': keywords}
+        headers = {'User-Agent': get_user_agent()}
+        web_content = requests.get("http://www.baidu.com/s?", params=key, headers=headers, timeout=10)
+        content = web_content.text
+        return content
+
+    def html_parser(self, html):
+        path = "//div[@id='content_left']//div[@class='c-abstract']/text()"  # Xpath of abstract in BaiDu search results
+        tree = etree.HTML(html)
+        results = tree.xpath(path)
+        text = [line.strip() for line in results]
+        text_str = ''
+        if len(text) == 0:
+            print "No!"
+        else:
+            for i in text:
+                i = i.strip()
+                text_str += i
+        text_str = text_str.replace('\n', ' ').replace('\t', ' ')
+        return text_str
+
+    def search(self):
+        html = self.download_html(self.query)
+        self.search_doc = self.html_parser(html)
+
+def main_Baidu(keyword='中兴', fkey='test'):
+    bd = Baidu(keyword)
+    bd.search()
+    return bd.search_doc    
+    
 def main_TD(keyword='中兴', fkey='test'):
     st = SearchToutiao(keyword)
     res_list, doc_list, url_list, image_list = st.get_search_res()
@@ -223,5 +264,6 @@ def main_GG(keyword='方太', fkey='test'):
 
 if __name__ == "__main__":
     #main_GG()
-    main_TD()
+    #main_TD()
+    main_Baidu()
 

@@ -33,3 +33,10 @@ python desc_by_word.py "中兴"
 word_clean.py
 word_norm.py
 re_doc.py
+
+# 标签推荐
+python sim_by_rule.py "app=聚美优品"
+python sim_by_rule.py "app=去哪"
+
+python sim_by_rule.py "app=走起" 0.1
+ 

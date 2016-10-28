@@ -11,7 +11,7 @@
 import sys
 import time
 sys.path.append('..')
-from mob_autotag import input, link, doc, word, tag
+from mob_autotag import input, link, doc, word, tag, tag_v1
 from util.util import exec_cmd, set_logging_config, shuf_sample
 reload(sys)
 sys.setdefaultencoding('UTF8')

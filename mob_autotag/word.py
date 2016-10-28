@@ -74,6 +74,18 @@ def allclass_by_pynlpir(inputfile, word_dict, max_words=1000):
         except Exception, e:
             print "exception %s" % str(e) + " allclass_by_pynlpir:" + word
 
+def allword_by_pynlpir(inputfile, word_dict, max_words=1000):
+
+    weighted_word_list = pynlpir.get_key_words(inputfile, weighted=True, max_words=max_words)
+
+    for word, weight in weighted_word_list:
+        try:
+            word_dict.setdefault(word, 0)
+            word_dict[word] += weight
+        except Exception, e:
+            print "exception %s" % str(e) + " allword_by_pynlpir:" + word
+
+
 def word_to_class(word):
 
     c = "null"

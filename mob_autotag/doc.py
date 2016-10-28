@@ -69,7 +69,7 @@ def main_to_file(inputfile, outfile, max_word=3, max_sentence=3):
 
         if len(doc)>0:
             wfd = open(outfile, 'a')
-            wfd.write(url + "\t" + doc + "\n")
+            wfd.write(link + "\t" + doc + "\n")
             wfd.close()
             sum_cnt += 1
 
