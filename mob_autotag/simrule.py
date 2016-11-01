@@ -72,7 +72,7 @@ def doc2vect(doc, word_tag2weight):
 def get_all_vect(fkey="test"):
 
     inputfile = "../data/rule/doc_" + fkey
-    outfile = "../data/rule/vect_tag_" + fkey
+    outfile = "../data/rule/vect_" + fkey
     if os.path.exists(outfile):
         os.remove(outfile)
     
@@ -209,8 +209,8 @@ def distance(vector1,vector2):
 if __name__ == "__main__":
     fkey = "rule20161025"
     #fkey = "test"
-    #get_all_vect(fkey) 
+    get_all_vect(fkey) 
 
     #get_rule_sim("app=美丽说",0,fkey)
-    get_rule_sim("app=美丽说",0.5,fkey)
+    #get_rule_sim("app=美丽说",0.5,fkey)
     #get_rule_sim("app=美丽说",1,fkey)

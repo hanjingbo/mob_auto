@@ -1,0 +1,21 @@
+Traceback (most recent call last):
+  File "/Users/hanjingbo/anaconda2/lib/python2.7/site-packages/pudb/__init__.py", line 77, in runscript
+    dbg._runscript(mainpyfile)
+  File "/Users/hanjingbo/anaconda2/lib/python2.7/site-packages/pudb/debugger.py", line 419, in _runscript
+    self.run(statement, globals=globals_, locals=locals_)
+  File "/Users/hanjingbo/anaconda2/lib/python2.7/bdb.py", line 400, in run
+    exec cmd in globals, locals
+  File "<string>", line 1, in <module>
+  File "tag.py", line 103, in <module>
+    main()
+  File "tag.py", line 72, in main
+    word_by_pynlpir(f, word_input)
+  File "../mob_autotag/word.py", line 33, in word_by_pynlpir
+    weighted_word_list = pynlpir.get_key_words(inputfile, weighted=True, max_words=max_words)
+  File "/Users/hanjingbo/git/pynlpir/pynlpir/__init__.py", line 277, in get_key_words
+    result = _decode(result)
+  File "/Users/hanjingbo/git/pynlpir/pynlpir/__init__.py", line 164, in _decode
+    return s if isinstance(s, unicode) else s.decode(encoding, errors)
+  File "/Users/hanjingbo/anaconda2/lib/python2.7/encodings/utf_8.py", line 16, in decode
+    return codecs.utf_8_decode(input, errors, True)
+UnicodeDecodeError: 'utf8' codec can't decode byte 0x8e in position 2684: invalid start byte
