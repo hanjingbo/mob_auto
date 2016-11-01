@@ -15,7 +15,7 @@ import os
 import time
 sys.path.append('..')
 from util.util import exec_cmd, search_to_fpath
-from mob_autotag.word import word_by_pynlpir
+from mob_autotag.word import word_by_pynlpir, allword_by_pynlpir
 from mob_autotag.word_norm import norm_from_dict
 reload(sys)
 sys.setdefaultencoding('UTF8')
@@ -47,10 +47,10 @@ def tag2dict():
 
 def doc2vect(doc, word_tag2weight):
     word_input = {}
-    word_by_pynlpir(doc, word_input)
+    allword_by_pynlpir(doc, word_input)
     raw_word_norm = norm_from_dict(word_input,'maxmin')
     raw_word_sort = sorted(raw_word_norm.iteritems(), key=lambda d:d[1], reverse = True)
-    raw_word_json = json.dumps(raw_word_sort[:20], ensure_ascii=False)
+    raw_word_json = json.dumps(raw_word_sort[:30], ensure_ascii=False)
 
     tag2score = {}
     word2score = {}
@@ -62,9 +62,9 @@ def doc2vect(doc, word_tag2weight):
             tag2score[tag] += word_tag2weight[word][tag]*float(raw_word_norm[word])
 
     word_sort = sorted(word2score.iteritems(), key=lambda d:d[1], reverse = True)
-    word_json = json.dumps(word_sort[:20], ensure_ascii=False)
+    word_json = json.dumps(word_sort[:30], ensure_ascii=False)
     tag_sort = sorted(tag2score.iteritems(), key=lambda d:d[1], reverse = True)
-    tag_json = json.dumps(tag_sort[:5], ensure_ascii=False)
+    tag_json = json.dumps(tag_sort[:30], ensure_ascii=False)
     
     return tag_json, word_json, raw_word_json
 
@@ -207,7 +207,7 @@ def distance(vector1,vector2):
     return d**0.5;
 
 if __name__ == "__main__":
-    fkey = "rule20161025"
+    fkey = "rule20161101"
     #fkey = "test"
     get_all_vect(fkey) 
 
