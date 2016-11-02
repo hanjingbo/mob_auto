@@ -15,8 +15,9 @@ import os
 import time
 sys.path.append('..')
 from util.util import exec_cmd, search_to_fpath
-from mob_autotag.word import word_by_pynlpir, allword_by_pynlpir
+from mob_autotag.word import allword_by_pynlpir
 from mob_autotag.word_norm import norm_from_dict
+from mob_autotag.search import main_Baidu
 reload(sys)
 sys.setdefaultencoding('UTF8')
 
@@ -97,63 +98,73 @@ def get_all_vect(fkey="test"):
         except Exception, e:
             print "\n" + "exception_%s" % str(e) + "_" + rule + "_" + doc + "\n"
 
-def get_rule_sim(input_rules, rate=0.5, fkey="test"):
+def get_vect_by_search(in_rule, word_tag2weight):
+
+    outfile = '../data/rule/smart/search_vect'
+    if in_rule.find("=")>0:
+        rule_type = in_rule.split("=")[0]
+        rule = in_rule.split("=")[1]
+    else:
+        rule_type = 'search'
+        rule = in_rule
+    doc = main_Baidu(rule)
+    tag_vect, word_vect, raw_word_vect = doc2vect(doc, word_tag2weight)
+    rule2vect = {}
+    rule2vect["tag"] = json.loads(tag_vect)
+    rule2vect["word"] = json.loads(word_vect)
+    rule2vect["raw_word"] = json.loads(raw_word_vect)
+
+    line = [rule, rule_type, tag_vect, word_vect, raw_word_vect, doc]
+    fwp = open(outfile, 'a')
+    fwp.write("\t".join(line) + '\n')
+    fwp.close()
+
+    return rule2vect
+
+def get_vect_by_vectfile(line):
+    rule, rule_type, tag_vect, word_vect, raw_word_vect = line[:5]
+    rule_dim = rule_type + "=" + rule
+    rule2vect = {}
+    rule2vect["tag"] = json.loads(tag_vect)
+    rule2vect["word"] = json.loads(word_vect)
+    rule2vect["raw_word"] = json.loads(raw_word_vect)
+
+    return rule_dim, rule2vect
+
+def print_sim(li, input_rules, rate, Thres, top):
+    outfile = '../data/rule/smart/'+input_rules+"_"+str(rate)
+    fwp = open(outfile, 'w')
+    n = 0
+    for i, j in li:
+        if j<Thres: break
+        if n>top: break
+        print i + "\t" + str(j)
+        fwp.write(i + "\t" + str(j) + '\n')
+        n += 1
+    fwp.close()
+
+def get_rule_sim(input_rules, rate=0.5, fkey="test", Thres=0.2, top=5000):
+    word_tag2weight = tag2dict()
     rate = max(min(rate,0.9999),0.0001)
     infile = "../data/rule/vect_" + fkey
-    rule2vect = {}
-    for line in file(infile):
-        if line.find('pynlpir')>0: continue
-        line = line.strip().split("\t")
-        if len(line)<5: continue
-
-        rule, rule_type, tag_vect, word_vect, raw_word_vect = line[:5]
-        rule_dim = rule_type + "=" + rule
-        rule2vect.setdefault(rule_dim,{})
-        rule2vect[rule_dim]["tag"] = json.loads(tag_vect)
-        rule2vect[rule_dim]["word"] = json.loads(word_vect)
-        rule2vect[rule_dim]["raw_word"] = json.loads(raw_word_vect)
-
-    in2dict = {}
-    for in_rule in input_rules.split(","):
-        if in_rule in rule2vect:
-            in2dict[in_rule] = 1
-    if len(in2dict)==0:
-        """
-        说明输入规则可能不在目前模型库中
-        可以找相关规则
-        """
-        corr2dict = {}
-        for in_rule in input_rules.split(","):
-            for all_rule in rule2vect:
-                if in_rule in all_rule or all_rule in in_rule:
-                    corr2dict[all_rule] = 1
-        if len(corr2dict)>0:
-            print '可以尝试如下输入:'
-            for i in corr2dict:
-                print i
-        else:
-            """
-            说明输入规则可能不在目前模型库中
-            可以进行搜索规则入库
-            """
-            print "python doc_by_rule.py " + in_rule 
-        return "null"
-
     rule2sim = {}
-    for r1 in in2dict:
-        for r2 in rule2vect:
-            v1 = rule2vect[r1]
-            v2 = rule2vect[r2]
-            v1_list, v2_list = json2list(v1, v2, rate)
-
-            rule2sim.setdefault(r2, 0.0)
-            #rule2sim[r2] += 1 - distance(v1_list,v2_list)
-            rule2sim[r2] += cos(v1_list,v2_list)
+    for in_rule in input_rules.split(","):
+        v1 = get_vect_by_search(in_rule, word_tag2weight)
+        for line in file(infile):
+            if line.find('pynlpir')>0: continue
+            line = line.strip().split("\t")
+            if len(line)<5: continue
+            r2, v2 = get_vect_by_vectfile(line)
+            try:
+                v1_list, v2_list = json2list(v1, v2, rate)
+                rule2sim.setdefault(r2, 0.0)
+                #rule2sim[r2] += 1 - distance(v1_list,v2_list)
+                rule2sim[r2] += cos(v1_list,v2_list)
+            except Exception, e:
+                 print "\n" + "exception_%s" % str(e) + "_" + r2 
 
     sim_sort = sorted(rule2sim.iteritems(), key=lambda d:d[1], reverse = True)
-    sim_json = json.dumps(sim_sort[:50], ensure_ascii=False)
-
-    print sim_json
+    print_sim(sim_sort, input_rules, rate, Thres, top)
 
 
 def json2list(v1, v2, rate):

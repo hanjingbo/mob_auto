@@ -20,15 +20,23 @@ sys.setdefaultencoding('UTF8')
 def get_smart_profile():
     conn = MySQLdb.connect(host='192.168.144.237', user='mixdata_insert',passwd='datagroup', charset='utf8')
     conn.select_db('mixdata')
-    sql = """select id,word from smart_profile where flag=1 and status=1"""
+    sql = """select id,word,type from smart_profile where flag=1 and status=1"""
     df = pd.read_sql(sql=sql, con=conn)
     conn.close()
 
     word_li = df.to_dict(orient='list')['word']
     id_li = df.to_dict(orient='list')['id']
+    type_li = df.to_dict(orient='list')['type']
     id2word = {}
     for i in range(len(id_li)):
-        id2word[id_li[i]] = word_li[i]
+        if type_li[i]=='site':
+            rule = word_li[i]+'网站'
+        elif type_li[i]=='app':
+            rule = word_li[i]+'app'
+        else:
+            rule = word_li[i]
+            
+        id2word[id_li[i]] = rule
     return id2word
 
 def update_status(i, s):
@@ -44,6 +52,7 @@ if __name__ == "__main__":
 
     fkey = 'rule'
     in_dict =  get_smart_profile()
+    
     for i in in_dict:
         update_status(str(i),'2')
         for rate in [0.9, 0.5, 0.1]:
