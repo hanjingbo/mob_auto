@@ -81,14 +81,17 @@ def get_all_vect(fkey="test"):
     word_tag2weight = tag2dict()
     for line in file(inputfile):
         line = line.decode('utf-8', "replace").strip().split("\t")
-        if len(line)<2: continue
-        rule, doc = line[:2]
+        if len(line)<3: continue
+        rule, rule_type, doc = line[:3]
+
+        """
         if rule.find('网站')>0:
             rule = rule.replace('网站','')
             rule_type = 'site'
         else:
             rule = rule.replace('app','')
             rule_type = 'app'
+        """
 
         try:
             tag_json, word_json, raw_word_json = \
@@ -96,7 +99,8 @@ def get_all_vect(fkey="test"):
             print "\t".join([rule, rule_type, tag_json, word_json, raw_word_json, doc])
         
         except Exception, e:
-            print "\n" + "exception_%s" % str(e) + "_" + rule + "_" + doc + "\n"
+            #print "\n" + "exception_%s" % str(e) + "_" + rule + "_" + doc + "\n"
+            print ""
 
 def get_vect_by_search(in_rule, word_tag2weight):
 
@@ -131,15 +135,15 @@ def get_vect_by_vectfile(line):
 
     return rule_dim, rule2vect
 
-def print_sim(li, input_rules, rate, Thres, top):
+def print_sim(li, li_len, input_rules, rate, Thres, top):
     outfile = '../data/rule/smart/'+input_rules+"_"+str(rate)
     fwp = open(outfile, 'w')
     n = 0
     for i, j in li:
         if j<Thres: break
         if n>top: break
-        print i + "\t" + str(j)
-        fwp.write(i + "\t" + str(j) + '\n')
+        print i + "\t" + str(j) + "\t" + str(li_len[i])
+        fwp.write(i + "\t" + str(j) + "\t" + str(li_len[i]) + '\n')
         n += 1
     fwp.close()
 
@@ -148,6 +152,7 @@ def get_rule_sim(input_rules, rate=0.5, fkey="test", Thres=0.2, top=5000):
     rate = max(min(rate,0.9999),0.0001)
     infile = "../data/rule/vect_" + fkey
     rule2sim = {}
+    rule2sim_len = {}
     for in_rule in input_rules.split(","):
         v1 = get_vect_by_search(in_rule, word_tag2weight)
         for line in file(infile):
@@ -158,13 +163,16 @@ def get_rule_sim(input_rules, rate=0.5, fkey="test", Thres=0.2, top=5000):
             try:
                 v1_list, v2_list = json2list(v1, v2, rate)
                 rule2sim.setdefault(r2, 0.0)
+                rule2sim_len.setdefault(r2, 0.0)
                 #rule2sim[r2] += 1 - distance(v1_list,v2_list)
-                rule2sim[r2] += cos(v1_list,v2_list)
+                sim, sim_len = cos(v1_list,v2_list)
+                rule2sim[r2] += sim
+                rule2sim_len[r2] += sim_len
             except Exception, e:
                  print "\n" + "exception_%s" % str(e) + "_" + r2 
 
     sim_sort = sorted(rule2sim.iteritems(), key=lambda d:d[1], reverse = True)
-    print_sim(sim_sort, input_rules, rate, Thres, top)
+    print_sim(sim_sort, rule2sim_len, input_rules, rate, Thres, top)
 
 
 def json2list(v1, v2, rate):
@@ -209,7 +217,7 @@ def cos(vector1,vector2):
     if normA == 0.0 or normB==0.0:  
         return None  
     else:  
-        return dot_product / ((normA*normB)**0.5)
+        return dot_product / ((normA*normB)**0.5), dot_product
 
 def distance(vector1,vector2):  
     d=0;  
@@ -218,7 +226,7 @@ def distance(vector1,vector2):
     return d**0.5;
 
 if __name__ == "__main__":
-    fkey = "rule20161101"
+    fkey = "pd_domain"
     #fkey = "test"
     get_all_vect(fkey) 
 
